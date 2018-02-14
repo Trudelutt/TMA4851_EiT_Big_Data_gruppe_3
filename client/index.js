@@ -5,7 +5,7 @@ export default class Hello extends Component {
   render() {
     return (
       <div>
-        <h1>Hello Trude</h1>
+        <h1>Hello Daniel</h1>
       </div>
     );
   }
