@@ -44,14 +44,14 @@ class BasicMap extends Component {
                   projection={projection}
                   style={{
                     default: {
-                      fill: "#101010",
-                      stroke: "#2E2E2E",
-                      strokeWidth: 0.5,
+                      fill: "#EAEDEF",
+                      stroke: "#4B616B",
+                      strokeWidth: 0.8,
                       outline: "none",
                     },
                     hover: {
-                      fill: "#607D8B",
-                      stroke: "#607D8B",
+                      fill: "#4B616B",
+                      stroke: "#4B616B",
                       strokeWidth: 0.75,
                       outline: "none",
                     },
