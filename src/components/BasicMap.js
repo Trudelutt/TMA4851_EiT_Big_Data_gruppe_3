@@ -6,6 +6,7 @@ import {
   Geography,
 } from "react-simple-maps"
 import ReactTooltip from "react-tooltip"
+import map from '../static/world-50m.json'
 
 const wrapperStyles = {
   width: "100%",
@@ -34,7 +35,7 @@ class BasicMap extends Component {
           }}
           >
           <ZoomableGroup center={[0,20]} disablePanning>
-            <Geographies geography="./src/static/world-50m.json">
+            <Geographies geography= {map}>
               {(geographies, projection) => geographies.map((geography, i) => geography.id !== "ATA" && (
                 <Geography
                   key={i}
