@@ -10,12 +10,12 @@ import map from '../static/world-50m.json'
 
 const wrapperStyles = {
   width: "100%",
-  maxWidth: 980,
+  maxWidth: 1500,
   margin: "0 auto",
 }
 
 class BasicMap extends Component {
-  componentDidMount() {
+  getDOMNode() {
     setTimeout(() => {
       ReactTooltip.rebuild()
     }, 100)
@@ -44,9 +44,9 @@ class BasicMap extends Component {
                   projection={projection}
                   style={{
                     default: {
-                      fill: "#ECEFF1",
-                      stroke: "#607D8B",
-                      strokeWidth: 0.75,
+                      fill: "#101010",
+                      stroke: "#2E2E2E",
+                      strokeWidth: 0.5,
                       outline: "none",
                     },
                     hover: {
@@ -56,8 +56,8 @@ class BasicMap extends Component {
                       outline: "none",
                     },
                     pressed: {
-                      fill: "#FF5722",
-                      stroke: "#607D8B",
+                      fill: "#294C5D",
+                      stroke: "#294C5D",
                       strokeWidth: 0.75,
                       outline: "none",
                     },
