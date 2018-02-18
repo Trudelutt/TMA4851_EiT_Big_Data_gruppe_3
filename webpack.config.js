@@ -6,7 +6,7 @@ const isProduction = false;
 module.exports = function() {
   return {
     devtool: isProduction ? 'source-map' : 'eval-source-map',
-    entry: ['./client/index.js'],
+    entry: ['./src/index.js'],
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'bundle.js'
@@ -26,7 +26,7 @@ module.exports = function() {
     },
     plugins: [
       new HTMLWebpackPlugin({
-        template: './index.html'
+        template: './src/index.html'
       })
     ],
     devServer: isProduction
