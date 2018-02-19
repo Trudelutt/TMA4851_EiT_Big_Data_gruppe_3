@@ -1,1 +1,4 @@
-# TMA4851_EiT_Big_Data_gruppe_3
+# EiT – Big Data
+
+## Getting Started
+– Opprett et virtual environment i python
