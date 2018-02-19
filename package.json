@@ -5,7 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
