@@ -2,10 +2,11 @@
   "name": "tma4851_eit_big_data_gruppe_3",
   "version": "1.0.0",
   "description": "EiT",
-  "main": "client/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
     "d3-transition": "^1.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "styled-components": "^3.1.6"
+    "styled-components": "^3.1.6",
+    "react-simple-maps": "^0.10.3",
+    "react-tooltip": "^3.4.0"
   }
 }
