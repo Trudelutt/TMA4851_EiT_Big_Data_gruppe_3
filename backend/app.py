@@ -1,7 +1,7 @@
 # server.py
 from flask import Flask, render_template
 
-app = Flask(__name__, static_folder="../frontend/src/dist", template_folder="../frontend/src/")
+app = Flask(__name__, static_folder="../frontend/dist", template_folder="../frontend/")
 
 @app.route("/")
 def index():

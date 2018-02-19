@@ -28,7 +28,6 @@ export const Visualization = styled(Viz)`
 `;
 
 export const App = styled(app)`
-  grid-area: rightBottom;
   position: absolute;
   width: 75vw;
   height: 75vh;

@@ -6,8 +6,10 @@ export default class Hello extends Component {
   render() {
     return (
       <Wrapper>
-        <App />,
-        <Visualization data={['test']} />
+        <GridWrapper>
+          <Visualization data={['test']} />
+        </GridWrapper>
+        <App />
       </Wrapper>
     );
   }
