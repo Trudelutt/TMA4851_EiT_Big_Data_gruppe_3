@@ -9,7 +9,7 @@ export default class Hello extends Component {
         <GridWrapper>
           <Visualization data={['test']} />
         </GridWrapper>
-        <App />
+        <App/>
       </Wrapper>
     );
   }
