@@ -8,7 +8,7 @@ module.exports = function() {
     devtool: isProduction ? 'source-map' : 'eval-source-map',
     entry: ['./frontend/index.js'],
     output: {
-      path: path.resolve(__dirname, '/dist'),
+      path: path.resolve(__dirname, './dist'),
       filename: 'bundle.js'
     },
     module: {
