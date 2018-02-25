@@ -36,15 +36,21 @@ def select_all_trades_between_two_countries(connection, reportercountries, partn
 
     result = current.fetchall()
 
-    decoded_strings = []
+    columnTitles = ["countryFrom", "countryTo", "item", "yearValue"]
+    decodedStrings = []
+    i = 0
 
     for entries in result:
-       for entry in entries:
-           decoded_strings.append(entry.decode("windows-1252").strip())
+        dict = {}
+        for entry in entries:
+            dict[columnTitles[i]] = entry.decode("windows-1252").strip()
+            i += 1
+        decodedStrings.append(dict)
+        i = 0
 
-    json_output = json.dumps(decoded_strings)
+    json_output = json.dumps(decodedStrings)
     print(json_output)
-
+    
 def select_yearly_exports_of_food_from_country(connection, reportercountries, fooditem):
     current = connection.cursor()
     current.execute("SELECT ReporterCountries, PartnerCountries, Item, Unit, Y2000 \
