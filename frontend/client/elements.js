@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import Viz from '../components/visualization';
 import app from '../components/App';
+import menu from '../components/menu';
 
 export const Wrapper = styled.div`
   height: 100vh;
@@ -22,11 +22,10 @@ export const GridWrapper = styled.div`
   grid-template-areas: 'top right' 'center rightBottom'
     'centerBottom rightBottom' 'margin margin';
 `;
-export const Visualization = styled(Viz)`
-  grid-area: top;
-  background-color: #8cffa0;
+export const MenuBar = styled(menu)`
+  width: 100px;
+  height: auto;
 `;
-
 export const App = styled(app)`
   position: absolute;
   width: 75vw;
