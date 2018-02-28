@@ -14,5 +14,4 @@ export default class Hello extends Component {
     );
   }
 }
-
 render(<Hello />, document.getElementById('app'));

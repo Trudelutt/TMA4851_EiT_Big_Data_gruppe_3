@@ -1,79 +1,96 @@
 import React, { Component } from 'react';
+import withRedux from 'next-redux-wrapper';
+import map from '../static/world-50m.json';
 import {
   ComposableMap,
   ZoomableGroup,
   Geographies,
   Geography
 } from 'react-simple-maps';
+import { Tooltip, actions } from 'redux-tooltip';
 import ReactTooltip from 'react-tooltip';
-import map from '../static/world-50m.json';
+
+import { initStore } from './store';
 
 const wrapperStyles = {
   width: '100%',
-  margin: '0 auto'
+  maxWidth: 980,
+  margin: '0 auto',
+  fontFamily: 'Roboto, sans-serif'
 };
 
+const { show, hide } = actions;
+
 class BasicMap extends Component {
-  getDOMNode() {
-    setTimeout(() => {
-      ReactTooltip.rebuild();
-    }, 100);
+  constructor() {
+    super();
+    this.handleMove = this.handleMove.bind(this);
+    this.handleLeave = this.handleLeave.bind(this);
+  }
+  handleMove(geography, evt) {
+    const x = evt.clientX;
+    const y = evt.clientY + window.pageYOffset;
+    this.props.dispatch(
+      show({
+        origin: { x, y },
+        content: geography.properties.name
+      })
+    );
+  }
+  handleLeave() {
+    this.props.dispatch(hide());
+  }
+  handleClick(geography, evt) {
+    console.log('Geography data: ', geography);
+    this.props.dispatch(
+      show({
+        content: 'HESR'
+      })
+    );
   }
   render() {
     return (
       <div style={wrapperStyles}>
-        <ComposableMap
-          projectionConfig={{
-            scale: 105
-          }}
-          width={980}
-          height={551}
-          style={{
-            width: '100%',
-            height: 'auto'
-          }}
-        >
-          <ZoomableGroup center={[0, 20]} disablePanning>
+        <ComposableMap>
+          <ZoomableGroup>
             <Geographies geography={map}>
               {(geographies, projection) =>
-                geographies.map(
-                  (geography, i) =>
-                    geography.id !== 'ATA' && (
-                      <Geography
-                        key={i}
-                        data-tip={geography.properties.name}
-                        geography={geography}
-                        projection={projection}
-                        style={{
-                          default: {
-                            fill: '#EAEDEF',
-                            stroke: '#4B616B',
-                            strokeWidth: 0.8,
-                            outline: 'none'
-                          },
-                          hover: {
-                            fill: '#4B616B',
-                            stroke: '#4B616B',
-                            strokeWidth: 0.75,
-                            outline: 'none'
-                          },
-                          pressed: {
-                            fill: '#294C5D',
-                            stroke: '#294C5D',
-                            strokeWidth: 0.75,
-                            outline: 'none'
-                          }
-                        }}
-                      />
-                    )
-                )}
+                geographies.map((geography, i) => (
+                  <Geography
+                    key={i}
+                    geography={geography}
+                    projection={projection}
+                    onClick={this.handleClick}
+                    onMouseMove={this.handleMove}
+                    onMouseLeave={this.handleLeave}
+                    style={{
+                      default: {
+                        fill: '#ECEFF1',
+                        stroke: '#607D8B',
+                        strokeWidth: 0.75,
+                        outline: 'none'
+                      },
+                      hover: {
+                        fill: '#607D8B',
+                        stroke: '#607D8B',
+                        strokeWidth: 0.75,
+                        outline: 'none'
+                      },
+                      pressed: {
+                        fill: '#FF5722',
+                        stroke: '#607D8B',
+                        strokeWidth: 0.75,
+                        outline: 'none'
+                      }
+                    }}
+                  />
+                ))}
             </Geographies>
           </ZoomableGroup>
         </ComposableMap>
-        <ReactTooltip />
       </div>
     );
   }
 }
 
-export default BasicMap;
+export default withRedux(initStore)(BasicMap);
