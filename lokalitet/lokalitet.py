@@ -73,7 +73,7 @@ def TM_vare_import_og_eksport(land1,land2,item):
     import_Tonn_Array = np.flip(import_Tonn_Array,0)
     return df,import_Tonn_Array,eksport_Tonn_Array
 
-
+print('test')
 
 df,import_tonn,eksport_tonn = TM_vare_import_og_eksport('Spain','Norway','Avocados') 
 
