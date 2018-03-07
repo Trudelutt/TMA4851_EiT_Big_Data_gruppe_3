@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import app from '../components/App';
 import menu from '../components/menu';
+//import header from '../components/Header';
 
 export const Wrapper = styled.div`
   height: 100vh;
@@ -23,13 +24,17 @@ export const GridWrapper = styled.div`
     'centerBottom rightBottom' 'margin margin';
 `;
 export const MenuBar = styled(menu)`
-  width: 100px;
+  grid-area: top;
+  width: 1000px;
   height: auto;
 `;
-export const App = styled(app)`
-  position: absolute;
-  width: 75vw;
-  height: 75vh;
-  z-index: -10;
-  background-color: red;
+export const Header = styled.div`
+  height: 50px;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  grid-area: right;
+  background-color: white;
+  border-bottom: 5px solid blue;
 `;
+export const App = styled(app)`grid-area: center;`;

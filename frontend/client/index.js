@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { Wrapper, GridWrapper, App, MenuBar } from './elements';
+import { Wrapper, GridWrapper, App, MenuBar, Header } from './elements';
 import { slide as Menu } from 'react-burger-menu';
 
 var menu_styles = {
@@ -23,7 +23,7 @@ export default class Hello extends Component {
   render() {
     return (
       <Wrapper>
-        <MenuBar />
+        <Header>{' Hello World'}</Header>
         <GridWrapper />
 
         <App />
