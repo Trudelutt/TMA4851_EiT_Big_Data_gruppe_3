@@ -15,16 +15,21 @@ def get_data(context):
 
 spark = SparkSession.builder.appName('Trades').getOrCreate()
 df = spark.read.csv('data/trade.csv', mode="DROPMALFORMED",inferSchema=True, header = True)
-df_with_removed_columns = df.drop('Reporter Country Code', 'Partner Country Code', 'Item Code', 'Element Code',\
+
+trade_matrix = df.drop('Reporter Country Code', 'Partner Country Code', 'Item Code', 'Element Code',\
  'Y1986F','Y1987F','Y1988F','Y1989F','Y1990F','Y1991F', 'Y1992F','Y1993F','Y1994F','Y1995F','Y1996F','Y1997F',\
  'Y1998F','Y1999F','Y2000F','Y2001F','Y2002F','Y2003F','Y2004F','Y2005F','Y2006F','Y2007F','Y2008F','Y2009F',\
  'Y2010F','Y2011F','Y2012F','Y2013F' )
 
-f1 = df_with_removed_columns\
-    .filter(df_with_removed_columns["Reporter Countries"]=="Norway")
-f1.filter(f1["Element"]=="Import Quantity").filter(f1["Item"]=="Avocados").show(60)
+trade_matrix.select(trade_matrix['Item'], trade_matrix['Element'], trade_matrix['Unit'], trade_matrix['Y2013'] )\
+    .filter(trade_matrix['Element']=='Import Quantity').filter(trade_matrix['Y2013'].isNotNull())\
+    .groupby(trade_matrix['Item']).sum().show()
+
+    #.agg({trade_matrix['Y2013']: 'sum'}).collect()[0].show()
 
 
+#print(str(float(max_imported)))
+#.agg({'Y2013':'sum'}).collect()[0]
 #df2 = sqlContext.sql("SELECT `Reporter Country` AS Reporter, `Partner Country` AS Partner, Item, Element, \
 #Y1986, Y1987, Y1988, Y1989, Y1990, Y1991, Y1992, Y1993, Y1994, Y1995, Y1996, Y1997, Y1998, Y1999, Y2000, Y2001, Y2002, \
 #Y2003, Y2004, Y2005, Y2006, Y2007,Y2008, Y2009, Y2010, Y2011, Y2012, Y2013 From myTable")
