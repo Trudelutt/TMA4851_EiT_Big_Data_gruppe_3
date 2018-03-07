@@ -1,58 +1,41 @@
 import React, { Component } from 'react';
-import withRedux from 'next-redux-wrapper';
-import map from '../static/world-50m.json';
 import {
   ComposableMap,
   ZoomableGroup,
   Geographies,
   Geography
 } from 'react-simple-maps';
-import { Tooltip, actions } from 'redux-tooltip';
-import ReactTooltip from 'react-tooltip';
-
-import { initStore } from './store';
+import { scaleLinear } from 'd3-scale';
+import map from '../static/world-50m-with-population.json';
 
 const wrapperStyles = {
   width: '100%',
   maxWidth: 980,
-  margin: '0 auto',
-  fontFamily: 'Roboto, sans-serif'
+  margin: '0 auto'
 };
 
-const { show, hide } = actions;
+const popScale = scaleLinear()
+  .domain([0, 10000000, 100000000, 1400000000])
+  .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505']);
 
+console.log(popScale);
 class BasicMap extends Component {
-  constructor() {
-    super();
-    this.handleMove = this.handleMove.bind(this);
-    this.handleLeave = this.handleLeave.bind(this);
-  }
-  handleMove(geography, evt) {
-    const x = evt.clientX;
-    const y = evt.clientY + window.pageYOffset;
-    this.props.dispatch(
-      show({
-        origin: { x, y },
-        content: geography.properties.name
-      })
-    );
-  }
-  handleLeave() {
-    this.props.dispatch(hide());
-  }
-  handleClick(geography, evt) {
-    console.log('Geography data: ', geography);
-    this.props.dispatch(
-      show({
-        content: 'HESR'
-      })
-    );
-  }
   render() {
     return (
       <div style={wrapperStyles}>
-        <ComposableMap>
-          <ZoomableGroup>
+        <ComposableMap
+          projectionConfig={{
+            scale: 205,
+            rotation: [-11, 0, 0]
+          }}
+          width={980}
+          height={551}
+          style={{
+            width: '100%',
+            height: 'auto'
+          }}
+        >
+          <ZoomableGroup center={[0, 20]}>
             <Geographies geography={map}>
               {(geographies, projection) =>
                 geographies.map((geography, i) => (
@@ -61,23 +44,21 @@ class BasicMap extends Component {
                     geography={geography}
                     projection={projection}
                     onClick={this.handleClick}
-                    onMouseMove={this.handleMove}
-                    onMouseLeave={this.handleLeave}
                     style={{
                       default: {
-                        fill: '#ECEFF1',
+                        fill: popScale(geography.properties.pop_est),
                         stroke: '#607D8B',
                         strokeWidth: 0.75,
                         outline: 'none'
                       },
                       hover: {
-                        fill: '#607D8B',
+                        fill: '#263238',
                         stroke: '#607D8B',
                         strokeWidth: 0.75,
                         outline: 'none'
                       },
                       pressed: {
-                        fill: '#FF5722',
+                        fill: '#263238',
                         stroke: '#607D8B',
                         strokeWidth: 0.75,
                         outline: 'none'
@@ -93,4 +74,4 @@ class BasicMap extends Component {
   }
 }
 
-export default withRedux(initStore)(BasicMap);
+export default BasicMap;

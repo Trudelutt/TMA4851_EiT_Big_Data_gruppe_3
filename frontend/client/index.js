@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { Wrapper, GridWrapper, App, MenuBar, Header } from './elements';
+import {
+  Wrapper,
+  GridWrapper,
+  ButtonPopulation,
+  App,
+  MenuBar,
+  Header,
+  ButtonTest
+} from './elements';
 import { slide as Menu } from 'react-burger-menu';
 
 var menu_styles = {
@@ -20,16 +28,30 @@ var menu_styles = {
 };
 
 export default class Hello extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      populationShow: false
+    };
+    // This binding is necessary to make `this` work in the callback
+    this.handleClickPopulation = this.handleClickPopulation.bind(this);
+  }
+
+  handleClickPopulation() {
+    this.setState({ populationShow: !this.state.populationShow });
+    console.log('click');
+  }
+
   render() {
     return (
-      <Wrapper>
-        <Header>{' Hello World'}</Header>
-        <GridWrapper />
+      <GridWrapper>
+        {this.state.populationShow ? <App /> : null}
 
-        <App />
-      </Wrapper>
+        <ButtonPopulation onClick={this.handleClickPopulation}>
+          {'Population'}
+        </ButtonPopulation>
+      </GridWrapper>
     );
   }
 }
 render(<Hello />, document.getElementById('app'));
-//render(<Example />, document.getElementById('app'));
