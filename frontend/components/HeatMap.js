@@ -3,11 +3,10 @@ import {
   ComposableMap,
   ZoomableGroup,
   Geographies,
-  Annotation,
   Geography
 } from 'react-simple-maps';
 import { scaleLinear } from 'd3-scale';
-import map from '../static/world-50m.json';
+import map from '../static/world-50m-with-population.json';
 
 const wrapperStyles = {
   width: '100%',
@@ -15,11 +14,27 @@ const wrapperStyles = {
   margin: '0 auto'
 };
 
-class BasicMap extends Component {
+const popScale = scaleLinear()
+  .domain([0, 10000000, 100000000, 1400000000])
+  .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505']);
+
+console.log(popScale);
+class HeatMap extends Component {
   render() {
     return (
       <div style={wrapperStyles}>
-        <ComposableMap>
+        <ComposableMap
+          projectionConfig={{
+            scale: 205,
+            rotation: [-11, 0, 0]
+          }}
+          width={980}
+          height={500}
+          style={{
+            width: '100%',
+            height: 'auto'
+          }}
+        >
           <ZoomableGroup center={[0, 20]}>
             <Geographies geography={map}>
               {(geographies, projection) =>
@@ -31,7 +46,7 @@ class BasicMap extends Component {
                     onClick={this.handleClick}
                     style={{
                       default: {
-                        fill: '#F6EE90',
+                        fill: popScale(geography.properties.pop_est),
                         stroke: '#607D8B',
                         strokeWidth: 0.75,
                         outline: 'none'
@@ -52,9 +67,6 @@ class BasicMap extends Component {
                   />
                 ))}
             </Geographies>
-            <Annotation dx={-10} dy={-10} subject={[8.5, 47.3]} strokeWidth={1}>
-              <text>{'Zurich'}</text>
-            </Annotation>
           </ZoomableGroup>
         </ComposableMap>
       </div>
@@ -62,4 +74,4 @@ class BasicMap extends Component {
   }
 }
 
-export default BasicMap;
+export default HeatMap;

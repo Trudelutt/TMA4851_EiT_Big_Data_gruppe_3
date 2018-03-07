@@ -3,53 +3,54 @@ import { render } from 'react-dom';
 import {
   Wrapper,
   GridWrapper,
+  footerWrapper,
   ButtonPopulation,
-  App,
-  MenuBar,
-  Header,
-  ButtonTest
+  HeatMap,
+  BasicMap
 } from './elements';
 import { slide as Menu } from 'react-burger-menu';
-
-var menu_styles = {
-  bmMenu: {
-    background: '#FF1493',
-    padding: '2.5em 1.5em 0',
-    fontSize: '1.15em'
-  },
-  bmBurgerButton: {
-    position: 'fixed',
-    width: '70px',
-    height: '30px',
-    left: '36px',
-    top: '36px',
-    background: '#FF1493'
-  }
-};
 
 export default class Hello extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      basicmapShow: false,
       populationShow: false
     };
     // This binding is necessary to make `this` work in the callback
     this.handleClickPopulation = this.handleClickPopulation.bind(this);
+    this.handleClickBasicMap = this.handleClickBasicMap.bind(this);
   }
 
   handleClickPopulation() {
     this.setState({ populationShow: !this.state.populationShow });
+    this.setState({ basicmapShow: false });
     console.log('click');
+  }
+  handleClickBasicMap() {
+    this.setState({ basicmapShow: !this.state.basicmapShow });
+    this.setState({ populationShow: false });
+    console.log(this.state);
   }
 
   render() {
     return (
       <GridWrapper>
-        {this.state.populationShow ? <App /> : null}
-
-        <ButtonPopulation onClick={this.handleClickPopulation}>
-          {'Population'}
-        </ButtonPopulation>
+        {this.state.basicmapShow ? (
+          <BasicMap />
+        ) : this.state.populationShow ? (
+          <HeatMap />
+        ) : (
+          <Wrapper />
+        )}
+        <footerWrapper>
+          <ButtonPopulation onClick={this.handleClickPopulation}>
+            {'Population'}
+          </ButtonPopulation>
+          <ButtonPopulation onClick={this.handleClickBasicMap}>
+            {'BasicMap'}
+          </ButtonPopulation>
+        </footerWrapper>
       </GridWrapper>
     );
   }
