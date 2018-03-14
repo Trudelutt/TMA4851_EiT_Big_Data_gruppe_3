@@ -6,19 +6,20 @@ import pycountry
 from scipy.stats import norm
 import time
 from openpyxl import load_workbook
-
+import json
 
 start = time.time()
 
 avs=pd.read_csv('capdist.csv', sep=',',header=None)
 avs = avs.values
-df=pd.read_csv('TM.csv', sep=',',header=None,encoding='latin-1')
+df=pd.read_csv('TMformat.csv', sep=',',header=None,encoding='latin-1')
 df = df.values
+
 
 def avstand(land1,land2,avs):
     for i in range(len(avs)):
-        if(avs[i][1]==land1 and avs[i][3]==land2):
-            return avs[i][4]
+        if(avs[i][0]==land1 and avs[i][1]==land2):
+            return avs[i][2]
     return 0
    
     
@@ -87,8 +88,8 @@ def indeksOneYear(country,year,df):
         if df[i][1]==country:
           country2 = countryNameToAlpha3(df[i][3])
           if(df[i][7]=='Import Quantity'):
-              for k in range(1,56,2):
-                import_Tonn_Array = np.append(import_Tonn_Array,df[i][-(k+1)])
+              for k in range(1,29,1):
+                import_Tonn_Array = np.append(import_Tonn_Array,df[i][-(k)])  
           if len(import_Tonn_Array)==0:
               import_Tonn_Array = np.zeros(28)
           if df[i+1][1]!=country:
@@ -115,8 +116,8 @@ def indeksAllYears(country,df):
         if df[i][1]==country:
           country2 = countryNameToAlpha3(df[i][3])
           if(df[i][7]=='Import Quantity'):
-              for k in range(1,56,2):
-                import_Tonn_Array = np.append(import_Tonn_Array,df[i][-(k+1)])
+              for k in range(1,29,1):
+                import_Tonn_Array = np.append(import_Tonn_Array,df[i][-(k)])
           if len(import_Tonn_Array)==0:
               import_Tonn_Array = np.zeros(28)
           if df[i+1][1]!=country:
@@ -187,11 +188,46 @@ def getPopulation(alfa3_country, year, populationMatrix):
 	return -1
 
 
+def normIndeks(country,df,pop):
+    temp = np.asarray(indeksAllYears(country,df))
+    #years = np.array([range(1983,2014,1)])
+    pops = []
+    alpha3Country = countryNameToAlpha3(country)
+    for i in range(1986,2014,1):
+        pops.append(getPopulation(alpha3Country,i,pop))
+    indeksForCountry = temp/np.asarray(pops)
+    
+    
+    return indeksForCountry
+
+def run(df,pop,avs):
+    countryName = [i for i in avs[:,1]]
+    #countryName[203:41007]=[]
+    countryName[203:41007]=[]
+    countryName.pop(0)
+    #countryName = ['NOR','DNK']
+    #nameList = ['Afghanistan','Austria','Canada','Colombia']
+    utMatrix = [[] for i in range((len(countryName)))]
+    counter = 0
+    for str in countryName:
+        longstr = alpha3ToCountryName(str)
+        temp = normIndeks(longstr,df,pop)
+        utMatrix[counter].append(longstr)
+        for i in range(len(temp)):
+            utMatrix[counter].append(temp[i])
+        counter = counter+1
+        print(counter)
+    #utMatrix = np.asarray(utMatrix)    
+    #np.savetxt('utMatrix.txt', utMatrix, delimiter=',')   # X is an array
+    csvfile = 'utMatrix.txt'
+    with open(csvfile, "w") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(utMatrix)
 
 
-
+#pop = importPopulation()
 start = time.time()
-#import_tonn,eksport_tonn = TM_vare_import_og_eksport('Spain','Norway','Avocados',df) 
-test = indeksOneYear('Denmark',df)
+#test = normIndeks('Denmark',df,pop)
+run(df,pop,avs)
 end = time.time()
-print(end-start)
+#print(end-start)
