@@ -32,7 +32,7 @@ matrix = df.drop('Area Code', 'Item Code', 'Element Code','Unit',\
  'Y1998F','Y1999F','Y2000F','Y2001F','Y2002F','Y2003F','Y2004F','Y2005F','Y2006F','Y2007F','Y2008F','Y2009F',\
  'Y2010F','Y2011F','Y2012F','Y2013F' )
 
-
+'''
 #Find relevant data for protein
 matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     matrix['Y1961'],matrix['Y1971'],matrix['Y1981'],matrix['Y1991'],matrix['Y2001'],matrix['Y2011']  )\
@@ -48,9 +48,11 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter((matrix['Area']!='Western Asia')).filter((matrix['Area']!='Europe'))\
     .filter((matrix['Area']!='Eastern Europe')).filter((matrix['Area']!='Northern Europe'))\
     .filter((matrix['Area']!='Southern Europe')).filter((matrix['Area']!='Western Europe'))\
-    .filter((matrix['Area']!='Oceania')).filter((matrix['Area']!='Australia & New Zeland'))\
+    .filter((matrix['Area']!='Oceania')).filter((matrix['Area']!='Australia & New Zealand'))\
+    .filter((matrix['Area']!='Micronesia')).filter((matrix['Area']!='Melanesia'))\
+    .filter((matrix['Area']!='Eastern Asia')).filter((matrix['Area']!='South America'))\
     .filter((matrix['Area']!='European Union')).filter((matrix['Area']!='Least Developed Countries'))\
-    .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Net Food Importing Devevloping Countries'))\
+    .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Polynesia'))\
     .filter((matrix['Area']!='Land Locked Developing Countries')).filter((matrix['Area']!='Low Income Food Deficit Countries'))\
     .filter((matrix['Area']!='Small Island Developing States')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
     .filter(matrix['Y1961'].isNotNull())\
@@ -60,8 +62,6 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter(matrix['Y2001'].isNotNull())\
     .filter(matrix['Y2011'].isNotNull())\
     .coalesce(1).write.format('csv').options(delimiter=',').save('./top30fooditems_2012.csv')
-
-
 '''
 #Find matrix with protein for meat
 matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
@@ -77,9 +77,11 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter((matrix['Area']!='Western Asia')).filter((matrix['Area']!='Europe'))\
     .filter((matrix['Area']!='Eastern Europe')).filter((matrix['Area']!='Northern Europe'))\
     .filter((matrix['Area']!='Southern Europe')).filter((matrix['Area']!='Western Europe'))\
-    .filter((matrix['Area']!='Oceania')).filter((matrix['Area']!='Australia & New Zeland'))\
+    .filter((matrix['Area']!='Oceania')).filter((matrix['Area']!='Australia & New Zealand'))\
+    .filter((matrix['Area']!='Micronesia')).filter((matrix['Area']!='Melanesia'))\
+    .filter((matrix['Area']!='Eastern Asia')).filter((matrix['Area']!='South America'))\
     .filter((matrix['Area']!='European Union')).filter((matrix['Area']!='Least Developed Countries'))\
-    .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Net Food Importing Devevloping Countries'))\
+    .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Polynesia'))\
     .filter((matrix['Area']!='Land Locked Developing Countries')).filter((matrix['Area']!='Low Income Food Deficit Countries'))\
     .filter((matrix['Area']!='Small Island Developing States')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
     .filter((matrix['Item']=='Bovine Meat') |  (matrix['Item']=='Mutton & Goat Meat') | (matrix['Item']=='Pigmeat') | (matrix['Item']=='Poultry Meat') |  \
@@ -91,4 +93,3 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter(matrix['Y2001'].isNotNull())\
     .filter(matrix['Y2011'].isNotNull())\
     .coalesce(1).write.format('csv').options(delimiter=',').save('./top30fooditems_2012.csv')
-'''
