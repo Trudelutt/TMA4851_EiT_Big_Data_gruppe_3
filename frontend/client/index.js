@@ -8,6 +8,8 @@ import {
   HeatMap,
   BasicMap
 } from './elements';
+import Annotations from 'react-simple-maps';
+import markers from '../components/BasicMap';
 import { slide as Menu } from 'react-burger-menu';
 
 export default class Hello extends Component {

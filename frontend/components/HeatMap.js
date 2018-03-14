@@ -18,7 +18,6 @@ const popScale = scaleLinear()
   .domain([0, 10000000, 100000000, 1400000000])
   .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505']);
 
-console.log(popScale);
 class HeatMap extends Component {
   render() {
     return (

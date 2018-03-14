@@ -4,6 +4,9 @@ import {
   ZoomableGroup,
   Geographies,
   Annotation,
+  Annotations,
+  Markers,
+  Marker,
   Geography
 } from 'react-simple-maps';
 import { scaleLinear } from 'd3-scale';
@@ -14,12 +17,110 @@ const wrapperStyles = {
   maxWidth: 980,
   margin: '0 auto'
 };
+const markers = [
+  {
+    markerOffset: -25,
+    name: 'Buenos Aires',
+    coordinates: [-58.3816, -34.6037]
+  },
+  {
+    markerOffset: -25,
+    name: 'La Paz',
+    coordinates: [-68.1193, -16.4897],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Brasilia',
+    coordinates: [-47.8825, -15.7942],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Santiago',
+    coordinates: [-70.6693, -33.4489],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Bogota',
+    coordinates: [-74.0721, 4.711],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Quito',
+    coordinates: [-78.4678, -0.1807],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: -25,
+    name: 'Georgetown',
+    coordinates: [-58.1551, 6.8013],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: -25,
+    name: 'Asuncion',
+    coordinates: [-57.5759, -25.2637],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Paramaribo',
+    coordinates: [-55.2038, 5.852],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: 35,
+    name: 'Montevideo',
+    coordinates: [-56.1645, -34.9011],
+    dx: 200,
+    dy: -100
+  },
+  {
+    markerOffset: -25,
+    name: 'Caracas',
+    coordinates: [-66.9036, 10.4806],
+    dx: 200,
+    dy: -100
+  }
+];
 
 class BasicMap extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      Animation: false
+    };
+    this.handleClickAnimation = this.handleClickAnimation.bind(this);
+  }
+  handleClickAnimation() {
+    this.setState({ Animation: !this.state.Animation });
+  }
   render() {
     return (
       <div style={wrapperStyles}>
-        <ComposableMap>
+        <ComposableMap
+          projectionConfig={{
+            scale: 205,
+            rotation: [-11, 0, 0]
+          }}
+          width={980}
+          height={500}
+          style={{
+            width: '100%',
+            height: 'auto'
+          }}
+        >
           <ZoomableGroup center={[0, 20]}>
             <Geographies geography={map}>
               {(geographies, projection) =>
@@ -52,11 +153,50 @@ class BasicMap extends Component {
                   />
                 ))}
             </Geographies>
-            <Annotation dx={-10} dy={-10} subject={[8.5, 47.3]} strokeWidth={1}>
-              <text>{'Zurich'}</text>
-            </Annotation>
+            <Markers>
+              {markers.map((marker, i) => (
+                <Marker
+                  key={i}
+                  marker={marker}
+                  style={{
+                    default: { fill: '#FF5722' },
+                    hover: { fill: '#FFFFFF' },
+                    pressed: { fill: '#FF5722' }
+                  }}
+                >
+                  <circle
+                    cx={0}
+                    cy={0}
+                    r={2}
+                    style={{
+                      stroke: '#FF5722',
+                      strokeWidth: 3,
+                      opacity: 0.9
+                    }}
+                  />
+                </Marker>
+              ))}
+            </Markers>
+            {this.state.Animation ? (
+              <Annotations>
+                {markers.map((markers, i) => (
+                  <Annotation
+                    key={i}
+                    dx={markers.dx}
+                    dy={markers.dy}
+                    subject={markers.coordinates}
+                    strokeWidth={1}
+                    stroke={'#FF5722'}
+                    curve={2}
+                  />
+                ))}
+              </Annotations>
+            ) : (
+              <div />
+            )}
           </ZoomableGroup>
         </ComposableMap>
+        <button onClick={this.handleClickAnimation}> {'Animation'} </button>
       </div>
     );
   }
