@@ -225,7 +225,7 @@ def run(df,pop,avs):
         writer.writerows(utMatrix)
 
 
-#pop = importPopulation()
+pop = importPopulation()
 start = time.time()
 #test = normIndeks('Denmark',df,pop)
 run(df,pop,avs)
