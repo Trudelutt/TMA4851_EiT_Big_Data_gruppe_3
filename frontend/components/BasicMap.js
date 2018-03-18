@@ -11,6 +11,7 @@ import {
 } from 'react-simple-maps';
 import { scaleLinear } from 'd3-scale';
 import map from '../static/world-50m.json';
+import contry from '../static/convertcsv.json';
 
 const wrapperStyles = {
   width: '100%',
@@ -153,42 +154,21 @@ class BasicMap extends Component {
                   />
                 ))}
             </Geographies>
-            <Markers>
-              {markers.map((marker, i) => (
-                <Marker
-                  key={i}
-                  marker={marker}
-                  style={{
-                    default: { fill: '#FF5722' },
-                    hover: { fill: '#FFFFFF' },
-                    pressed: { fill: '#FF5722' }
-                  }}
-                >
-                  <circle
-                    cx={0}
-                    cy={0}
-                    r={2}
-                    style={{
-                      stroke: '#FF5722',
-                      strokeWidth: 3,
-                      opacity: 0.9
-                    }}
-                  />
-                </Marker>
-              ))}
-            </Markers>
+
             {this.state.Animation ? (
               <Annotations>
-                {markers.map((markers, i) => (
+                {contry.map((contry, i) => (
                   <Annotation
                     key={i}
-                    dx={markers.dx}
-                    dy={markers.dy}
-                    subject={markers.coordinates}
-                    strokeWidth={1}
+                    dx={1}
+                    dy={1}
+                    subject={[contry.CapitalLongitude, contry.CapitalLatitude]}
+                    strokeWidth={5}
                     stroke={'#FF5722'}
                     curve={2}
-                  />
+                  >
+                    <text>{contry.CountryName}</text>
+                  </Annotation>
                 ))}
               </Annotations>
             ) : (
