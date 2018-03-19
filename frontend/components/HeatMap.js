@@ -6,7 +6,9 @@ import {
   Geography
 } from 'react-simple-maps';
 import { scaleLinear } from 'd3-scale';
-import map from '../static/world-50m-with-population.json';
+import map from '../static/heatmap.json';
+import locality from '../static/locality.json';
+import getlocality from './calculations.js';
 
 const wrapperStyles = {
   width: '100%',
@@ -15,8 +17,8 @@ const wrapperStyles = {
 };
 
 const popScale = scaleLinear()
-  .domain([0, 10000000, 100000000, 1400000000])
-  .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505']);
+  .domain([0, 0.001, 0.01, 0.5, 1])
+  .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505', '#C30101']);
 
 class HeatMap extends Component {
   render() {
@@ -45,7 +47,7 @@ class HeatMap extends Component {
                     onClick={this.handleClick}
                     style={{
                       default: {
-                        fill: popScale(geography.properties.pop_est),
+                        fill: popScale(geography.properties.year_2013),
                         stroke: '#607D8B',
                         strokeWidth: 0.75,
                         outline: 'none'
