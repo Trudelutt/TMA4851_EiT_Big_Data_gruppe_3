@@ -11,6 +11,7 @@ import {
 import Annotations from 'react-simple-maps';
 import markers from '../components/BasicMap';
 import { slide as Menu } from 'react-burger-menu';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 export default class Hello extends Component {
   constructor(props) {
@@ -41,7 +42,9 @@ export default class Hello extends Component {
         {this.state.basicmapShow ? (
           <BasicMap />
         ) : this.state.populationShow ? (
-          <HeatMap />
+          <MuiThemeProvider>
+            <HeatMap />
+          </MuiThemeProvider>
         ) : (
           <Wrapper />
         )}

@@ -166,9 +166,7 @@ class BasicMap extends Component {
                     strokeWidth={5}
                     stroke={'#FF5722'}
                     curve={2}
-                  >
-                    <text>{contry.CountryName}</text>
-                  </Annotation>
+                  />
                 ))}
               </Annotations>
             ) : (
