@@ -63,6 +63,8 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter(matrix['Y2011'].isNotNull())\
     .coalesce(1).write.format('csv').options(delimiter=',').save('./top30fooditems_2012.csv')
 '''
+
+'''
 #Find matrix with protein for meat
 matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     matrix['Y1961'],matrix['Y1971'],matrix['Y1981'],matrix['Y1991'],matrix['Y2001'],matrix['Y2011']  )\
@@ -86,6 +88,37 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
     .filter((matrix['Area']!='Small Island Developing States')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
     .filter((matrix['Item']=='Bovine Meat') |  (matrix['Item']=='Mutton & Goat Meat') | (matrix['Item']=='Pigmeat') | (matrix['Item']=='Poultry Meat') |  \
             (matrix['Item']=='Meat') | (matrix['Item']=='Offals') | (matrix['Item']=='Meat, Aquatic Mammals') )\
+    .filter(matrix['Y1961'].isNotNull())\
+    .filter(matrix['Y1971'].isNotNull())\
+    .filter(matrix['Y1981'].isNotNull())\
+    .filter(matrix['Y1991'].isNotNull())\
+    .filter(matrix['Y2001'].isNotNull())\
+    .filter(matrix['Y2011'].isNotNull())\
+    .coalesce(1).write.format('csv').options(delimiter=',').save('./top30fooditems_2012.csv')
+'''
+
+#Find data for global data
+matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
+    matrix['Y1961'],matrix['Y1971'],matrix['Y1981'],matrix['Y1991'],matrix['Y2001'],matrix['Y2011']  )\
+    .filter( (matrix['Element']=='Protein supply quantity (g/capita/day)') | (matrix['Element']=='Food supply quantity (kg/capita/yr)')\
+            | (matrix['Element']=='Protein supply quantity (g/capita/day)') | (matrix['Element']=='Fat supply quantity (g/capita/day)') )\
+    .filter((matrix['Area']!='World')).filter((matrix['Area']!='Southern Africa'))\
+    .filter((matrix['Area']!='Africa')).filter((matrix['Area']!='Western Africa'))\
+    .filter((matrix['Area']!='Middle Africa')).filter((matrix['Area']!='Northern Africa'))\
+    .filter((matrix['Area']!='Americas')).filter((matrix['Area']!='Northern America'))\
+    .filter((matrix['Area']!='Central America')).filter((matrix['Area']!='Caribbean'))\
+    .filter((matrix['Area']!='Asia')).filter((matrix['Area']!='Central Asia'))\
+    .filter((matrix['Area']!='Southern Asia')).filter((matrix['Area']!='South-Eastern Asia'))\
+    .filter((matrix['Area']!='Western Asia')).filter((matrix['Area']!='Europe'))\
+    .filter((matrix['Area']!='Eastern Europe')).filter((matrix['Area']!='Northern Europe'))\
+    .filter((matrix['Area']!='Southern Europe')).filter((matrix['Area']!='Western Europe'))\
+    .filter((matrix['Area']!='Oceania')).filter((matrix['Area']!='Australia & New Zealand'))\
+    .filter((matrix['Area']!='Micronesia')).filter((matrix['Area']!='Melanesia'))\
+    .filter((matrix['Area']!='Eastern Asia')).filter((matrix['Area']!='South America'))\
+    .filter((matrix['Area']!='European Union')).filter((matrix['Area']!='Least Developed Countries'))\
+    .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Polynesia'))\
+    .filter((matrix['Area']!='Land Locked Developing Countries')).filter((matrix['Area']!='Low Income Food Deficit Countries'))\
+    .filter((matrix['Area']!='Small Island Developing States')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
     .filter(matrix['Y1961'].isNotNull())\
     .filter(matrix['Y1971'].isNotNull())\
     .filter(matrix['Y1981'].isNotNull())\
