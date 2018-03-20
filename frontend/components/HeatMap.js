@@ -11,7 +11,7 @@ import locality from '../static/locality.json';
 import Slider from 'material-ui/Slider';
 const wrapperStyles = {
   width: '100%',
-  maxWidth: 980,
+  maxWidth: 1200,
   margin: '0 auto'
 };
 
@@ -36,17 +36,6 @@ class HeatMap extends Component {
     return (
       <div style={wrapperStyles}>
         <div>
-          <Slider
-            min={1986}
-            max={2013}
-            step={1}
-            value={this.state.slider}
-            onChange={this.handleSlider}
-          />
-          <p>
-            <span>{'The value of this slider is: '}</span>
-            <span>{this.state.slider}</span>
-          </p>
           <ComposableMap
             projectionConfig={{
               scale: 205,
@@ -83,6 +72,17 @@ class HeatMap extends Component {
               </Geographies>
             </ZoomableGroup>
           </ComposableMap>
+          <Slider
+            min={1986}
+            max={2013}
+            step={1}
+            value={this.state.slider}
+            onChange={this.handleSlider}
+          />
+          <p>
+            <span>{'Year: '}</span>
+            <span>{this.state.slider}</span>
+          </p>
         </div>
       </div>
     );

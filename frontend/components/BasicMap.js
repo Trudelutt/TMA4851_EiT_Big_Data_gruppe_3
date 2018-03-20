@@ -15,7 +15,7 @@ import contry from '../static/convertcsv.json';
 
 const wrapperStyles = {
   width: '100%',
-  maxWidth: 980,
+  maxWidth: 1200,
   margin: '0 auto'
 };
 const markers = [
