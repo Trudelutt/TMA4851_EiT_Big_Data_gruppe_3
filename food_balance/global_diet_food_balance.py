@@ -60,36 +60,68 @@ def get_global_diet_from_file(file_name):
     return global_diet
 
 def get_global_development(country, global_diet, countires_diet):
+    max_diff = get_max_diff_global_development( global_diet, countires_diet)
     country_diet = countires_diet[country]
     error = [0 for x in range(0,n_years)]
     for item in global_diet:
         if(item in country_diet):
             for j in range(0,n_years):
-                error[j] += (global_diet[item][j] - country_diet[item][j])**2
+                if max_diff[item][j] == 0:
+                    continue
+                error[j] += abs(global_diet[item][j] - country_diet[item][j])/float(max_diff[item][j])
         else:
             for j in range(0,n_years):
-                error[j] += (global_diet[item][j])**2
+                error[j] += 1.0
     return error
 
-def development_trend_plot(error_array,country):
+def get_max_diff_global_development( global_diet, countires_diet):
+    max_diff = {}
+    for country in countires_diet:
+        country_diet = countires_diet[country]
+        for item in global_diet:
+            if item not in country_diet:
+                continue;
+            if(item in max_diff):
+                for j in range(0,n_years):
+                    diff = abs(global_diet[item][j] - country_diet[item][j])
+                    if( diff > max_diff[item][j]):
+                        max_diff[item][j] = diff
+            else:
+                max_diff[item] = [0 for column in range(0, n_years)];
+                for j in range(0,n_years):
+                    diff = abs(global_diet[item][j] - country_diet[item][j])
+                    max_diff[item][j] = diff
+    return max_diff
+
+def development_trend_plot(error_array):
     fig, ax = plt.subplots()
-    for i in range(0,len(error_array)):
-        y = error_array[i]
-        x = 1961 +i*10
-        ax.scatter(x, y,s = 60)
+    colour_array = ['red', 'green', 'blue','yellow','pink','purple']
+    color_count = 0;
+    for country in error_array:
+        x = []
+        y = []
+        for i in range(0,n_years):
+            y.append(error_array[country][i])
+            x.append( 1961 +i*10)
+        ax.scatter(x, y,c = colour_array[color_count],s = 60,label = country)
+        color_count += 1
     ax.set_xlabel('year')
     ax.set_ylabel('error from global diet')
     ax.grid(True)
-    plt.title("Global development for " + country)
+    ax.legend()
+    plt.title("Global development")
     plt.show()
 
 
 file_name = "data/global_diet_data.csv"
 global_diet = get_global_diet_from_file(file_name)
 countires_diet =  get_diet_countries_from_file(file_name)
-test_country = "Sweden"
-error_array = get_global_development(test_country, global_diet, countires_diet)
-development_trend_plot(error_array,test_country)
+test_country_array = ["Chad","Norway","Sweden","Afghanistan","Senegal","Zimbabwe"]
+error_array = {}
+for test_country in test_country_array :
+    error = get_global_development(test_country, global_diet, countires_diet)
+    error_array[test_country] = error
+development_trend_plot(error_array)
 
 
 
