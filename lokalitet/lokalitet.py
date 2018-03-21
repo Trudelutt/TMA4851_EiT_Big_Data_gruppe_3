@@ -6,7 +6,7 @@ import pycountry
 from scipy.stats import norm
 import time
 from openpyxl import load_workbook
-import json
+
 
 start = time.time()
 
@@ -228,6 +228,6 @@ def run(df,pop,avs):
 pop = importPopulation()
 start = time.time()
 #test = normIndeks('Denmark',df,pop)
-run(df,pop,avs)
+#run(df,pop,avs)
 end = time.time()
 #print(end-start)

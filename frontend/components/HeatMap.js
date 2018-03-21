@@ -16,9 +16,51 @@ const wrapperStyles = {
 };
 
 const popScale = scaleLinear()
-  .domain([0, 0.001, 0.01, 0.5, 1])
-  .range(['#F6EE90', '#FFC640', '#F37E3B', '#910505', '#C30101']);
-
+  .domain([
+    0,
+    0.001,
+    0.0015,
+    0.002,
+    0.0025,
+    0.003,
+    0.0035,
+    0.004,
+    0.0045,
+    0.005,
+    0.006,
+    0.007,
+    0.008,
+    0.009,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1
+  ])
+  .range([
+    '#FFFFFF',
+    '#7BD1F9',
+    '#6FC7F0',
+    '#69C3EC',
+    '#5FBBE5',
+    '#57B5E0',
+    '#55B6E4',
+    '#52B2DE',
+    '#49ACDA',
+    '#46A9D7',
+    '#3CA7D9',
+    '#35A4D8',
+    '#2B9FD5',
+    '#2FA4D9',
+    '#1999D4',
+    '#1B95CF',
+    '#1483B6'
+  ]);
 class HeatMap extends Component {
   constructor(props) {
     super(props);
@@ -38,11 +80,11 @@ class HeatMap extends Component {
         <div>
           <ComposableMap
             projectionConfig={{
-              scale: 205,
+              scale: 120,
               rotation: [-11, 0, 0]
             }}
             width={980}
-            height={500}
+            height={300}
             style={{
               width: '100%',
               height: 'auto'
