@@ -8,13 +8,22 @@ with open('locality.json', encoding='utf-8') as data_file:
 for i in range(len(map_data["objects"]["units"]["geometries"])):
     for k in range(1,29):
         map_data["objects"]["units"]["geometries"][i]["properties"]["year_"+str(1985+k)] = 0
+    map_data["objects"]["units"]["geometries"][i]["properties"]["avg"] = 0
     #print(map_data["objects"]["units"]["geometries"][i]["properties"]["name"])
     tempcount = 0
     for j in range(len(locality_data)):
         if(map_data["objects"]["units"]["geometries"][i]["properties"]["name_long"] == locality_data[j]["FIELD1"]):
             count += 1
+            avg = 0
+            ant = 0
             for k in range(1,29):
                 map_data["objects"]["units"]["geometries"][i]["properties"]["year_"+str(1985+k)] = locality_data[j]["FIELD"+str(k+1)]
+                if (locality_data[j]["FIELD"+str(k+1)] > 0):
+                    avg += locality_data[j]["FIELD"+str(k+1)]
+                    ant += 1
+            if (avg >0):
+                map_data["objects"]["units"]["geometries"][i]["properties"]["avg"] = avg/ant
+
         else:
             tempcount += 1
         if tempcount == len(locality_data):
