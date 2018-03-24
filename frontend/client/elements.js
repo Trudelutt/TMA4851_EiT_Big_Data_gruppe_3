@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import basicmap from '../components/BasicMap';
 import heatmap from '../components/HeatMap';
 import topchart from '../components/TopChart';
+import indexchartdialog from '../components/IndexChartDialog';
 import menu from '../components/menu';
 //import header from '../components/Header';
 
@@ -26,6 +27,7 @@ export const footerWrapper = styled.div`
 export const HeatMap = styled(heatmap)`grid-area: center;`;
 export const TopChart = styled(topchart)`grid-area: center;`;
 export const BasicMap = styled(basicmap)`grid-area: center;`;
+export const IndexChartDialog = styled(indexchartdialog)`grid-area: center;`;
 
 export const ButtonPopulation = styled.button`
   text-align: center;

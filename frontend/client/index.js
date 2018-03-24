@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import {
-  Wrapper,
-  GridWrapper,
-  footerWrapper,
-  ButtonPopulation,
-  HeatMap,
-  BasicMap,
-  TopChart
+    Wrapper,
+    GridWrapper,
+    footerWrapper,
+    ButtonPopulation,
+    HeatMap,
+    BasicMap,
+    TopChart,
 } from './elements';
 import Annotations from 'react-simple-maps';
 import markers from '../components/BasicMap';
@@ -22,81 +22,73 @@ import DropDownMenu from 'material-ui/DropDownMenu';
 import RaisedButton from 'material-ui/RaisedButton';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 
+const MyButton = ({ label, value, onClick, show }) => (
+    <RaisedButton primary={show === value} value={value} { ...{ label, onClick } } />
+);
+
 export default class Hello extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      basicmapShow: false,
-      populationShow: false,
-      topChartShow: false,
-      value: 3,
+      show: undefined,
+      value: 3
     };
+
     // This binding is necessary to make `this` work in the callback
-    this.handleClickPopulation = this.handleClickPopulation.bind(this);
-    this.handleClickBasicMap = this.handleClickBasicMap.bind(this);
-    this.handleClickTopChart = this.handleClickTopChart.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+    this.getChart = this.getChart.bind(this);
   }
 
-  handleClickPopulation() {
-    this.setState({ 
-      populationShow: !this.state.populationShow,
-      basicmapShow: false,
-      topChartShow: false,
-    });
-    console.log('click');
-  }
-  handleClickBasicMap() {
-    this.setState({ 
-      basicmapShow: !this.state.basicmapShow,
-      populationShow: false,
-      topChartShow: false,
-    });
-    console.log(this.state);
-  }
-  handleClickTopChart() {
+  handleClick(e) {
     this.setState({
-      topChartShow: !this.state.topChartShow,
-      populationShow: false,
-      basicmapShow: false,
+      show: e.currentTarget.value
     })
   }
+
+  getChart() {
+    switch (this.state.show) {
+      case "population":
+        return (
+            <MuiThemeProvider>
+              <HeatMap />
+            </MuiThemeProvider>
+        );
+      case "basicMap":
+        return <BasicMap />;
+      case "topChart":
+        return <TopChart />;
+      default:
+        return <Wrapper />;
+    }
+  }
+
   render() {
+    const { show } = this.state;
+    const buttons = [
+      { label: "Lokalitetsindex", value: "population" },
+      { label: "Kart", value: "basicMap" },
+      { label: "Topp matvarer", value: "topChart" }
+    ];
     return (
-      <div>
         <div>
-         <MuiThemeProvider>
-          <Toolbar style={{marginBottom: 50}}>
-        <ToolbarGroup firstChild={true}>
-          <RaisedButton label="Lokalitestindex" primary={this.state.populationShow == true ? true : false} onClick={this.handleClickPopulation}/>
-          <RaisedButton label="Kart" primary={this.state.basicmapShow == true ? true : false} onClick={this.handleClickBasicMap}/>
-          <RaisedButton label="Topp matvarer" primary={this.state.topChartShow == true ? true : false} onClick={this.handleClickTopChart}/>
-          <IconMenu
-            iconButtonElement={
-              <IconButton touch={true}>
+          <MuiThemeProvider>
+            <Toolbar style={{marginBottom: 50}}>
+              <ToolbarGroup firstChild={true}>
+                {buttons.map(({ label, value }) => <MyButton key={value} onClick={this.handleClick} { ...{ show, value, label } } />)}
+                <IconMenu
+                    iconButtonElement={
+              <IconButton touch>
                 <NavigationExpandMoreIcon />
               </IconButton>
             }
-          >
-            <MenuItem primaryText="More Info" />
-          </IconMenu>
-        </ToolbarGroup>
-      </Toolbar>
-      </MuiThemeProvider>
-        </div>
-
-        {this.state.basicmapShow ? (
-          <BasicMap />
-        ) : this.state.populationShow ? (
-          <MuiThemeProvider>
-            <HeatMap />
+                >
+                  <MenuItem primaryText="More Info" />
+                </IconMenu>
+              </ToolbarGroup>
+            </Toolbar>
           </MuiThemeProvider>
-        ) : this.state.topChartShow ? (
-          <TopChart />
-      ): (
-          <Wrapper />
-        )}
-       
-      </div>
+          {this.getChart()}
+        </div>
     );
   }
 }
