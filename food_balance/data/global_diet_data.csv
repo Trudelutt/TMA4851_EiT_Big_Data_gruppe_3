@@ -1,3 +1,4 @@
+Afghanistan,Population,Total Population - Both sexes,8954.0,11323.0,12964.0,12612.0,21348.0,29105.0
 Afghanistan,Wheat and products,Food supply quantity (kg/capita/yr),215.27,173.39,164.55,122.06,124.99,161.85
 Afghanistan,Wheat and products,Protein supply quantity (g/capita/day),45.54,36.68,35.26,28.14,28.81,37.29
 Afghanistan,Wheat and products,Fat supply quantity (g/capita/day),5.52,4.45,4.27,3.41,3.55,4.73
@@ -201,6 +202,7 @@ Afghanistan,"Fish, Seafood",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,
 Afghanistan,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.07
 Afghanistan,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.06
 Afghanistan,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.03
+Albania,Population,Total Population - Both sexes,1669.0,2195.0,2799.0,3460.0,3286.0,3154.0
 Albania,Wheat and products,Food supply quantity (kg/capita/yr),99.73,107.71,155.14,167.59,162.57,139.06
 Albania,Wheat and products,Protein supply quantity (g/capita/day),24.51,26.47,38.13,41.18,39.41,33.69
 Albania,Wheat and products,Fat supply quantity (g/capita/day),2.98,3.22,4.64,5.02,6.06,6.02
@@ -469,6 +471,7 @@ Albania,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Albania,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.03,0.07
 Albania,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.15,0.15
 Albania,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.06,0.05
+Algeria,Population,Total Population - Both sexes,11561.0,15098.0,20104.0,26894.0,32150.0,37763.0
 Algeria,Wheat and products,Food supply quantity (kg/capita/yr),105.02,112.98,166.42,178.34,184.38,184.92
 Algeria,Wheat and products,Protein supply quantity (g/capita/day),24.37,26.22,38.62,41.38,42.79,42.87
 Algeria,Wheat and products,Fat supply quantity (g/capita/day),2.88,3.1,4.56,4.89,5.06,5.25
@@ -754,6 +757,7 @@ Algeria,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Algeria,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.06,0.15,0.11,0.05,0.53
 Algeria,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.03,0.08,0.06,0.05,0.28
 Algeria,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.02,0.01,0.02,0.07
+Angola,Population,Total Population - Both sexes,5057.0,6049.0,7902.0,10653.0,14385.0,20180.0
 Angola,Wheat and products,Food supply quantity (kg/capita/yr),8.55,17.18,20.11,11.65,23.97,38.47
 Angola,Wheat and products,Protein supply quantity (g/capita/day),1.94,4.08,4.68,2.72,5.11,8.16
 Angola,Wheat and products,Fat supply quantity (g/capita/day),0.23,0.48,0.55,0.32,0.6,0.99
@@ -1012,6 +1016,7 @@ Angola,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Angola,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.12,0.46,0.39,0.05,0.18
 Angola,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.05,0.19,0.18,0.05,0.15
 Angola,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.04,0.04,0.01,0.04
+Antigua and Barbuda,Population,Total Population - Both sexes,55.0,66.0,70.0,62.0,79.0,88.0
 Antigua and Barbuda,Wheat and products,Food supply quantity (kg/capita/yr),89.97,63.62,46.21,64.25,56.48,60.89
 Antigua and Barbuda,Wheat and products,Protein supply quantity (g/capita/day),18.68,13.24,9.51,13.04,11.55,14.01
 Antigua and Barbuda,Wheat and products,Fat supply quantity (g/capita/day),2.09,1.58,2.04,3.49,2.81,4.02
@@ -1277,6 +1282,7 @@ Antigua and Barbuda,"Aquatic Products, Other",Fat supply quantity (g/capita/day)
 Antigua and Barbuda,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,2.37,4.03,0.38,0.74
 Antigua and Barbuda,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.98,1.68,0.17,0.53
 Antigua and Barbuda,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.2,0.31,0.03,0.25
+Argentina,Population,Total Population - Both sexes,20959.0,24371.0,28550.0,33075.0,37273.0,40729.0
 Argentina,Wheat and products,Food supply quantity (kg/capita/yr),126.53,121.69,113.23,115.09,93.46,97.54
 Argentina,Wheat and products,Protein supply quantity (g/capita/day),25.22,23.94,22.3,23.42,22.24,23.23
 Argentina,Wheat and products,Fat supply quantity (g/capita/day),2.6,2.47,2.3,2.41,2.3,2.4
@@ -1561,6 +1567,7 @@ Argentina,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0
 Argentina,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Argentina,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Argentina,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Australia,Population,Total Population - Both sexes,10495.0,13151.0,14898.0,17322.0,19487.0,22741.0
 Australia,Wheat and products,Food supply quantity (kg/capita/yr),98.34,92.65,81.87,72.34,67.43,74.04
 Australia,Wheat and products,Protein supply quantity (g/capita/day),27.27,25.28,21.55,19.97,19.04,18.75
 Australia,Wheat and products,Fat supply quantity (g/capita/day),3.28,2.87,2.46,2.17,2.17,2.4
@@ -1851,6 +1858,7 @@ Australia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Australia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.17,0.18
 Australia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.15,0.48
 Australia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.05,0.18
+Austria,Population,Total Population - Both sexes,7094.0,7525.0,7550.0,7726.0,8049.0,8433.0
 Austria,Wheat and products,Food supply quantity (kg/capita/yr),76.68,70.18,60.24,64.65,79.9,81.03
 Austria,Wheat and products,Protein supply quantity (g/capita/day),18.7,17.97,15.88,16.67,20.47,20.87
 Austria,Wheat and products,Fat supply quantity (g/capita/day),2.59,2.5,2.09,2.52,3.99,3.1
@@ -2151,6 +2159,7 @@ Austria,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Austria,Miscellaneous,Food supply quantity (kg/capita/yr),0.05,0.19,0.1,0.04,0.0,0.0
 Austria,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.08,0.09,0.09,0.14,0.04
 Austria,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.02,0.03,0.03,0.06,0.02
+Bahamas,Population,Total Population - Both sexes,115.0,174.0,215.0,261.0,303.0,366.0
 Bahamas,Wheat and products,Food supply quantity (kg/capita/yr),63.81,49.0,44.44,49.42,46.35,37.69
 Bahamas,Wheat and products,Protein supply quantity (g/capita/day),13.08,9.78,8.86,10.19,9.55,8.08
 Bahamas,Wheat and products,Fat supply quantity (g/capita/day),2.03,3.12,2.89,3.81,3.68,4.55
@@ -2432,6 +2441,7 @@ Bahamas,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Bahamas,Miscellaneous,Food supply quantity (kg/capita/yr),0.87,2.24,1.21,0.0,0.75,2.26
 Bahamas,Miscellaneous,Protein supply quantity (g/capita/day),0.36,0.94,0.51,0.0,1.62,3.19
 Bahamas,Miscellaneous,Fat supply quantity (g/capita/day),0.07,0.17,0.1,0.0,0.61,1.12
+Bangladesh,Population,Total Population - Both sexes,50954.0,67628.0,84764.0,109935.0,134730.0,152862.0
 Bangladesh,Wheat and products,Food supply quantity (kg/capita/yr),8.62,15.32,22.14,20.67,19.05,17.29
 Bangladesh,Wheat and products,Protein supply quantity (g/capita/day),2.15,3.81,5.51,5.15,4.75,4.31
 Bangladesh,Wheat and products,Fat supply quantity (g/capita/day),0.34,0.61,0.88,0.82,0.76,0.69
@@ -2734,6 +2744,7 @@ Bangladesh,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Bangladesh,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.01,0.03,0.03
 Bangladesh,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.01,0.02
 Bangladesh,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.02
+Barbados,Population,Total Population - Both sexes,232.0,240.0,250.0,260.0,268.0,282.0
 Barbados,Wheat and products,Food supply quantity (kg/capita/yr),57.72,67.56,69.7,75.92,67.0,63.33
 Barbados,Wheat and products,Protein supply quantity (g/capita/day),11.32,13.2,14.09,16.02,14.14,14.24
 Barbados,Wheat and products,Fat supply quantity (g/capita/day),1.1,1.31,1.38,1.66,1.81,2.43
@@ -3020,6 +3031,7 @@ Barbados,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Barbados,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.13,1.14,0.99,0.93,1.3
 Barbados,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.07,0.81,0.91,1.18,1.73
 Barbados,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.23,0.28,0.4,0.6
+Belize,Population,Total Population - Both sexes,95.0,125.0,148.0,191.0,245.0,316.0
 Belize,Wheat and products,Food supply quantity (kg/capita/yr),69.96,71.92,53.71,70.23,68.16,61.33
 Belize,Wheat and products,Protein supply quantity (g/capita/day),14.39,14.82,11.83,15.42,14.27,13.31
 Belize,Wheat and products,Fat supply quantity (g/capita/day),1.87,1.99,1.8,1.97,2.39,3.36
@@ -3286,6 +3298,7 @@ Belize,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Belize,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.13,2.1,1.23,0.86,1.06
 Belize,Miscellaneous,Protein supply quantity (g/capita/day),0.06,0.26,1.06,0.67,0.47,1.02
 Belize,Miscellaneous,Fat supply quantity (g/capita/day),0.03,0.09,0.24,0.16,0.11,0.33
+Benin,Population,Total Population - Both sexes,2466.0,2972.0,3822.0,5183.0,7175.0,9780.0
 Benin,Wheat and products,Food supply quantity (kg/capita/yr),1.97,5.57,14.27,12.46,6.96,8.64
 Benin,Wheat and products,Protein supply quantity (g/capita/day),0.4,1.13,2.9,2.53,1.41,1.83
 Benin,Wheat and products,Fat supply quantity (g/capita/day),0.05,0.12,0.28,0.25,0.19,0.36
@@ -3572,6 +3585,7 @@ Benin,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Benin,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.01,0.04,0.01,0.05,0.05
 Benin,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.0,0.03,0.01,0.06,0.08
 Benin,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.0,0.02,0.03
+Bermuda,Population,Total Population - Both sexes,46.0,52.0,56.0,60.0,63.0,65.0
 Bermuda,Wheat and products,Food supply quantity (kg/capita/yr),60.05,57.65,60.88,58.96,52.95,61.11
 Bermuda,Wheat and products,Protein supply quantity (g/capita/day),12.39,11.64,11.69,11.78,11.26,13.53
 Bermuda,Wheat and products,Fat supply quantity (g/capita/day),3.57,4.79,7.73,6.8,9.57,12.48
@@ -3801,6 +3815,7 @@ Bermuda,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Bermuda,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,2.73,1.05
 Bermuda,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,1.13,0.67
 Bermuda,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.22,0.17
+Bolivia (Plurinational State of),Population,Total Population - Both sexes,3428.0,4321.0,5497.0,6957.0,8669.0,10324.0
 Bolivia (Plurinational State of),Wheat and products,Food supply quantity (kg/capita/yr),51.88,54.67,57.92,47.85,56.07,51.01
 Bolivia (Plurinational State of),Wheat and products,Protein supply quantity (g/capita/day),11.42,11.69,12.04,10.0,11.59,11.0
 Bolivia (Plurinational State of),Wheat and products,Fat supply quantity (g/capita/day),1.34,1.26,1.21,0.98,1.1,1.12
@@ -4086,6 +4101,7 @@ Bolivia (Plurinational State of),"Aquatic Products, Other",Fat supply quantity (
 Bolivia (Plurinational State of),Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.31,0.33,0.02,0.22,0.27
 Bolivia (Plurinational State of),Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.13,0.15,0.02,0.13,0.16
 Bolivia (Plurinational State of),Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.03,0.01,0.03,0.04
+Botswana,Population,Total Population - Both sexes,537.0,716.0,1034.0,1425.0,1783.0,1987.0
 Botswana,Wheat and products,Food supply quantity (kg/capita/yr),7.42,12.46,27.73,26.92,30.92,35.89
 Botswana,Wheat and products,Protein supply quantity (g/capita/day),1.8,3.02,6.62,7.15,7.85,9.0
 Botswana,Wheat and products,Fat supply quantity (g/capita/day),0.21,0.36,1.1,1.52,1.29,2.69
@@ -4379,6 +4395,7 @@ Botswana,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Botswana,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.13,0.52,0.28
 Botswana,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.17,0.26,0.54
 Botswana,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.06,0.06,0.2
+Brazil,Population,Total Population - Both sexes,74988.0,98428.0,124611.0,152154.0,176968.0,196935.0
 Brazil,Wheat and products,Food supply quantity (kg/capita/yr),30.0,34.27,47.36,44.17,49.4,53.46
 Brazil,Wheat and products,Protein supply quantity (g/capita/day),5.74,6.56,9.06,8.45,9.46,10.25
 Brazil,Wheat and products,Fat supply quantity (g/capita/day),0.59,0.68,0.93,0.87,0.99,1.09
@@ -4684,6 +4701,7 @@ Brazil,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Brazil,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.2,0.0,0.0,0.0,0.0
 Brazil,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.08,0.0,0.0,0.0,0.0
 Brazil,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.02,0.0,0.0,0.0,0.0
+Brunei Darussalam,Population,Total Population - Both sexes,86.0,136.0,199.0,264.0,339.0,407.0
 Brunei Darussalam,Wheat and products,Food supply quantity (kg/capita/yr),17.76,30.59,40.66,40.62,41.37,39.87
 Brunei Darussalam,Wheat and products,Protein supply quantity (g/capita/day),3.37,5.74,7.79,7.65,11.12,10.18
 Brunei Darussalam,Wheat and products,Fat supply quantity (g/capita/day),0.35,0.61,0.88,0.84,2.06,2.27
@@ -4973,6 +4991,7 @@ Brunei Darussalam,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0
 Brunei Darussalam,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,1.21,1.63,7.95,1.24,1.66
 Brunei Darussalam,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.5,0.67,3.31,1.1,1.71
 Brunei Darussalam,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.1,0.12,0.63,0.34,0.56
+Bulgaria,Population,Total Population - Both sexes,7935.0,8547.0,8891.0,8745.0,7935.0,7333.0
 Bulgaria,Wheat and products,Food supply quantity (kg/capita/yr),226.0,220.33,204.37,177.07,136.07,119.59
 Bulgaria,Wheat and products,Protein supply quantity (g/capita/day),52.48,49.79,46.19,40.01,30.73,27.41
 Bulgaria,Wheat and products,Fat supply quantity (g/capita/day),5.57,5.3,4.91,4.25,3.53,3.06
@@ -5259,6 +5278,7 @@ Bulgaria,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Bulgaria,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.14,0.15
 Bulgaria,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.14,0.06
 Bulgaria,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.05,0.01
+Burkina Faso,Population,Total Population - Both sexes,4895.0,5723.0,6985.0,9050.0,11946.0,15995.0
 Burkina Faso,Wheat and products,Food supply quantity (kg/capita/yr),1.06,4.22,3.97,4.84,4.09,8.7
 Burkina Faso,Wheat and products,Protein supply quantity (g/capita/day),0.21,0.89,0.83,1.02,0.89,1.88
 Burkina Faso,Wheat and products,Fat supply quantity (g/capita/day),0.03,0.1,0.13,0.13,0.15,0.36
@@ -5538,6 +5558,7 @@ Burkina Faso,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.
 Burkina Faso,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.02,0.01,0.02
 Burkina Faso,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.02,0.03,0.04
 Burkina Faso,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.02
+Cabo Verde,Population,Total Population - Both sexes,217.0,284.0,304.0,360.0,451.0,491.0
 Cabo Verde,Wheat and products,Food supply quantity (kg/capita/yr),11.34,19.2,37.45,34.97,36.39,36.96
 Cabo Verde,Wheat and products,Protein supply quantity (g/capita/day),2.29,3.89,8.44,7.88,8.2,8.26
 Cabo Verde,Wheat and products,Fat supply quantity (g/capita/day),0.28,0.51,0.97,0.99,1.48,1.79
@@ -5796,6 +5817,7 @@ Cabo Verde,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Cabo Verde,Miscellaneous,Food supply quantity (kg/capita/yr),0.09,0.12,1.83,0.37,0.61,0.96
 Cabo Verde,Miscellaneous,Protein supply quantity (g/capita/day),0.04,0.07,0.78,0.22,0.46,0.75
 Cabo Verde,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.02,0.15,0.06,0.13,0.23
+Cambodia,Population,Total Population - Both sexes,5870.0,7169.0,6762.0,9378.0,12473.0,14606.0
 Cambodia,Wheat and products,Food supply quantity (kg/capita/yr),3.8,3.51,4.07,0.05,1.75,2.42
 Cambodia,Wheat and products,Protein supply quantity (g/capita/day),0.67,0.62,0.72,0.01,0.33,0.48
 Cambodia,Wheat and products,Fat supply quantity (g/capita/day),0.11,0.1,0.11,0.0,0.27,0.16
@@ -6084,6 +6106,7 @@ Cambodia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Cambodia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.09,0.09
 Cambodia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.07,0.06
 Cambodia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.02,0.02
+Cameroon,Population,Total Population - Both sexes,5475.0,6949.0,9201.0,12430.0,16350.0,21156.0
 Cameroon,Wheat and products,Food supply quantity (kg/capita/yr),4.27,6.84,9.53,13.4,17.88,20.36
 Cameroon,Wheat and products,Protein supply quantity (g/capita/day),0.87,1.45,2.02,2.85,3.88,4.5
 Cameroon,Wheat and products,Fat supply quantity (g/capita/day),0.08,0.18,0.2,0.28,0.43,0.53
@@ -6383,6 +6406,7 @@ Cameroon,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Cameroon,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.04,0.06,0.06,0.08,0.15
 Cameroon,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.03,0.04,0.04,0.08
 Cameroon,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.01,0.01,0.02
+Canada,Population,Total Population - Both sexes,18295.0,21786.0,24764.0,28009.0,30987.0,34487.0
 Canada,Wheat and products,Food supply quantity (kg/capita/yr),79.1,73.62,65.64,74.12,88.5,78.99
 Canada,Wheat and products,Protein supply quantity (g/capita/day),18.53,17.08,15.32,17.67,21.15,19.13
 Canada,Wheat and products,Fat supply quantity (g/capita/day),2.26,2.08,1.87,2.28,2.56,2.35
@@ -6696,6 +6720,7 @@ Canada,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Canada,Miscellaneous,Food supply quantity (kg/capita/yr),0.11,0.26,0.35,0.0,0.6,0.65
 Canada,Miscellaneous,Protein supply quantity (g/capita/day),0.06,0.12,0.15,0.05,0.3,0.5
 Canada,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.03,0.03,0.02,0.07,0.15
+Central African Republic,Population,Total Population - Both sexes,1529.0,1865.0,2340.0,2980.0,3704.0,4436.0
 Central African Republic,Wheat and products,Food supply quantity (kg/capita/yr),3.06,6.34,5.64,7.93,7.78,9.53
 Central African Republic,Wheat and products,Protein supply quantity (g/capita/day),0.62,1.28,1.15,1.6,1.58,1.93
 Central African Republic,Wheat and products,Fat supply quantity (g/capita/day),0.08,0.15,0.12,0.16,0.18,0.24
@@ -6963,6 +6988,7 @@ Central African Republic,"Aquatic Products, Other",Fat supply quantity (g/capita
 Central African Republic,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.02,0.02,0.02,0.0,0.01
 Central African Republic,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.01,0.01,0.01,0.02
 Central African Republic,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Chad,Population,Total Population - Both sexes,3061.0,3727.0,4611.0,6143.0,8621.0,12080.0
 Chad,Wheat and products,Food supply quantity (kg/capita/yr),1.44,4.04,3.74,10.58,5.82,9.32
 Chad,Wheat and products,Protein supply quantity (g/capita/day),0.32,0.91,0.85,2.39,1.31,2.1
 Chad,Wheat and products,Fat supply quantity (g/capita/day),0.05,0.11,0.1,0.28,0.16,0.28
@@ -7193,6 +7219,7 @@ Chad,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Chad,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.0,0.0,0.01,0.01
 Chad,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.02
 Chad,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Chile,Population,Total Population - Both sexes,7846.0,9755.0,11363.0,13456.0,15639.0,17308.0
 Chile,Wheat and products,Food supply quantity (kg/capita/yr),129.39,141.75,136.74,126.74,114.27,107.55
 Chile,Wheat and products,Protein supply quantity (g/capita/day),28.64,30.54,29.41,28.31,25.38,23.91
 Chile,Wheat and products,Fat supply quantity (g/capita/day),3.32,3.6,3.62,3.4,3.03,2.82
@@ -7481,6 +7508,7 @@ Chile,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Chile,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.02,0.07,0.01,0.0,0.0
 Chile,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.01,0.05,0.0,0.0,0.06
 Chile,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.02,0.0,0.0,0.02
+China,Population,Total Population - Both sexes,675173.0,854876.0,1021606.0,1209655.0,1317322.0,1399292.0
 China,Wheat and products,Food supply quantity (kg/capita/yr),20.88,33.02,62.57,77.59,71.94,63.03
 China,Wheat and products,Protein supply quantity (g/capita/day),5.5,9.08,17.75,21.6,20.52,17.57
 China,Wheat and products,Fat supply quantity (g/capita/day),0.89,1.51,3.0,3.62,3.48,2.94
@@ -7803,6 +7831,7 @@ China,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 China,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.02,0.06
 China,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.03
 China,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+"China, Hong Kong SAR",Population,Total Population - Both sexes,3227.0,4006.0,5152.0,5856.0,6893.0,7096.0
 "China, Hong Kong SAR",Wheat and products,Food supply quantity (kg/capita/yr),29.41,39.92,38.69,43.82,46.3,53.25
 "China, Hong Kong SAR",Wheat and products,Protein supply quantity (g/capita/day),5.5,7.46,7.19,8.25,8.6,9.98
 "China, Hong Kong SAR",Wheat and products,Fat supply quantity (g/capita/day),0.57,0.76,0.72,0.88,1.07,1.29
@@ -8104,6 +8133,7 @@ China,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 "China, Hong Kong SAR",Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.68,0.53,0.02,0.03,0.04
 "China, Hong Kong SAR",Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.39,0.28,0.3,0.46,0.7
 "China, Hong Kong SAR",Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.1,0.07,0.11,0.19,0.29
+"China, Macao SAR",Population,Total Population - Both sexes,175.0,254.0,252.0,369.0,438.0,546.0
 "China, Macao SAR",Wheat and products,Food supply quantity (kg/capita/yr),46.6,33.35,52.49,39.05,36.2,52.2
 "China, Macao SAR",Wheat and products,Protein supply quantity (g/capita/day),9.61,6.7,10.71,8.03,7.27,9.96
 "China, Macao SAR",Wheat and products,Fat supply quantity (g/capita/day),2.16,3.0,3.17,2.73,2.29,8.06
@@ -8392,6 +8422,7 @@ China,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 "China, Macao SAR",Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.22,0.41,0.02,0.04,0.07
 "China, Macao SAR",Miscellaneous,Protein supply quantity (g/capita/day),0.27,0.29,0.53,0.42,0.39,1.07
 "China, Macao SAR",Miscellaneous,Fat supply quantity (g/capita/day),0.11,0.1,0.18,0.16,0.15,0.43
+"China, mainland",Population,Total Population - Both sexes,660909.0,835717.0,998075.0,1183008.0,1287890.0,1368440.0
 "China, mainland",Wheat and products,Food supply quantity (kg/capita/yr),20.6,32.93,63.23,78.4,72.49,63.39
 "China, mainland",Wheat and products,Protein supply quantity (g/capita/day),5.46,9.1,17.98,21.87,20.74,17.72
 "China, mainland",Wheat and products,Fat supply quantity (g/capita/day),0.89,1.52,3.05,3.67,3.51,2.97
@@ -8698,6 +8729,7 @@ China,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 "China, mainland",Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.01,0.06
 "China, mainland",Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.02
 "China, mainland",Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+"China, Taiwan Province of",Population,Total Population - Both sexes,10862.0,14899.0,18127.0,20422.0,22101.0,23210.0
 "China, Taiwan Province of",Wheat and products,Food supply quantity (kg/capita/yr),35.09,36.69,33.35,40.97,48.27,44.71
 "China, Taiwan Province of",Wheat and products,Protein supply quantity (g/capita/day),8.3,8.67,7.84,10.01,11.87,10.95
 "China, Taiwan Province of",Wheat and products,Fat supply quantity (g/capita/day),1.16,1.14,1.05,1.47,2.05,1.75
@@ -9007,6 +9039,7 @@ China,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 "China, Taiwan Province of",Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.11,0.02,0.57,0.26
 "China, Taiwan Province of",Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.09,0.08,0.42,0.27
 "China, Taiwan Province of",Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.04,0.04,0.13,0.1
+Colombia,Population,Total Population - Both sexes,16489.0,21880.0,27550.0,33957.0,40559.0,47079.0
 Colombia,Wheat and products,Food supply quantity (kg/capita/yr),16.62,17.14,18.3,23.37,30.03,33.02
 Colombia,Wheat and products,Protein supply quantity (g/capita/day),3.31,3.42,3.65,4.66,5.99,6.58
 Colombia,Wheat and products,Fat supply quantity (g/capita/day),0.34,0.35,0.38,0.48,0.63,0.85
@@ -9298,6 +9331,7 @@ Colombia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Colombia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.0,0.0,0.02,0.15
 Colombia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.07
 Colombia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.02
+Congo,Population,Total Population - Both sexes,1040.0,1376.0,1850.0,2447.0,3206.0,4225.0
 Congo,Wheat and products,Food supply quantity (kg/capita/yr),11.86,21.55,31.8,36.17,46.92,40.06
 Congo,Wheat and products,Protein supply quantity (g/capita/day),2.56,4.86,7.18,8.17,10.9,9.15
 Congo,Wheat and products,Fat supply quantity (g/capita/day),0.37,0.62,0.88,1.01,1.65,2.15
@@ -9584,6 +9618,7 @@ Congo,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Congo,Miscellaneous,Food supply quantity (kg/capita/yr),0.05,0.1,0.14,0.17,0.25,0.34
 Congo,Miscellaneous,Protein supply quantity (g/capita/day),0.03,0.05,0.07,0.1,0.13,0.21
 Congo,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.01,0.03,0.03,0.06
+Costa Rica,Population,Total Population - Both sexes,1382.0,1867.0,2415.0,3156.0,4013.0,4738.0
 Costa Rica,Wheat and products,Food supply quantity (kg/capita/yr),34.64,35.23,37.99,45.66,47.46,40.16
 Costa Rica,Wheat and products,Protein supply quantity (g/capita/day),6.9,7.04,7.57,9.11,9.51,8.25
 Costa Rica,Wheat and products,Fat supply quantity (g/capita/day),0.71,0.72,0.82,1.0,1.14,1.05
@@ -9877,6 +9912,7 @@ Costa Rica,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Costa Rica,Miscellaneous,Food supply quantity (kg/capita/yr),0.18,0.11,0.03,0.02,0.4,0.65
 Costa Rica,Miscellaneous,Protein supply quantity (g/capita/day),0.09,0.06,0.02,0.01,0.17,0.27
 Costa Rica,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.01,0.01,0.0,0.03,0.05
+C�te d'Ivoire,Population,Total Population - Both sexes,3602.0,5488.0,8630.0,12530.0,16420.0,19390.0
 C�te d'Ivoire,Wheat and products,Food supply quantity (kg/capita/yr),2.38,12.82,21.81,16.93,17.32,20.07
 C�te d'Ivoire,Wheat and products,Protein supply quantity (g/capita/day),0.49,2.9,5.05,4.15,4.2,4.67
 C�te d'Ivoire,Wheat and products,Fat supply quantity (g/capita/day),0.16,0.59,0.85,0.67,0.7,1.63
@@ -10185,6 +10221,7 @@ C�te d'Ivoire,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0
 C�te d'Ivoire,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.09,0.04,0.05,0.02,0.12
 C�te d'Ivoire,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.04,0.02,0.02,0.01,0.05
 C�te d'Ivoire,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.0,0.0,0.0,0.01
+Cuba,Population,Total Population - Both sexes,7290.0,8870.0,9886.0,10685.0,11175.0,11276.0
 Cuba,Wheat and products,Food supply quantity (kg/capita/yr),44.12,79.19,82.24,64.87,58.05,51.67
 Cuba,Wheat and products,Protein supply quantity (g/capita/day),8.44,15.15,16.09,12.29,11.13,9.93
 Cuba,Wheat and products,Fat supply quantity (g/capita/day),0.87,1.56,1.66,1.27,1.33,1.18
@@ -10466,6 +10503,7 @@ Cuba,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Cuba,Miscellaneous,Food supply quantity (kg/capita/yr),0.18,0.45,0.53,0.37,0.02,0.02
 Cuba,Miscellaneous,Protein supply quantity (g/capita/day),0.08,0.19,0.25,0.21,0.04,0.03
 Cuba,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.04,0.05,0.05,0.01,0.01
+Cyprus,Population,Total Population - Both sexes,576.0,621.0,689.0,783.0,961.0,1117.0
 Cyprus,Wheat and products,Food supply quantity (kg/capita/yr),115.08,115.43,88.26,91.71,78.26,73.56
 Cyprus,Wheat and products,Protein supply quantity (g/capita/day),27.11,27.24,20.84,20.79,17.55,16.26
 Cyprus,Wheat and products,Fat supply quantity (g/capita/day),4.78,5.03,3.79,4.46,4.48,6.57
@@ -10754,6 +10792,7 @@ Cyprus,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Cyprus,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.28,0.61,0.84,1.08,1.51
 Cyprus,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.11,0.25,0.36,0.66,1.13
 Cyprus,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.02,0.05,0.19,1.2,1.09
+Democratic People's Republic of Korea,Population,Total Population - Both sexes,11666.0,14812.0,17623.0,20510.0,23043.0,24631.0
 Democratic People's Republic of Korea,Wheat and products,Food supply quantity (kg/capita/yr),10.09,27.72,35.29,20.63,25.82,23.32
 Democratic People's Republic of Korea,Wheat and products,Protein supply quantity (g/capita/day),2.12,5.83,7.42,4.34,5.43,4.9
 Democratic People's Republic of Korea,Wheat and products,Fat supply quantity (g/capita/day),0.29,0.81,1.03,0.6,0.75,0.68
@@ -10972,6 +11011,7 @@ Democratic People's Republic of Korea,"Fish, Seafood",Fat supply quantity (g/cap
 Democratic People's Republic of Korea,"Aquatic Products, Other",Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.01,0.01
 Democratic People's Republic of Korea,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Democratic People's Republic of Korea,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Denmark,Population,Total Population - Both sexes,4614.0,4960.0,5125.0,5154.0,5355.0,5575.0
 Denmark,Wheat and products,Food supply quantity (kg/capita/yr),58.1,52.18,56.48,63.1,98.66,100.83
 Denmark,Wheat and products,Protein supply quantity (g/capita/day),14.11,12.55,13.38,15.3,19.24,18.95
 Denmark,Wheat and products,Fat supply quantity (g/capita/day),1.72,1.53,1.63,2.2,2.33,2.31
@@ -11264,6 +11304,7 @@ Denmark,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Denmark,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.0,0.81,0.0,0.0,0.0
 Denmark,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.0,0.34,0.0,0.0,0.0
 Denmark,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.06,0.0,0.0,0.0
+Djibouti,Population,Total Population - Both sexes,88.0,169.0,375.0,613.0,734.0,847.0
 Djibouti,Wheat and products,Food supply quantity (kg/capita/yr),36.36,41.59,37.75,42.62,79.42,116.13
 Djibouti,Wheat and products,Protein supply quantity (g/capita/day),7.81,8.95,8.91,10.16,18.97,27.57
 Djibouti,Wheat and products,Fat supply quantity (g/capita/day),0.78,0.91,1.3,1.4,2.19,3.6
@@ -11530,6 +11571,7 @@ Djibouti,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Djibouti,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.14,0.27,0.38
 Djibouti,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.34,0.12,0.2,0.45
 Djibouti,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.28,0.05,0.09,0.27
+Dominica,Population,Total Population - Both sexes,61.0,72.0,75.0,71.0,70.0,71.0
 Dominica,Wheat and products,Food supply quantity (kg/capita/yr),62.77,65.28,79.65,84.48,79.09,78.92
 Dominica,Wheat and products,Protein supply quantity (g/capita/day),12.94,13.47,16.26,17.17,16.28,16.21
 Dominica,Wheat and products,Fat supply quantity (g/capita/day),1.26,1.29,1.53,1.66,1.68,1.74
@@ -11781,6 +11823,7 @@ Dominica,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Dominica,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,1.97,0.54,0.25
 Dominica,Miscellaneous,Protein supply quantity (g/capita/day),0.09,0.04,0.07,0.81,0.31,0.12
 Dominica,Miscellaneous,Fat supply quantity (g/capita/day),0.04,0.0,0.04,0.15,0.08,0.04
+Dominican Republic,Population,Total Population - Both sexes,3425.0,4652.0,5962.0,7392.0,8799.0,10148.0
 Dominican Republic,Wheat and products,Food supply quantity (kg/capita/yr),15.06,19.06,26.83,24.27,14.96,30.17
 Dominican Republic,Wheat and products,Protein supply quantity (g/capita/day),3.68,4.59,6.3,5.83,3.42,6.71
 Dominican Republic,Wheat and products,Fat supply quantity (g/capita/day),0.38,0.48,0.65,0.59,0.57,1.44
@@ -12054,6 +12097,7 @@ Dominican Republic,"Aquatic Products, Other",Fat supply quantity (g/capita/day),
 Dominican Republic,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.15,1.14,0.18,0.3,0.85
 Dominican Republic,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.12,0.48,0.07,0.13,0.39
 Dominican Republic,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.09,0.01,0.03,0.08
+Ecuador,Population,Total Population - Both sexes,4645.0,6199.0,8113.0,10361.0,12781.0,15246.0
 Ecuador,Wheat and products,Food supply quantity (kg/capita/yr),20.59,21.0,36.65,39.86,40.28,39.36
 Ecuador,Wheat and products,Protein supply quantity (g/capita/day),4.14,4.14,7.28,8.12,8.15,7.98
 Ecuador,Wheat and products,Fat supply quantity (g/capita/day),0.43,0.43,0.75,0.84,0.97,1.3
@@ -12349,6 +12393,7 @@ Ecuador,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Ecuador,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.0,0.01,0.03,0.03,0.31
 Ecuador,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.0,0.01,0.01,0.02,0.18
 Ecuador,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.0,0.0,0.0,0.01,0.05
+Egypt,Population,Total Population - Both sexes,28786.0,37152.0,45946.0,57388.0,67204.0,79392.0
 Egypt,Wheat and products,Food supply quantity (kg/capita/yr),82.73,89.08,140.83,147.15,144.06,145.93
 Egypt,Wheat and products,Protein supply quantity (g/capita/day),20.07,21.61,34.16,35.71,34.95,35.41
 Egypt,Wheat and products,Fat supply quantity (g/capita/day),3.53,3.8,6.01,6.28,6.15,6.25
@@ -12653,6 +12698,7 @@ Egypt,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Egypt,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.02,0.03,0.08,0.29
 Egypt,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.03,0.02,0.05,0.15
 Egypt,Miscellaneous,Fat supply quantity (g/capita/day),0.04,0.01,0.01,0.01,0.01,0.05
+El Salvador,Population,Total Population - Both sexes,2859.0,3836.0,4734.0,5425.0,5985.0,6256.0
 El Salvador,Wheat and products,Food supply quantity (kg/capita/yr),11.63,17.91,24.93,30.69,33.94,28.25
 El Salvador,Wheat and products,Protein supply quantity (g/capita/day),2.47,3.81,5.3,6.53,7.34,6.48
 El Salvador,Wheat and products,Fat supply quantity (g/capita/day),0.25,0.42,0.55,0.68,0.79,0.9
@@ -12951,6 +12997,7 @@ El Salvador,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0
 El Salvador,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.02,0.51,0.0,0.38,0.67
 El Salvador,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.24,0.0,0.19,0.49
 El Salvador,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.05,0.0,0.04,0.14
+Fiji,Population,Total Population - Both sexes,407.0,532.0,651.0,735.0,815.0,868.0
 Fiji,Wheat and products,Food supply quantity (kg/capita/yr),75.93,97.5,40.01,80.83,98.85,86.72
 Fiji,Wheat and products,Protein supply quantity (g/capita/day),15.46,19.18,7.77,16.29,19.67,17.28
 Fiji,Wheat and products,Fat supply quantity (g/capita/day),1.9,2.35,1.17,2.04,2.26,1.87
@@ -13239,6 +13286,7 @@ Fiji,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Fiji,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.21,0.08,0.0,0.01,0.0
 Fiji,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.11,0.11,0.04,0.04,0.1
 Fiji,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.04,0.02,0.01,0.04
+Finland,Population,Total Population - Both sexes,4463.0,4623.0,4801.0,5009.0,5188.0,5389.0
 Finland,Wheat and products,Food supply quantity (kg/capita/yr),85.36,63.17,62.26,69.56,79.71,78.13
 Finland,Wheat and products,Protein supply quantity (g/capita/day),21.81,15.91,15.78,17.79,20.61,22.06
 Finland,Wheat and products,Fat supply quantity (g/capita/day),3.01,2.17,2.17,2.41,3.09,3.01
@@ -13531,6 +13579,7 @@ Finland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Finland,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.02,0.05,0.0,0.02,0.71
 Finland,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.1,0.08,0.05,0.2,0.77
 Finland,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.04,0.03,0.02,0.08,0.25
+France,Population,Total Population - Both sexes,46320.0,51113.0,54203.0,57098.0,59601.0,63582.0
 France,Wheat and products,Food supply quantity (kg/capita/yr),126.66,93.15,95.5,90.24,98.18,106.39
 France,Wheat and products,Protein supply quantity (g/capita/day),29.93,22.44,23.1,21.62,23.5,25.48
 France,Wheat and products,Fat supply quantity (g/capita/day),3.64,2.79,2.98,3.57,3.71,4.15
@@ -13828,6 +13877,7 @@ France,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 France,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.0
 France,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.03,0.07,0.13
 France,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.03,0.05
+French Polynesia,Population,Total Population - Both sexes,81.0,114.0,156.0,202.0,241.0,271.0
 French Polynesia,Wheat and products,Food supply quantity (kg/capita/yr),112.31,102.59,93.27,88.67,65.86,69.68
 French Polynesia,Wheat and products,Protein supply quantity (g/capita/day),23.17,20.88,19.09,18.17,13.4,13.87
 French Polynesia,Wheat and products,Fat supply quantity (g/capita/day),3.01,4.18,3.76,4.62,6.17,8.15
@@ -14094,6 +14144,7 @@ French Polynesia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.
 French Polynesia,Miscellaneous,Food supply quantity (kg/capita/yr),0.49,0.9,1.29,4.26,1.3,2.17
 French Polynesia,Miscellaneous,Protein supply quantity (g/capita/day),0.34,0.75,1.12,2.62,1.35,1.79
 French Polynesia,Miscellaneous,Fat supply quantity (g/capita/day),0.1,0.22,0.35,0.83,0.44,0.56
+Gabon,Population,Total Population - Both sexes,504.0,601.0,745.0,973.0,1255.0,1594.0
 Gabon,Wheat and products,Food supply quantity (kg/capita/yr),10.55,12.1,40.27,43.58,53.62,62.27
 Gabon,Wheat and products,Protein supply quantity (g/capita/day),2.27,2.52,8.45,9.11,11.2,13.44
 Gabon,Wheat and products,Fat supply quantity (g/capita/day),0.34,0.46,1.21,1.5,1.9,3.25
@@ -14371,6 +14422,7 @@ Gabon,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Gabon,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.18,0.69,1.13,0.81,0.87
 Gabon,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.09,0.35,0.53,0.51,0.59
 Gabon,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.02,0.08,0.12,0.14,0.17
+Gambia,Population,Total Population - Both sexes,377.0,460.0,625.0,949.0,1267.0,1735.0
 Gambia,Wheat and products,Food supply quantity (kg/capita/yr),6.44,8.45,19.29,28.99,20.77,30.08
 Gambia,Wheat and products,Protein supply quantity (g/capita/day),1.37,1.82,4.16,6.27,5.83,8.5
 Gambia,Wheat and products,Fat supply quantity (g/capita/day),0.23,0.26,0.58,0.81,1.22,1.48
@@ -14624,6 +14676,7 @@ Gambia,"Fish, Seafood",Fat supply quantity (g/capita/day),0.95,0.98,1.17,1.83,1.
 Gambia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.05,0.1,0.08,0.06,0.07
 Gambia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.04,0.03,0.13,0.05
 Gambia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.01,0.01,0.05,0.01
+Germany,Population,Total Population - Both sexes,73900.0,79543.0,79039.0,81026.0,83583.0,82893.0
 Germany,Wheat and products,Food supply quantity (kg/capita/yr),55.17,61.18,68.1,66.89,79.6,86.91
 Germany,Wheat and products,Protein supply quantity (g/capita/day),13.51,14.81,16.09,16.4,19.94,21.62
 Germany,Wheat and products,Fat supply quantity (g/capita/day),1.67,1.83,1.98,1.99,2.42,2.61
@@ -14926,6 +14979,7 @@ Germany,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Germany,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.54,0.0,0.0,0.0
 Germany,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.23,0.02,0.01,0.01
 Germany,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.05,0.01,0.0,0.0
+Ghana,Population,Total Population - Both sexes,6867.0,8827.0,11118.0,15043.0,19293.0,24821.0
 Ghana,Wheat and products,Food supply quantity (kg/capita/yr),12.57,5.13,9.2,13.21,12.75,16.64
 Ghana,Wheat and products,Protein supply quantity (g/capita/day),2.55,1.04,1.87,2.74,2.58,3.34
 Ghana,Wheat and products,Fat supply quantity (g/capita/day),0.29,0.11,0.19,0.31,0.34,1.2
@@ -15231,6 +15285,7 @@ Ghana,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Ghana,Miscellaneous,Food supply quantity (kg/capita/yr),0.13,0.16,0.0,0.03,0.0,0.04
 Ghana,Miscellaneous,Protein supply quantity (g/capita/day),0.06,0.07,0.0,0.01,0.01,0.04
 Ghana,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.0,0.0,0.0,0.01
+Greece,Population,Total Population - Both sexes,8386.0,8834.0,9728.0,10247.0,11013.0,11119.0
 Greece,Wheat and products,Food supply quantity (kg/capita/yr),157.14,147.52,146.11,144.01,128.68,118.55
 Greece,Wheat and products,Protein supply quantity (g/capita/day),40.56,36.22,32.78,32.34,28.94,26.58
 Greece,Wheat and products,Fat supply quantity (g/capita/day),4.97,4.44,4.02,3.98,3.69,3.38
@@ -15523,6 +15578,7 @@ Greece,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Greece,Miscellaneous,Food supply quantity (kg/capita/yr),0.06,0.52,0.57,0.51,2.61,1.6
 Greece,Miscellaneous,Protein supply quantity (g/capita/day),0.03,0.22,0.24,0.25,1.13,0.71
 Greece,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.04,0.05,0.06,0.23,0.15
+Grenada,Population,Total Population - Both sexes,91.0,94.0,91.0,96.0,102.0,105.0
 Grenada,Wheat and products,Food supply quantity (kg/capita/yr),66.04,63.58,64.62,60.19,53.91,57.81
 Grenada,Wheat and products,Protein supply quantity (g/capita/day),13.46,12.85,13.13,12.13,10.56,11.72
 Grenada,Wheat and products,Fat supply quantity (g/capita/day),1.26,1.22,1.26,1.17,1.07,1.3
@@ -15793,6 +15849,7 @@ Grenada,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Grenada,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.01,0.25,0.74,0.57,0.2
 Grenada,Miscellaneous,Protein supply quantity (g/capita/day),0.06,0.17,0.21,0.74,0.46,0.13
 Grenada,Miscellaneous,Fat supply quantity (g/capita/day),0.03,0.09,0.09,0.23,0.13,0.05
+Guatemala,Population,Total Population - Both sexes,4253.0,5565.0,7177.0,9099.0,11479.0,14707.0
 Guatemala,Wheat and products,Food supply quantity (kg/capita/yr),17.62,20.49,35.85,24.9,34.46,35.05
 Guatemala,Wheat and products,Protein supply quantity (g/capita/day),4.24,5.0,8.61,5.94,8.02,8.26
 Guatemala,Wheat and products,Fat supply quantity (g/capita/day),0.45,0.53,0.9,0.64,0.83,0.93
@@ -16086,6 +16143,7 @@ Guatemala,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Guatemala,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.02,0.52,0.0,0.33,0.46
 Guatemala,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.22,0.0,0.15,0.19
 Guatemala,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.04,0.0,0.03,0.04
+Guinea,Population,Total Population - Both sexes,3633.0,4252.0,4573.0,6352.0,8895.0,11162.0
 Guinea,Wheat and products,Food supply quantity (kg/capita/yr),3.37,3.2,11.36,17.69,10.63,11.96
 Guinea,Wheat and products,Protein supply quantity (g/capita/day),0.73,0.69,2.46,3.83,2.41,2.75
 Guinea,Wheat and products,Fat supply quantity (g/capita/day),0.09,0.08,0.31,0.47,0.37,0.54
@@ -16353,6 +16411,7 @@ Guinea,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Guinea,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.03,0.06
 Guinea,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.02,0.05,0.09
 Guinea,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.02,0.03
+Guinea-Bissau,Population,Total Population - Both sexes,642.0,699.0,832.0,1041.0,1302.0,1624.0
 Guinea-Bissau,Wheat and products,Food supply quantity (kg/capita/yr),2.34,10.34,8.26,3.32,9.28,11.76
 Guinea-Bissau,Wheat and products,Protein supply quantity (g/capita/day),0.5,2.23,1.78,0.71,1.99,2.45
 Guinea-Bissau,Wheat and products,Fat supply quantity (g/capita/day),0.09,0.31,0.25,0.12,0.36,0.74
@@ -16582,6 +16641,7 @@ Guinea-Bissau,"Fish, Seafood",Fat supply quantity (g/capita/day),0.12,0.23,0.08,
 Guinea-Bissau,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.03,0.09,0.03,0.03,0.16
 Guinea-Bissau,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.05,0.02,0.01,0.11
 Guinea-Bissau,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.01,0.01,0.01,0.05
+Guyana,Population,Total Population - Both sexes,576.0,730.0,776.0,723.0,748.0,791.0
 Guyana,Wheat and products,Food supply quantity (kg/capita/yr),69.3,41.31,53.52,54.89,55.37,60.09
 Guyana,Wheat and products,Protein supply quantity (g/capita/day),14.33,8.88,11.55,11.85,11.88,12.69
 Guyana,Wheat and products,Fat supply quantity (g/capita/day),1.44,0.95,1.1,1.13,1.53,2.46
@@ -16852,6 +16912,7 @@ Guyana,"Fish, Seafood",Fat supply quantity (g/capita/day),1.1,1.23,2.38,2.8,1.69
 Guyana,Miscellaneous,Food supply quantity (kg/capita/yr),0.1,0.51,0.45,0.65,0.14,0.42
 Guyana,Miscellaneous,Protein supply quantity (g/capita/day),0.13,0.31,0.19,0.28,0.14,0.3
 Guyana,Miscellaneous,Fat supply quantity (g/capita/day),0.05,0.08,0.04,0.06,0.04,0.09
+Haiti,Population,Total Population - Both sexes,3947.0,4798.0,5822.0,7255.0,8720.0,10033.0
 Haiti,Wheat and products,Food supply quantity (kg/capita/yr),6.4,8.49,30.17,27.84,35.24,16.43
 Haiti,Wheat and products,Protein supply quantity (g/capita/day),1.63,2.17,7.37,7.08,8.49,4.1
 Haiti,Wheat and products,Fat supply quantity (g/capita/day),0.18,0.24,0.8,0.77,0.92,0.5
@@ -17134,6 +17195,7 @@ Haiti,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Haiti,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.11,0.22,0.25,0.02,0.07
 Haiti,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.05,0.12,0.12,0.04,0.04
 Haiti,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.04,0.03,0.02,0.01
+Honduras,Population,Total Population - Both sexes,2069.0,2766.0,3751.0,5042.0,6365.0,7777.0
 Honduras,Wheat and products,Food supply quantity (kg/capita/yr),11.45,17.47,19.0,23.73,30.51,37.04
 Honduras,Wheat and products,Protein supply quantity (g/capita/day),2.3,3.51,3.81,4.74,6.15,7.45
 Honduras,Wheat and products,Fat supply quantity (g/capita/day),0.24,0.36,0.41,0.51,1.78,2.75
@@ -17425,6 +17487,7 @@ Honduras,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Honduras,Miscellaneous,Food supply quantity (kg/capita/yr),0.05,0.06,0.4,0.0,0.19,0.74
 Honduras,Miscellaneous,Protein supply quantity (g/capita/day),0.05,0.04,0.18,0.03,0.19,0.56
 Honduras,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.04,0.01,0.06,0.16
+Hungary,Population,Total Population - Both sexes,10031.0,10382.0,10750.0,10370.0,10196.0,9996.0
 Hungary,Wheat and products,Food supply quantity (kg/capita/yr),163.25,165.56,140.82,113.38,99.12,104.34
 Hungary,Wheat and products,Protein supply quantity (g/capita/day),37.53,38.47,33.99,26.79,23.55,24.74
 Hungary,Wheat and products,Fat supply quantity (g/capita/day),4.57,4.68,4.14,3.26,2.9,3.06
@@ -17717,6 +17780,7 @@ Hungary,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Hungary,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.28,0.04
 Hungary,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.13,0.02
 Hungary,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.03,0.0
+Iceland,Population,Total Population - Both sexes,179.0,207.0,231.0,257.0,284.0,322.0
 Iceland,Wheat and products,Food supply quantity (kg/capita/yr),67.81,72.26,69.86,68.16,69.09,66.32
 Iceland,Wheat and products,Protein supply quantity (g/capita/day),15.0,15.64,14.83,21.99,22.72,20.55
 Iceland,Wheat and products,Fat supply quantity (g/capita/day),1.88,3.38,3.95,6.23,8.16,9.07
@@ -17979,6 +18043,7 @@ Iceland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Iceland,Miscellaneous,Food supply quantity (kg/capita/yr),0.48,0.18,1.44,0.32,0.41,0.3
 Iceland,Miscellaneous,Protein supply quantity (g/capita/day),0.26,0.2,0.95,0.55,0.71,0.79
 Iceland,Miscellaneous,Fat supply quantity (g/capita/day),0.06,0.07,0.26,0.19,0.25,0.3
+India,Population,Total Population - Both sexes,458627.0,567805.0,715105.0,886349.0,1059501.0,1221156.0
 India,Wheat and products,Food supply quantity (kg/capita/yr),27.86,36.72,45.56,60.34,62.2,58.85
 India,Wheat and products,Protein supply quantity (g/capita/day),6.94,9.14,11.34,15.03,15.49,14.66
 India,Wheat and products,Fat supply quantity (g/capita/day),1.11,1.46,1.81,2.39,2.47,2.33
@@ -18283,6 +18348,7 @@ India,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 India,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.04,0.02,0.03,0.0,0.0
 India,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.01,0.01,0.0,0.0
 India,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Indonesia,Population,Total Population - Both sexes,90860.0,116996.0,148872.0,181786.0,211970.0,243802.0
 Indonesia,Wheat and products,Food supply quantity (kg/capita/yr),1.65,2.94,8.98,11.8,15.79,23.44
 Indonesia,Wheat and products,Protein supply quantity (g/capita/day),0.31,0.56,1.72,2.26,3.03,4.5
 Indonesia,Wheat and products,Fat supply quantity (g/capita/day),0.03,0.06,0.18,0.23,0.31,0.47
@@ -18583,6 +18649,7 @@ Indonesia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Indonesia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.04
 Indonesia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 Indonesia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Iran (Islamic Republic of),Population,Total Population - Both sexes,22536.0,29382.0,40440.0,57472.0,66858.0,75424.0
 Iran (Islamic Republic of),Wheat and products,Food supply quantity (kg/capita/yr),104.02,119.25,147.29,167.19,178.88,152.67
 Iran (Islamic Republic of),Wheat and products,Protein supply quantity (g/capita/day),27.04,31.0,36.98,41.98,43.86,37.47
 Iran (Islamic Republic of),Wheat and products,Fat supply quantity (g/capita/day),4.96,5.68,6.79,7.71,8.1,6.79
@@ -18866,6 +18933,7 @@ Iran (Islamic Republic of),"Aquatic Products, Other",Fat supply quantity (g/capi
 Iran (Islamic Republic of),Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.04,0.11,0.12,0.09,0.0
 Iran (Islamic Republic of),Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.02,0.05,0.05,0.04,0.01
 Iran (Islamic Republic of),Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.01,0.01,0.0
+Iraq,Population,Total Population - Both sexes,7475.0,10256.0,14045.0,18010.0,24517.0,31837.0
 Iraq,Wheat and products,Food supply quantity (kg/capita/yr),68.33,123.62,149.23,132.81,112.28,130.15
 Iraq,Wheat and products,Protein supply quantity (g/capita/day),17.18,31.09,37.53,33.37,28.23,32.41
 Iraq,Wheat and products,Fat supply quantity (g/capita/day),3.02,5.47,6.61,6.06,5.03,6.99
@@ -19131,6 +19199,7 @@ Iraq,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Iraq,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.02,0.48,0.59,0.15
 Iraq,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.01,0.01,0.21,0.25,0.12
 Iraq,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.04,0.05,0.04
+Ireland,Population,Total Population - Both sexes,2828.0,2998.0,3453.0,3538.0,3866.0,4523.0
 Ireland,Wheat and products,Food supply quantity (kg/capita/yr),137.52,112.55,102.76,111.36,101.31,110.96
 Ireland,Wheat and products,Protein supply quantity (g/capita/day),31.07,25.39,23.14,25.15,22.44,25.83
 Ireland,Wheat and products,Fat supply quantity (g/capita/day),3.3,2.7,2.47,3.0,2.39,6.29
@@ -19421,6 +19490,7 @@ Ireland,"Aquatic Products, Other",Food supply quantity (kg/capita/yr),0.0,0.0,0.
 Ireland,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.0,0.0
 Ireland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Ireland,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Israel,Population,Total Population - Both sexes,2174.0,2937.0,3815.0,4642.0,6130.0,7542.0
 Israel,Wheat and products,Food supply quantity (kg/capita/yr),140.38,145.29,134.81,115.97,109.89,118.29
 Israel,Wheat and products,Protein supply quantity (g/capita/day),35.69,35.6,33.06,28.87,28.1,30.8
 Israel,Wheat and products,Fat supply quantity (g/capita/day),4.35,4.38,4.07,3.48,3.52,4.01
@@ -19719,6 +19789,7 @@ Israel,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Israel,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.02,0.0,0.0,0.4,0.02
 Israel,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.01,0.01,0.17,0.02
 Israel,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.03,0.0
+Italy,Population,Total Population - Both sexes,49866.0,53700.0,56376.0,56855.0,57200.0,60729.0
 Italy,Wheat and products,Food supply quantity (kg/capita/yr),163.96,179.88,165.76,151.71,152.02,144.98
 Italy,Wheat and products,Protein supply quantity (g/capita/day),37.56,39.54,36.95,34.26,34.02,32.46
 Italy,Wheat and products,Fat supply quantity (g/capita/day),3.99,4.2,3.92,3.8,3.73,3.71
@@ -20018,6 +20089,7 @@ Italy,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Italy,Miscellaneous,Food supply quantity (kg/capita/yr),0.08,0.06,0.03,0.08,0.42,0.72
 Italy,Miscellaneous,Protein supply quantity (g/capita/day),0.04,0.03,0.01,0.03,0.18,0.3
 Italy,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.0,0.01,0.03,0.06
+Jamaica,Population,Total Population - Both sexes,1652.0,1896.0,2165.0,2381.0,2605.0,2755.0
 Jamaica,Wheat and products,Food supply quantity (kg/capita/yr),67.04,82.84,71.43,65.25,65.14,67.85
 Jamaica,Wheat and products,Protein supply quantity (g/capita/day),17.34,21.41,18.46,16.86,17.03,17.75
 Jamaica,Wheat and products,Fat supply quantity (g/capita/day),1.76,2.17,1.87,1.71,1.9,2.03
@@ -20305,6 +20377,7 @@ Jamaica,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Jamaica,Miscellaneous,Food supply quantity (kg/capita/yr),0.15,0.31,0.0,0.5,0.6,0.95
 Jamaica,Miscellaneous,Protein supply quantity (g/capita/day),0.12,0.17,0.01,0.21,0.34,0.41
 Jamaica,Miscellaneous,Fat supply quantity (g/capita/day),0.03,0.04,0.0,0.04,0.09,0.08
+Japan,Population,Total Population - Both sexes,93357.0,105143.0,116822.0,122703.0,125974.0,127319.0
 Japan,Wheat and products,Food supply quantity (kg/capita/yr),33.43,40.92,43.54,43.02,41.46,45.66
 Japan,Wheat and products,Protein supply quantity (g/capita/day),6.88,8.6,9.13,9.25,9.86,10.86
 Japan,Wheat and products,Fat supply quantity (g/capita/day),0.95,1.19,1.27,1.48,1.59,1.69
@@ -20616,6 +20689,7 @@ Japan,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.13,0.14
 Japan,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.01,0.01,0.01,0.01,0.01,0.01
 Japan,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.02,0.02,0.06,0.12
 Japan,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.01,0.03,0.05
+Jordan,Population,Total Population - Both sexes,1732.0,1740.0,2366.0,3538.0,4835.0,6731.0
 Jordan,Wheat and products,Food supply quantity (kg/capita/yr),121.68,138.18,138.22,141.77,134.56,143.02
 Jordan,Wheat and products,Protein supply quantity (g/capita/day),30.56,34.68,34.73,35.67,33.85,35.99
 Jordan,Wheat and products,Fat supply quantity (g/capita/day),5.71,6.49,6.52,6.29,6.13,6.86
@@ -20911,6 +20985,7 @@ Jordan,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Jordan,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.35,0.12,0.08,0.04,0.0
 Jordan,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.14,0.09,0.03,0.03,0.06
 Jordan,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.03,0.01,0.01,0.03
+Kenya,Population,Total Population - Both sexes,8361.0,11657.0,16901.0,24237.0,32126.0,42028.0
 Kenya,Wheat and products,Food supply quantity (kg/capita/yr),7.6,14.83,17.1,20.24,27.47,34.07
 Kenya,Wheat and products,Protein supply quantity (g/capita/day),1.72,3.33,3.86,4.48,6.17,7.6
 Kenya,Wheat and products,Fat supply quantity (g/capita/day),0.2,0.41,0.46,0.6,0.76,1.12
@@ -21218,6 +21293,7 @@ Kenya,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Kenya,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.04,0.0,0.0,0.0,0.01
 Kenya,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.02,0.0,0.0,0.0,0.01
 Kenya,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Kiribati,Population,Total Population - Both sexes,34.0,45.0,56.0,72.0,84.0,99.0
 Kiribati,Wheat and products,Food supply quantity (kg/capita/yr),47.47,60.99,55.91,51.36,77.74,52.89
 Kiribati,Wheat and products,Protein supply quantity (g/capita/day),9.99,12.85,11.94,10.96,16.57,11.51
 Kiribati,Wheat and products,Fat supply quantity (g/capita/day),1.93,2.62,1.32,1.29,2.25,1.44
@@ -21428,6 +21504,7 @@ Kiribati,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Kiribati,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.27,0.0,0.0,0.28
 Kiribati,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.1,0.11,0.1,0.25
 Kiribati,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.08,0.07,0.14
+Kuwait,Population,Total Population - Both sexes,295.0,808.0,1440.0,2000.0,1981.0,3125.0
 Kuwait,Wheat and products,Food supply quantity (kg/capita/yr),98.43,82.2,81.02,76.49,86.31,97.91
 Kuwait,Wheat and products,Protein supply quantity (g/capita/day),23.56,19.6,19.39,18.45,20.71,23.72
 Kuwait,Wheat and products,Fat supply quantity (g/capita/day),3.58,3.34,3.03,2.29,3.54,4.28
@@ -21708,6 +21785,7 @@ Kuwait,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Kuwait,Miscellaneous,Food supply quantity (kg/capita/yr),0.34,0.7,1.25,0.22,1.71,1.72
 Kuwait,Miscellaneous,Protein supply quantity (g/capita/day),0.19,0.33,0.71,0.28,0.97,1.01
 Kuwait,Miscellaneous,Fat supply quantity (g/capita/day),0.05,0.07,0.18,0.06,0.24,0.26
+Lao People's Democratic Republic,Population,Total Population - Both sexes,2169.0,2759.0,3316.0,4370.0,5470.0,6521.0
 Lao People's Democratic Republic,Wheat and products,Food supply quantity (kg/capita/yr),1.02,1.77,4.19,0.85,1.64,1.92
 Lao People's Democratic Republic,Wheat and products,Protein supply quantity (g/capita/day),0.21,0.36,0.87,0.17,0.31,0.37
 Lao People's Democratic Republic,Wheat and products,Fat supply quantity (g/capita/day),0.03,0.06,0.08,0.06,0.2,0.17
@@ -21942,6 +22020,7 @@ Lao People's Democratic Republic,"Aquatic Products, Other",Fat supply quantity (
 Lao People's Democratic Republic,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.02,0.0,0.0,0.15,0.14
 Lao People's Democratic Republic,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.02,0.0,0.0,0.08,0.15
 Lao People's Democratic Republic,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.01,0.0,0.0,0.03,0.09
+Lebanon,Population,Total Population - Both sexes,1865.0,2354.0,2616.0,2752.0,3358.0,4478.0
 Lebanon,Wheat and products,Food supply quantity (kg/capita/yr),139.38,128.73,126.23,122.4,121.75,121.92
 Lebanon,Wheat and products,Protein supply quantity (g/capita/day),30.24,27.93,27.33,26.32,26.38,26.42
 Lebanon,Wheat and products,Fat supply quantity (g/capita/day),3.67,3.39,3.33,3.22,3.45,3.5
@@ -22226,6 +22305,7 @@ Lebanon,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Lebanon,Miscellaneous,Food supply quantity (kg/capita/yr),0.08,0.22,0.34,0.29,0.4,1.09
 Lebanon,Miscellaneous,Protein supply quantity (g/capita/day),0.04,0.15,0.19,0.18,0.3,0.55
 Lebanon,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.03,0.05,0.04,0.08,0.13
+Lesotho,Population,Total Population - Both sexes,866.0,1054.0,1341.0,1628.0,1872.0,2030.0
 Lesotho,Wheat and products,Food supply quantity (kg/capita/yr),49.03,71.42,50.31,37.7,44.93,44.58
 Lesotho,Wheat and products,Protein supply quantity (g/capita/day),11.82,17.22,12.08,9.03,10.83,10.74
 Lesotho,Wheat and products,Fat supply quantity (g/capita/day),1.4,2.04,1.44,1.28,1.28,1.27
@@ -22425,6 +22505,7 @@ Lesotho,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0.0
 Lesotho,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Lesotho,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.12,0.14,0.09,0.02
 Lesotho,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.1,0.1,0.06,0.0
+Liberia,Population,Total Population - Both sexes,1145.0,1458.0,1962.0,2066.0,2999.0,4080.0
 Liberia,Wheat and products,Food supply quantity (kg/capita/yr),5.24,6.81,7.13,3.43,22.62,16.73
 Liberia,Wheat and products,Protein supply quantity (g/capita/day),1.18,1.53,1.62,0.71,5.17,3.58
 Liberia,Wheat and products,Fat supply quantity (g/capita/day),0.28,0.43,0.37,0.14,1.04,1.25
@@ -22673,6 +22754,7 @@ Liberia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Liberia,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.31,1.13,1.4,0.42,0.14
 Liberia,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.13,0.47,0.59,0.18,0.11
 Liberia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.02,0.09,0.11,0.04,0.06
+Madagascar,Population,Total Population - Both sexes,5224.0,6760.0,8983.0,11898.0,16236.0,21679.0
 Madagascar,Wheat and products,Food supply quantity (kg/capita/yr),4.06,5.5,9.22,5.07,6.97,8.48
 Madagascar,Wheat and products,Protein supply quantity (g/capita/day),0.91,1.24,2.08,1.15,1.57,1.91
 Madagascar,Wheat and products,Fat supply quantity (g/capita/day),0.14,0.16,0.25,0.14,0.22,0.28
@@ -22964,6 +23046,7 @@ Madagascar,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Madagascar,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.03,0.02,0.0,0.0,0.01
 Madagascar,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.02,0.01,0.0,0.0,0.02
 Madagascar,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Malawi,Population,Total Population - Both sexes,3607.0,4666.0,6404.0,9658.0,11623.0,15458.0
 Malawi,Wheat and products,Food supply quantity (kg/capita/yr),1.62,5.46,2.55,4.7,6.29,9.51
 Malawi,Wheat and products,Protein supply quantity (g/capita/day),0.36,1.23,0.57,1.06,1.42,2.14
 Malawi,Wheat and products,Fat supply quantity (g/capita/day),0.05,0.17,0.07,0.14,0.19,0.27
@@ -23237,6 +23320,7 @@ Malawi,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Malawi,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.01,0.01,0.02
 Malawi,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.01,0.0,0.01,0.01,0.01
 Malawi,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Malaysia,Population,Total Population - Both sexes,8429.0,11182.0,14180.0,18710.0,23926.0,28759.0
 Malaysia,Wheat and products,Food supply quantity (kg/capita/yr),27.46,28.79,33.07,39.21,37.45,52.37
 Malaysia,Wheat and products,Protein supply quantity (g/capita/day),4.56,5.22,6.04,7.28,7.5,10.41
 Malaysia,Wheat and products,Fat supply quantity (g/capita/day),0.57,0.75,0.89,1.12,1.22,1.36
@@ -23544,6 +23628,7 @@ Malaysia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Malaysia,Miscellaneous,Food supply quantity (kg/capita/yr),0.49,0.48,0.02,0.64,0.31,1.46
 Malaysia,Miscellaneous,Protein supply quantity (g/capita/day),0.2,0.2,0.01,0.27,0.15,0.61
 Malaysia,Miscellaneous,Fat supply quantity (g/capita/day),0.04,0.04,0.0,0.05,0.03,0.12
+Maldives,Population,Total Population - Both sexes,91.0,118.0,159.0,222.0,278.0,332.0
 Maldives,Wheat and products,Food supply quantity (kg/capita/yr),16.24,15.35,33.06,58.25,70.68,77.39
 Maldives,Wheat and products,Protein supply quantity (g/capita/day),2.77,2.6,5.6,9.89,11.9,13.14
 Maldives,Wheat and products,Fat supply quantity (g/capita/day),0.33,0.3,0.65,1.15,2.72,3.0
@@ -23810,6 +23895,7 @@ Maldives,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Maldives,Miscellaneous,Food supply quantity (kg/capita/yr),1.42,1.36,1.26,0.97,0.49,0.45
 Maldives,Miscellaneous,Protein supply quantity (g/capita/day),0.6,0.56,0.52,0.41,0.36,0.59
 Maldives,Miscellaneous,Fat supply quantity (g/capita/day),0.12,0.12,0.1,0.07,0.11,0.2
+Mali,Population,Total Population - Both sexes,5152.0,5801.0,6866.0,8130.0,10563.0,14417.0
 Mali,Wheat and products,Food supply quantity (kg/capita/yr),1.49,3.12,4.68,4.82,7.82,11.43
 Mali,Wheat and products,Protein supply quantity (g/capita/day),0.32,0.67,1.01,1.04,1.88,2.58
 Mali,Wheat and products,Fat supply quantity (g/capita/day),0.06,0.15,0.2,0.21,0.4,0.68
@@ -24090,6 +24176,7 @@ Mali,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Mali,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.01,0.02,0.03,0.02
 Mali,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.02,0.05,0.06
 Mali,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.02,0.02
+Malta,Population,Total Population - Both sexes,313.0,305.0,335.0,380.0,409.0,426.0
 Malta,Wheat and products,Food supply quantity (kg/capita/yr),160.73,161.63,150.5,129.6,142.59,144.51
 Malta,Wheat and products,Protein supply quantity (g/capita/day),39.27,37.38,34.66,30.35,31.6,30.03
 Malta,Wheat and products,Fat supply quantity (g/capita/day),6.17,6.43,7.18,4.03,6.68,10.28
@@ -24362,6 +24449,7 @@ Malta,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Malta,Miscellaneous,Food supply quantity (kg/capita/yr),0.42,1.11,1.67,0.13,0.76,0.85
 Malta,Miscellaneous,Protein supply quantity (g/capita/day),0.28,0.49,0.7,0.05,0.31,0.35
 Malta,Miscellaneous,Fat supply quantity (g/capita/day),0.08,0.1,0.13,0.01,0.06,0.06
+Mauritania,Population,Total Population - Both sexes,883.0,1183.0,1579.0,2081.0,2791.0,3703.0
 Mauritania,Wheat and products,Food supply quantity (kg/capita/yr),12.56,13.97,44.49,93.79,111.15,98.57
 Mauritania,Wheat and products,Protein supply quantity (g/capita/day),3.03,3.37,10.66,22.58,26.92,23.55
 Mauritania,Wheat and products,Fat supply quantity (g/capita/day),0.36,0.4,1.54,2.8,3.38,3.88
@@ -24642,6 +24730,7 @@ Mauritania,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Mauritania,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.03,0.04,0.04
 Mauritania,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.04,0.04,0.07
 Mauritania,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.01,0.03
+Mauritius,Population,Total Population - Both sexes,679.0,840.0,978.0,1068.0,1193.0,1235.0
 Mauritius,Wheat and products,Food supply quantity (kg/capita/yr),44.18,74.49,74.9,80.96,97.35,111.96
 Mauritius,Wheat and products,Protein supply quantity (g/capita/day),9.34,15.98,16.15,17.84,20.63,24.57
 Mauritius,Wheat and products,Fat supply quantity (g/capita/day),1.02,1.66,1.73,1.97,2.71,4.37
@@ -24930,6 +25019,7 @@ Mauritius,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Mauritius,Miscellaneous,Food supply quantity (kg/capita/yr),0.31,0.28,0.36,0.37,0.72,0.74
 Mauritius,Miscellaneous,Protein supply quantity (g/capita/day),0.13,0.13,0.18,0.23,0.42,0.42
 Mauritius,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.03,0.04,0.06,0.11,0.1
+Mexico,Population,Total Population - Both sexes,39939.0,54669.0,71916.0,87890.0,105340.0,119361.0
 Mexico,Wheat and products,Food supply quantity (kg/capita/yr),27.74,34.2,47.38,41.26,36.12,34.54
 Mexico,Wheat and products,Protein supply quantity (g/capita/day),5.68,7.1,9.33,7.99,7.14,6.74
 Mexico,Wheat and products,Fat supply quantity (g/capita/day),0.62,0.77,1.02,0.9,0.89,0.84
@@ -25241,6 +25331,7 @@ Mexico,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Mexico,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.01,0.01,0.0,0.0,0.0
 Mexico,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.01,0.01,0.0,0.03,0.01
 Mexico,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.0
+Mongolia,Population,Total Population - Both sexes,982.0,1317.0,1733.0,2218.0,2420.0,2754.0
 Mongolia,Wheat and products,Food supply quantity (kg/capita/yr),116.09,131.07,136.41,116.47,123.16,127.76
 Mongolia,Wheat and products,Protein supply quantity (g/capita/day),21.36,24.09,25.09,21.01,23.62,24.4
 Mongolia,Wheat and products,Fat supply quantity (g/capita/day),4.38,5.75,5.23,3.58,4.54,5.75
@@ -25498,6 +25589,7 @@ Mongolia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Mongolia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.08,0.24
 Mongolia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.1,0.38
 Mongolia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.03,0.14
+Morocco,Population,Total Population - Both sexes,12687.0,16267.0,20275.0,25128.0,29021.0,32059.0
 Morocco,Wheat and products,Food supply quantity (kg/capita/yr),122.75,130.65,149.42,174.02,180.3,177.62
 Morocco,Wheat and products,Protein supply quantity (g/capita/day),29.06,30.93,35.37,41.2,42.68,42.06
 Morocco,Wheat and products,Fat supply quantity (g/capita/day),3.77,4.01,4.58,5.34,5.53,5.45
@@ -25793,6 +25885,7 @@ Morocco,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Morocco,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.03,0.04,0.05,0.01,0.1
 Morocco,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.02,0.03,0.03,0.03,0.07
 Morocco,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.01,0.01,0.02
+Mozambique,Population,Total Population - Both sexes,7800.0,9666.0,12439.0,13894.0,18786.0,24581.0
 Mozambique,Wheat and products,Food supply quantity (kg/capita/yr),5.15,9.95,12.54,12.44,13.3,18.68
 Mozambique,Wheat and products,Protein supply quantity (g/capita/day),1.14,2.19,2.77,2.75,2.93,4.13
 Mozambique,Wheat and products,Fat supply quantity (g/capita/day),0.13,0.25,0.31,0.31,0.33,0.47
@@ -26078,6 +26171,7 @@ Mozambique,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,
 Mozambique,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.06,0.1,0.07,0.07,0.07
 Mozambique,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.03,0.04,0.03,0.03,0.06
 Mozambique,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.01,0.01,0.01,0.02
+Myanmar,Population,Total Population - Both sexes,21962.0,27837.0,35289.0,42782.0,48894.0,52351.0
 Myanmar,Wheat and products,Food supply quantity (kg/capita/yr),1.96,2.67,3.25,3.0,3.85,6.15
 Myanmar,Wheat and products,Protein supply quantity (g/capita/day),0.37,0.5,0.61,0.56,0.72,1.15
 Myanmar,Wheat and products,Fat supply quantity (g/capita/day),0.06,0.08,0.09,0.09,0.13,0.22
@@ -26350,6 +26444,7 @@ Myanmar,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Myanmar,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.0,0.0,0.03,0.02,0.03
 Myanmar,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.0,0.0,0.01,0.03,0.07
 Myanmar,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.02
+Namibia,Population,Total Population - Both sexes,617.0,804.0,1034.0,1466.0,1931.0,2218.0
 Namibia,Wheat and products,Food supply quantity (kg/capita/yr),11.64,20.88,24.75,15.54,41.9,32.22
 Namibia,Wheat and products,Protein supply quantity (g/capita/day),2.63,4.72,5.6,3.51,9.39,7.03
 Namibia,Wheat and products,Fat supply quantity (g/capita/day),0.31,0.56,0.66,0.41,1.62,1.88
@@ -26641,6 +26736,7 @@ Namibia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Namibia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.11,0.0
 Namibia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.47,0.01
 Namibia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.19,0.0
+Nepal,Population,Total Population - Both sexes,9710.0,11806.0,14718.0,18569.0,23655.0,27156.0
 Nepal,Wheat and products,Food supply quantity (kg/capita/yr),11.94,20.81,27.82,36.9,40.79,49.22
 Nepal,Wheat and products,Protein supply quantity (g/capita/day),2.97,4.9,6.54,8.8,9.16,11.13
 Nepal,Wheat and products,Fat supply quantity (g/capita/day),0.47,0.78,1.04,1.41,1.51,2.11
@@ -26945,6 +27041,7 @@ Nepal,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Nepal,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.35,0.42,0.02
 Nepal,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.15,0.18,0.02
 Nepal,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.03,0.03,0.01
+Netherlands,Population,Total Population - Both sexes,11576.0,13096.0,14165.0,14993.0,15950.0,16666.0
 Netherlands,Wheat and products,Food supply quantity (kg/capita/yr),95.61,66.63,70.78,60.83,59.86,73.13
 Netherlands,Wheat and products,Protein supply quantity (g/capita/day),23.24,16.86,17.25,15.34,15.09,18.44
 Netherlands,Wheat and products,Fat supply quantity (g/capita/day),2.84,2.06,2.1,1.87,1.85,2.32
@@ -27238,6 +27335,7 @@ Netherlands,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0
 Netherlands,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Netherlands,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.01,0.0,0.0,0.0,0.01
 Netherlands,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+New Caledonia,Population,Total Population - Both sexes,81.0,109.0,144.0,172.0,214.0,250.0
 New Caledonia,Wheat and products,Food supply quantity (kg/capita/yr),78.36,85.23,86.08,81.45,82.13,78.78
 New Caledonia,Wheat and products,Protein supply quantity (g/capita/day),15.66,17.09,17.24,16.01,17.49,17.12
 New Caledonia,Wheat and products,Fat supply quantity (g/capita/day),4.33,5.05,4.93,6.08,7.85,8.45
@@ -27514,6 +27612,7 @@ New Caledonia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0
 New Caledonia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,1.09,0.99,1.06,1.51,1.96
 New Caledonia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.45,0.42,0.45,1.25,1.56
 New Caledonia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.08,0.08,0.08,0.37,0.46
+New Zealand,Population,Total Population - Both sexes,2424.0,2872.0,3165.0,3446.0,3907.0,4414.0
 New Zealand,Wheat and products,Food supply quantity (kg/capita/yr),84.93,72.62,76.5,72.19,74.6,75.65
 New Zealand,Wheat and products,Protein supply quantity (g/capita/day),20.06,17.18,18.09,17.38,17.61,17.78
 New Zealand,Wheat and products,Fat supply quantity (g/capita/day),2.04,1.75,1.84,2.09,1.97,1.89
@@ -27812,6 +27911,7 @@ New Zealand,"Aquatic Products, Other",Food supply quantity (kg/capita/yr),0.0,0.
 New Zealand,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.02,0.01
 New Zealand,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 New Zealand,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Nicaragua,Population,Total Population - Both sexes,1830.0,2474.0,3344.0,4237.0,5177.0,5905.0
 Nicaragua,Wheat and products,Food supply quantity (kg/capita/yr),12.45,14.91,17.26,23.19,23.7,27.34
 Nicaragua,Wheat and products,Protein supply quantity (g/capita/day),2.38,2.97,3.44,4.64,4.74,5.51
 Nicaragua,Wheat and products,Fat supply quantity (g/capita/day),0.25,0.31,0.36,0.51,0.98,1.49
@@ -28104,6 +28204,7 @@ Nicaragua,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Nicaragua,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.02,0.36,0.05,0.48,1.2
 Nicaragua,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.03,0.17,0.08,0.26,0.67
 Nicaragua,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.04,0.03,0.06,0.17
+Niger,Population,Total Population - Both sexes,3429.0,4537.0,5999.0,8004.0,11396.0,16511.0
 Niger,Wheat and products,Food supply quantity (kg/capita/yr),1.0,1.72,6.93,7.29,6.33,3.65
 Niger,Wheat and products,Protein supply quantity (g/capita/day),0.21,0.36,1.44,1.55,1.34,0.77
 Niger,Wheat and products,Fat supply quantity (g/capita/day),0.02,0.04,0.3,0.17,0.17,0.17
@@ -28378,6 +28479,7 @@ Niger,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Niger,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.0,0.01,0.01,0.07
 Niger,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.02,0.07,0.07
 Niger,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.02,0.02
+Nigeria,Population,Total Population - Both sexes,46144.0,57454.0,75730.0,98085.0,126005.0,164193.0
 Nigeria,Wheat and products,Food supply quantity (kg/capita/yr),2.44,7.21,16.18,5.69,16.99,24.46
 Nigeria,Wheat and products,Protein supply quantity (g/capita/day),0.49,1.46,3.29,1.15,3.45,5.07
 Nigeria,Wheat and products,Fat supply quantity (g/capita/day),0.07,0.15,0.32,0.13,0.34,0.53
@@ -28676,6 +28778,7 @@ Nigeria,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Nigeria,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.05,0.25,0.02,0.02,0.04
 Nigeria,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.1,0.03,0.01,0.03
 Nigeria,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.02,0.01,0.0,0.01
+Norway,Population,Total Population - Both sexes,3611.0,3905.0,4095.0,4262.0,4515.0,4944.0
 Norway,Wheat and products,Food supply quantity (kg/capita/yr),84.64,74.6,94.11,91.31,101.77,99.35
 Norway,Wheat and products,Protein supply quantity (g/capita/day),21.31,18.62,23.53,22.62,25.05,24.12
 Norway,Wheat and products,Fat supply quantity (g/capita/day),2.6,2.42,3.02,3.12,3.68,4.48
@@ -28968,6 +29071,7 @@ Norway,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Norway,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.05,0.29,0.0,0.03,0.5
 Norway,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.04,0.19,0.07,0.18,2.57
 Norway,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.05,0.03,0.07,1.02
+Pakistan,Population,Total Population - Both sexes,46674.0,60841.0,82733.0,114229.0,146857.0,176166.0
 Pakistan,Wheat and products,Food supply quantity (kg/capita/yr),90.0,113.62,109.97,114.64,115.19,113.8
 Pakistan,Wheat and products,Protein supply quantity (g/capita/day),19.76,24.94,24.14,25.16,23.88,23.59
 Pakistan,Wheat and products,Fat supply quantity (g/capita/day),3.78,4.77,4.62,4.82,4.57,4.51
@@ -29275,6 +29379,7 @@ Pakistan,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Pakistan,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.02,0.01,0.03
 Pakistan,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.01,0.01
 Pakistan,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Panama,Population,Total Population - Both sexes,1170.0,1570.0,2038.0,2539.0,3116.0,3740.0
 Panama,Wheat and products,Food supply quantity (kg/capita/yr),32.1,36.77,31.5,33.0,32.97,37.59
 Panama,Wheat and products,Protein supply quantity (g/capita/day),6.47,7.67,6.58,7.13,6.77,8.14
 Panama,Wheat and products,Fat supply quantity (g/capita/day),0.62,0.83,0.64,0.79,1.7,3.14
@@ -29565,6 +29670,7 @@ Panama,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Panama,Miscellaneous,Food supply quantity (kg/capita/yr),0.07,0.3,1.07,0.28,0.88,1.48
 Panama,Miscellaneous,Protein supply quantity (g/capita/day),0.06,0.14,0.45,0.13,0.46,0.91
 Panama,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.03,0.09,0.03,0.11,0.24
+Paraguay,Population,Total Population - Both sexes,1958.0,2547.0,3292.0,4360.0,5461.0,6573.0
 Paraguay,Wheat and products,Food supply quantity (kg/capita/yr),44.29,32.59,41.56,22.41,24.05,31.52
 Paraguay,Wheat and products,Protein supply quantity (g/capita/day),8.78,6.47,8.0,4.23,4.48,5.7
 Paraguay,Wheat and products,Fat supply quantity (g/capita/day),0.91,0.67,0.86,0.89,1.31,1.99
@@ -29845,6 +29951,7 @@ Paraguay,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Paraguay,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.01,0.06,0.24,0.24
 Paraguay,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.05,0.13,0.15
 Paraguay,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.03,0.04
+Peru,Population,Total Population - Both sexes,10218.0,13569.0,17766.0,22213.0,26372.0,29615.0
 Peru,Wheat and products,Food supply quantity (kg/capita/yr),54.08,49.59,56.6,42.49,56.06,54.31
 Peru,Wheat and products,Protein supply quantity (g/capita/day),13.11,12.73,11.81,9.64,10.79,10.55
 Peru,Wheat and products,Fat supply quantity (g/capita/day),1.33,1.29,2.03,1.68,1.74,1.69
@@ -30147,6 +30254,7 @@ Peru,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Peru,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.01,0.06,0.02,0.05,0.19
 Peru,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.0,0.03,0.02,0.04,0.09
 Peru,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.01,0.01,0.02
+Philippines,Population,Total Population - Both sexes,27163.0,36852.0,48716.0,63476.0,79298.0,95053.0
 Philippines,Wheat and products,Food supply quantity (kg/capita/yr),13.05,16.56,16.68,29.16,30.65,21.16
 Philippines,Wheat and products,Protein supply quantity (g/capita/day),2.62,3.32,3.35,5.88,6.22,4.25
 Philippines,Wheat and products,Fat supply quantity (g/capita/day),0.29,0.37,0.37,0.66,0.71,0.49
@@ -30456,6 +30564,7 @@ Philippines,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0
 Philippines,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.04,0.02,0.0,0.16,0.14
 Philippines,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.01,0.0,0.11,0.13
 Philippines,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.03,0.04
+Poland,Population,Total Population - Both sexes,30043.0,32886.0,35990.0,38255.0,38315.0,38205.0
 Poland,Wheat and products,Food supply quantity (kg/capita/yr),96.19,111.54,124.96,107.69,109.7,109.43
 Poland,Wheat and products,Protein supply quantity (g/capita/day),21.25,23.64,26.97,26.2,27.31,27.77
 Poland,Wheat and products,Fat supply quantity (g/capita/day),2.26,2.51,2.86,3.05,2.98,3.19
@@ -30755,6 +30864,7 @@ Poland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Poland,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.0
 Poland,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.02,0.0
 Poland,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.0
+Portugal,Population,Total Population - Both sexes,8899.0,8718.0,9834.0,9920.0,10351.0,10598.0
 Portugal,Wheat and products,Food supply quantity (kg/capita/yr),63.2,75.0,77.84,95.32,97.53,92.51
 Portugal,Wheat and products,Protein supply quantity (g/capita/day),15.93,18.9,19.62,23.99,22.76,21.37
 Portugal,Wheat and products,Fat supply quantity (g/capita/day),1.94,2.3,2.4,3.35,4.41,4.67
@@ -31050,6 +31160,7 @@ Portugal,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Portugal,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.0,0.0,1.23,0.19
 Portugal,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.0,0.0,0.54,0.22
 Portugal,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.0,0.0,0.11,0.07
+Republic of Korea,Population,Total Population - Both sexes,25809.0,32088.0,38046.0,43364.0,46193.0,48733.0
 Republic of Korea,Wheat and products,Food supply quantity (kg/capita/yr),11.66,46.98,47.24,45.92,51.75,49.74
 Republic of Korea,Wheat and products,Protein supply quantity (g/capita/day),2.45,10.89,10.58,10.13,11.36,11.6
 Republic of Korea,Wheat and products,Fat supply quantity (g/capita/day),0.34,1.42,1.43,1.39,1.57,1.61
@@ -31354,6 +31465,7 @@ Republic of Korea,"Aquatic Products, Other",Protein supply quantity (g/capita/da
 Republic of Korea,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.05,0.05,0.04,0.09
 Republic of Korea,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 Republic of Korea,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Romania,Population,Total Population - Both sexes,18587.0,20583.0,22525.0,23356.0,22310.0,21809.0
 Romania,Wheat and products,Food supply quantity (kg/capita/yr),167.32,151.52,138.6,110.03,146.52,133.09
 Romania,Wheat and products,Protein supply quantity (g/capita/day),39.54,35.8,32.75,27.03,34.59,31.37
 Romania,Wheat and products,Fat supply quantity (g/capita/day),4.81,4.36,3.99,3.36,4.41,4.46
@@ -31638,6 +31750,7 @@ Romania,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Romania,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.05,0.21
 Romania,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.08,0.2
 Romania,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.03,0.06
+Rwanda,Population,Total Population - Both sexes,2996.0,3868.0,5314.0,6974.0,8760.0,11144.0
 Rwanda,Wheat and products,Food supply quantity (kg/capita/yr),0.33,1.59,1.79,3.52,2.36,13.84
 Rwanda,Wheat and products,Protein supply quantity (g/capita/day),0.07,0.36,0.41,0.81,0.53,3.1
 Rwanda,Wheat and products,Fat supply quantity (g/capita/day),0.01,0.04,0.05,0.1,0.07,0.48
@@ -31906,6 +32019,7 @@ Rwanda,"Fish, Seafood",Fat supply quantity (g/capita/day),0.01,0.02,0.02,0.04,0.
 Rwanda,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.01,0.01,0.02,0.01
 Rwanda,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.01,0.02
 Rwanda,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Saint Kitts and Nevis,Population,Total Population - Both sexes,51.0,44.0,43.0,41.0,46.0,53.0
 Saint Kitts and Nevis,Wheat and products,Food supply quantity (kg/capita/yr),64.3,65.25,51.3,75.09,56.38,57.16
 Saint Kitts and Nevis,Wheat and products,Protein supply quantity (g/capita/day),13.7,13.76,11.09,15.9,11.73,11.89
 Saint Kitts and Nevis,Wheat and products,Fat supply quantity (g/capita/day),1.88,2.55,1.34,2.67,2.8,2.79
@@ -32140,6 +32254,7 @@ Saint Kitts and Nevis,"Aquatic Products, Other",Fat supply quantity (g/capita/da
 Saint Kitts and Nevis,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,1.0,2.2,3.0,1.74
 Saint Kitts and Nevis,Miscellaneous,Protein supply quantity (g/capita/day),0.05,0.06,0.7,1.74,2.38,1.91
 Saint Kitts and Nevis,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.06,0.19,0.53,0.71,0.67
+Saint Lucia,Population,Total Population - Both sexes,91.0,105.0,120.0,140.0,159.0,179.0
 Saint Lucia,Wheat and products,Food supply quantity (kg/capita/yr),65.16,70.74,77.81,91.13,86.22,89.86
 Saint Lucia,Wheat and products,Protein supply quantity (g/capita/day),13.4,14.48,15.94,18.53,17.64,18.41
 Saint Lucia,Wheat and products,Fat supply quantity (g/capita/day),1.29,1.38,1.53,1.82,2.02,2.08
@@ -32406,6 +32521,7 @@ Saint Lucia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0
 Saint Lucia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,3.28,0.53,0.17
 Saint Lucia,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.11,1.62,0.48,0.6
 Saint Lucia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.05,0.35,0.14,0.23
+Saint Vincent and the Grenadines,Population,Total Population - Both sexes,82.0,91.0,101.0,108.0,108.0,109.0
 Saint Vincent and the Grenadines,Wheat and products,Food supply quantity (kg/capita/yr),67.47,75.35,104.76,33.04,74.17,72.21
 Saint Vincent and the Grenadines,Wheat and products,Protein supply quantity (g/capita/day),14.43,16.08,22.46,7.18,15.88,15.51
 Saint Vincent and the Grenadines,Wheat and products,Fat supply quantity (g/capita/day),1.5,1.69,2.31,0.74,2.08,3.52
@@ -32659,6 +32775,7 @@ Saint Vincent and the Grenadines,"Aquatic Products, Other",Fat supply quantity (
 Saint Vincent and the Grenadines,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.19
 Saint Vincent and the Grenadines,Miscellaneous,Protein supply quantity (g/capita/day),0.1,0.06,0.14,0.36,0.18,0.88
 Saint Vincent and the Grenadines,Miscellaneous,Fat supply quantity (g/capita/day),0.03,0.03,0.05,0.15,0.08,0.35
+Samoa,Population,Total Population - Both sexes,112.0,145.0,156.0,164.0,176.0,187.0
 Samoa,Wheat and products,Food supply quantity (kg/capita/yr),31.47,31.67,30.49,37.13,49.7,55.88
 Samoa,Wheat and products,Protein supply quantity (g/capita/day),6.29,6.5,6.29,7.7,10.2,11.22
 Samoa,Wheat and products,Fat supply quantity (g/capita/day),1.74,0.94,0.77,0.95,1.62,3.03
@@ -32889,6 +33006,7 @@ Samoa,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Samoa,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.28,0.16,0.0,0.23,0.26
 Samoa,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.11,0.07,0.1,0.3,0.44
 Samoa,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.02,0.02,0.03,0.11,0.15
+Sao Tome and Principe,Population,Total Population - Both sexes,65.0,76.0,97.0,120.0,142.0,183.0
 Sao Tome and Principe,Wheat and products,Food supply quantity (kg/capita/yr),30.51,32.93,54.98,59.93,51.19,52.15
 Sao Tome and Principe,Wheat and products,Protein supply quantity (g/capita/day),6.58,7.1,11.92,12.97,10.96,11.15
 Sao Tome and Principe,Wheat and products,Fat supply quantity (g/capita/day),0.93,1.01,1.41,1.6,1.91,2.05
@@ -33109,6 +33227,7 @@ Sao Tome and Principe,"Fish, Seafood",Fat supply quantity (g/capita/day),0.65,0.
 Sao Tome and Principe,Miscellaneous,Food supply quantity (kg/capita/yr),0.12,0.12,0.0,0.26,0.11,0.13
 Sao Tome and Principe,Miscellaneous,Protein supply quantity (g/capita/day),0.04,0.04,0.0,0.14,0.1,0.15
 Sao Tome and Principe,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.02,0.02,0.06
+Saudi Arabia,Population,Total Population - Both sexes,4203.0,6060.0,10485.0,16740.0,20892.0,27762.0
 Saudi Arabia,Wheat and products,Food supply quantity (kg/capita/yr),37.36,47.36,90.36,127.19,87.67,86.51
 Saudi Arabia,Wheat and products,Protein supply quantity (g/capita/day),9.36,11.83,23.7,33.81,23.26,23.07
 Saudi Arabia,Wheat and products,Fat supply quantity (g/capita/day),1.79,2.45,5.8,6.63,4.84,4.24
@@ -33416,6 +33535,7 @@ Saudi Arabia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.
 Saudi Arabia,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.02,0.51,0.45,0.72,1.3
 Saudi Arabia,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.04,0.45,0.38,0.51,1.44
 Saudi Arabia,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.22,0.14,0.22,1.14
+Senegal,Population,Total Population - Both sexes,3266.0,4349.0,5724.0,7750.0,10119.0,13331.0
 Senegal,Wheat and products,Food supply quantity (kg/capita/yr),16.33,22.69,21.02,26.15,28.32,32.88
 Senegal,Wheat and products,Protein supply quantity (g/capita/day),3.52,4.93,4.59,5.67,6.12,7.58
 Senegal,Wheat and products,Fat supply quantity (g/capita/day),0.87,1.09,0.88,1.28,1.55,1.62
@@ -33702,6 +33822,7 @@ Senegal,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Senegal,Miscellaneous,Food supply quantity (kg/capita/yr),0.06,0.04,0.0,0.05,0.02,0.07
 Senegal,Miscellaneous,Protein supply quantity (g/capita/day),0.04,0.03,0.02,0.04,0.05,0.03
 Senegal,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.01,0.01,0.02,0.01
+Sierra Leone,Population,Total Population - Both sexes,2189.0,2583.0,3256.0,4053.0,4296.0,5865.0
 Sierra Leone,Wheat and products,Food supply quantity (kg/capita/yr),6.93,11.55,7.16,9.18,14.23,11.92
 Sierra Leone,Wheat and products,Protein supply quantity (g/capita/day),1.48,2.61,1.62,2.18,3.51,2.82
 Sierra Leone,Wheat and products,Fat supply quantity (g/capita/day),0.26,0.32,0.19,0.29,0.56,0.62
@@ -33963,6 +34084,7 @@ Sierra Leone,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.
 Sierra Leone,Miscellaneous,Food supply quantity (kg/capita/yr),0.14,0.15,0.03,0.06,0.05,0.07
 Sierra Leone,Miscellaneous,Protein supply quantity (g/capita/day),0.09,0.08,0.03,0.03,0.03,0.05
 Sierra Leone,Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.02,0.01,0.01,0.01,0.01
+Solomon Islands,Population,Total Population - Both sexes,121.0,166.0,238.0,321.0,424.0,538.0
 Solomon Islands,Wheat and products,Food supply quantity (kg/capita/yr),14.48,18.95,18.58,18.16,20.64,38.49
 Solomon Islands,Wheat and products,Protein supply quantity (g/capita/day),2.99,3.73,3.76,3.79,4.34,7.8
 Solomon Islands,Wheat and products,Fat supply quantity (g/capita/day),0.38,0.81,0.79,0.51,0.48,1.73
@@ -34195,6 +34317,7 @@ Solomon Islands,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0
 Solomon Islands,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.03
 Solomon Islands,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.09,0.18
 Solomon Islands,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.04,0.07
+South Africa,Population,Total Population - Both sexes,17850.0,23107.0,29829.0,37694.0,45513.0,51949.0
 South Africa,Wheat and products,Food supply quantity (kg/capita/yr),49.19,54.24,54.1,55.62,59.82,60.46
 South Africa,Wheat and products,Protein supply quantity (g/capita/day),12.62,13.81,13.85,14.23,15.3,15.45
 South Africa,Wheat and products,Fat supply quantity (g/capita/day),1.69,1.85,1.85,1.92,2.07,2.1
@@ -34495,6 +34618,7 @@ South Africa,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.
 South Africa,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.05,0.01,0.01,0.02,0.02
 South Africa,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.03,0.0,0.01,0.02,0.01
 South Africa,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.0,0.0,0.0,0.0
+Spain,Population,Total Population - Both sexes,30737.0,34169.0,37755.0,38973.0,40757.0,46514.0
 Spain,Wheat and products,Food supply quantity (kg/capita/yr),133.43,99.82,90.25,93.01,88.06,92.97
 Spain,Wheat and products,Protein supply quantity (g/capita/day),31.53,23.59,21.1,21.78,20.66,21.93
 Spain,Wheat and products,Fat supply quantity (g/capita/day),3.84,2.87,2.57,2.67,2.59,2.92
@@ -34799,6 +34923,7 @@ Spain,"Aquatic Products, Other",Protein supply quantity (g/capita/day),0.0,0.0,0
 Spain,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 Spain,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.01,0.01,0.0,0.0,0.0
 Spain,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Sri Lanka,Population,Total Population - Both sexes,10128.0,12747.0,15270.0,17533.0,19037.0,20926.0
 Sri Lanka,Wheat and products,Food supply quantity (kg/capita/yr),23.08,37.49,33.93,40.08,46.13,38.04
 Sri Lanka,Wheat and products,Protein supply quantity (g/capita/day),5.0,8.13,7.36,8.73,10.1,8.36
 Sri Lanka,Wheat and products,Fat supply quantity (g/capita/day),0.41,0.67,0.6,0.73,0.86,0.73
@@ -35099,6 +35224,7 @@ Sri Lanka,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Sri Lanka,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.06,0.07,0.0,0.02,0.07
 Sri Lanka,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.02,0.04,0.05,0.02,0.03
 Sri Lanka,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.02,0.01,0.01
+Sudan (former),Population,Total Population - Both sexes,11838.0,15186.0,20751.0,27160.0,35002.0,43552.0
 Sudan (former),Wheat and products,Food supply quantity (kg/capita/yr),9.69,19.38,17.83,34.91,29.7,35.75
 Sudan (former),Wheat and products,Protein supply quantity (g/capita/day),2.48,4.99,4.59,8.98,7.64,9.2
 Sudan (former),Wheat and products,Fat supply quantity (g/capita/day),0.48,0.88,0.82,1.59,1.36,1.7
@@ -35388,6 +35514,7 @@ Sudan (former),"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,
 Sudan (former),Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.02
 Sudan (former),Miscellaneous,Protein supply quantity (g/capita/day),0.05,0.03,0.63,1.33,1.21,1.38
 Sudan (former),Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Suriname,Population,Total Population - Both sexes,298.0,374.0,367.0,413.0,473.0,530.0
 Suriname,Wheat and products,Food supply quantity (kg/capita/yr),46.13,54.46,59.42,54.96,49.67,59.94
 Suriname,Wheat and products,Protein supply quantity (g/capita/day),9.11,10.78,11.74,10.95,9.81,11.83
 Suriname,Wheat and products,Fat supply quantity (g/capita/day),1.18,1.71,1.77,1.59,2.07,3.76
@@ -35650,6 +35777,7 @@ Suriname,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Suriname,Miscellaneous,Food supply quantity (kg/capita/yr),0.2,0.46,0.68,0.21,0.47,0.5
 Suriname,Miscellaneous,Protein supply quantity (g/capita/day),0.13,0.34,0.5,0.09,0.28,0.72
 Suriname,Miscellaneous,Fat supply quantity (g/capita/day),0.04,0.1,0.14,0.02,0.07,0.26
+Swaziland,Population,Total Population - Both sexes,358.0,459.0,621.0,887.0,1075.0,1212.0
 Swaziland,Wheat and products,Food supply quantity (kg/capita/yr),0.0,1.59,36.2,50.01,33.37,45.23
 Swaziland,Wheat and products,Protein supply quantity (g/capita/day),0.0,0.38,8.73,12.06,8.05,10.55
 Swaziland,Wheat and products,Fat supply quantity (g/capita/day),0.0,0.05,1.03,1.42,1.48,2.29
@@ -35932,6 +36060,7 @@ Swaziland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0
 Swaziland,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.03,0.01
 Swaziland,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.32,0.0
 Swaziland,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.13,0.0
+Sweden,Population,Total Population - Both sexes,7527.0,8090.0,8320.0,8617.0,8888.0,9449.0
 Sweden,Wheat and products,Food supply quantity (kg/capita/yr),54.9,56.08,61.9,60.08,81.82,76.13
 Sweden,Wheat and products,Protein supply quantity (g/capita/day),13.38,14.15,14.3,14.67,19.33,18.01
 Sweden,Wheat and products,Fat supply quantity (g/capita/day),1.97,2.08,2.1,2.73,2.56,2.51
@@ -36234,6 +36363,7 @@ Sweden,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Sweden,Miscellaneous,Food supply quantity (kg/capita/yr),0.03,0.02,0.0,0.0,0.0,0.29
 Sweden,Miscellaneous,Protein supply quantity (g/capita/day),0.05,0.14,0.11,0.1,0.16,0.36
 Sweden,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.04,0.03,0.04,0.07,0.12
+Switzerland,Population,Total Population - Both sexes,5393.0,6222.0,6316.0,6740.0,7201.0,7915.0
 Switzerland,Wheat and products,Food supply quantity (kg/capita/yr),120.31,90.16,88.27,90.75,91.41,97.44
 Switzerland,Wheat and products,Protein supply quantity (g/capita/day),29.18,21.87,20.62,20.3,20.34,21.31
 Switzerland,Wheat and products,Fat supply quantity (g/capita/day),3.55,2.66,2.51,2.48,2.8,3.42
@@ -36538,6 +36668,7 @@ Switzerland,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0
 Switzerland,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.0,0.0,0.0
 Switzerland,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
 Switzerland,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Thailand,Population,Total Population - Both sexes,28195.0,37959.0,48320.0,57184.0,63069.0,66576.0
 Thailand,Wheat and products,Food supply quantity (kg/capita/yr),0.82,1.58,3.68,5.95,9.16,11.8
 Thailand,Wheat and products,Protein supply quantity (g/capita/day),0.16,0.32,0.74,1.2,1.84,2.35
 Thailand,Wheat and products,Fat supply quantity (g/capita/day),0.02,0.03,0.07,0.11,0.18,0.25
@@ -36840,6 +36971,7 @@ Thailand,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Thailand,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.1,0.1,0.13,0.17,0.16
 Thailand,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.04,0.04,0.06,0.07,0.07
 Thailand,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.01,0.01,0.01,0.01
+Timor-Leste,Population,Total Population - Both sexes,509.0,620.0,584.0,777.0,871.0,1096.0
 Timor-Leste,Wheat and products,Food supply quantity (kg/capita/yr),2.28,5.91,17.48,7.01,6.25,10.72
 Timor-Leste,Wheat and products,Protein supply quantity (g/capita/day),0.47,1.23,3.62,1.45,1.3,1.97
 Timor-Leste,Wheat and products,Fat supply quantity (g/capita/day),0.05,0.11,0.35,0.14,0.12,1.52
@@ -37050,6 +37182,7 @@ Timor-Leste,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0
 Timor-Leste,Miscellaneous,Food supply quantity (kg/capita/yr),0.04,0.02,0.0,0.0,0.0,0.07
 Timor-Leste,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.01,0.02,0.03,0.06,0.3
 Timor-Leste,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.0,0.02,0.03,0.05,0.23
+Togo,Population,Total Population - Both sexes,1598.0,2186.0,2812.0,3888.0,4992.0,6472.0
 Togo,Wheat and products,Food supply quantity (kg/capita/yr),1.3,6.29,14.58,8.12,11.64,12.6
 Togo,Wheat and products,Protein supply quantity (g/capita/day),0.28,1.42,3.29,1.92,2.51,2.8
 Togo,Wheat and products,Fat supply quantity (g/capita/day),0.04,0.19,0.41,0.27,0.84,0.6
@@ -37332,6 +37465,7 @@ Togo,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.
 Togo,Miscellaneous,Food supply quantity (kg/capita/yr),0.01,0.03,0.04,0.34,0.0,0.02
 Togo,Miscellaneous,Protein supply quantity (g/capita/day),0.01,0.01,0.03,0.17,0.05,0.12
 Togo,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.01,0.04,0.02,0.05
+Trinidad and Tobago,Population,Total Population - Both sexes,865.0,956.0,1103.0,1230.0,1272.0,1333.0
 Trinidad and Tobago,Wheat and products,Food supply quantity (kg/capita/yr),89.43,94.35,90.35,83.37,90.61,88.69
 Trinidad and Tobago,Wheat and products,Protein supply quantity (g/capita/day),17.86,18.81,18.03,16.64,18.26,18.17
 Trinidad and Tobago,Wheat and products,Fat supply quantity (g/capita/day),1.84,1.94,1.85,1.72,2.12,2.41
@@ -37612,6 +37746,7 @@ Trinidad and Tobago,"Aquatic Products, Other",Fat supply quantity (g/capita/day)
 Trinidad and Tobago,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.07,0.9,0.46,0.77,2.08
 Trinidad and Tobago,Miscellaneous,Protein supply quantity (g/capita/day),0.11,0.1,0.49,0.19,0.36,0.87
 Trinidad and Tobago,Miscellaneous,Fat supply quantity (g/capita/day),0.05,0.04,0.12,0.04,0.08,0.16
+Tunisia,Population,Total Population - Both sexes,4013.0,5092.0,6475.0,8319.0,9652.0,10753.0
 Tunisia,Wheat and products,Food supply quantity (kg/capita/yr),156.24,164.26,190.26,206.26,204.78,204.59
 Tunisia,Wheat and products,Protein supply quantity (g/capita/day),37.65,39.6,45.86,49.72,49.34,49.29
 Tunisia,Wheat and products,Fat supply quantity (g/capita/day),4.52,4.68,5.43,5.88,5.9,5.94
@@ -37900,6 +38035,7 @@ Tunisia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Tunisia,Miscellaneous,Food supply quantity (kg/capita/yr),0.02,0.01,0.0,0.0,0.0,0.18
 Tunisia,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.02,0.03,0.03,0.02,0.08
 Tunisia,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.0,0.0,0.0,0.0,0.02
+Turkey,Population,Total Population - Both sexes,28229.0,35608.0,44937.0,54911.0,64100.0,73059.0
 Turkey,Wheat and products,Food supply quantity (kg/capita/yr),175.01,186.24,210.59,220.99,215.38,173.49
 Turkey,Wheat and products,Protein supply quantity (g/capita/day),43.01,45.77,51.75,54.31,52.97,43.08
 Turkey,Wheat and products,Fat supply quantity (g/capita/day),5.24,5.57,6.3,6.61,6.45,5.19
@@ -38191,6 +38327,7 @@ Turkey,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Turkey,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.03,0.05,0.15
 Turkey,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.02,0.06
 Turkey,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Uganda,Population,Total Population - Both sexes,7007.0,9720.0,12931.0,18156.0,25088.0,35148.0
 Uganda,Wheat and products,Food supply quantity (kg/capita/yr),3.09,2.64,1.43,1.97,1.96,11.14
 Uganda,Wheat and products,Protein supply quantity (g/capita/day),0.7,0.6,0.32,0.44,0.48,2.73
 Uganda,Wheat and products,Fat supply quantity (g/capita/day),0.08,0.07,0.04,0.05,0.09,0.38
@@ -38488,6 +38625,7 @@ Uganda,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Uganda,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.0,0.0,0.0,0.01
 Uganda,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.02
 Uganda,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+United Arab Emirates,Population,Total Population - Both sexes,98.0,272.0,1091.0,1908.0,3132.0,8925.0
 United Arab Emirates,Wheat and products,Food supply quantity (kg/capita/yr),76.53,94.91,57.21,67.56,122.37,100.7
 United Arab Emirates,Wheat and products,Protein supply quantity (g/capita/day),16.47,22.33,13.29,15.86,29.18,23.78
 United Arab Emirates,Wheat and products,Fat supply quantity (g/capita/day),1.65,3.83,2.95,2.75,3.01,3.47
@@ -38757,6 +38895,7 @@ United Arab Emirates,"Aquatic Products, Other",Fat supply quantity (g/capita/day
 United Arab Emirates,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.51,0.89,0.47
 United Arab Emirates,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.2,0.33,0.24,0.58,0.43
 United Arab Emirates,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.08,0.34,0.04,0.14,0.26
+United Kingdom,Population,Total Population - Both sexes,53054.0,56000.0,56512.0,57580.0,59411.0,62672.0
 United Kingdom,Wheat and products,Food supply quantity (kg/capita/yr),103.27,88.24,80.52,82.63,92.21,96.91
 United Kingdom,Wheat and products,Protein supply quantity (g/capita/day),23.35,20.74,19.07,20.89,22.95,24.29
 United Kingdom,Wheat and products,Fat supply quantity (g/capita/day),2.84,2.53,2.32,2.53,2.78,3.0
@@ -39051,6 +39190,7 @@ United Kingdom,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,
 United Kingdom,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.0,0.22,0.37,0.95
 United Kingdom,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.12,0.29,0.8
 United Kingdom,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.03,0.09,0.24
+United Republic of Tanzania,Population,Total Population - Both sexes,10373.0,14045.0,19282.0,26337.0,34895.0,46355.0
 United Republic of Tanzania,Wheat and products,Food supply quantity (kg/capita/yr),4.12,5.24,7.61,5.95,11.24,15.3
 United Republic of Tanzania,Wheat and products,Protein supply quantity (g/capita/day),0.94,1.2,1.74,1.36,2.61,3.5
 United Republic of Tanzania,Wheat and products,Fat supply quantity (g/capita/day),0.12,0.14,0.21,0.16,0.31,0.44
@@ -39359,6 +39499,7 @@ United Republic of Tanzania,"Aquatic Products, Other",Fat supply quantity (g/cap
 United Republic of Tanzania,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.01,0.01,0.0,0.0,0.03
 United Republic of Tanzania,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.02
 United Republic of Tanzania,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+United States of America,Population,Total Population - Both sexes,189276.0,211782.0,232441.0,257077.0,287533.0,314912.0
 United States of America,Wheat and products,Food supply quantity (kg/capita/yr),71.0,65.68,69.79,81.64,86.76,79.55
 United States of America,Wheat and products,Protein supply quantity (g/capita/day),16.41,15.5,16.39,19.19,20.06,19.05
 United States of America,Wheat and products,Fat supply quantity (g/capita/day),2.02,1.95,2.03,2.42,2.77,2.81
@@ -39670,6 +39811,7 @@ United States of America,"Aquatic Products, Other",Protein supply quantity (g/ca
 United States of America,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 United States of America,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
 United States of America,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.0
+Uruguay,Population,Total Population - Both sexes,2572.0,2818.0,2935.0,3132.0,3327.0,3383.0
 Uruguay,Wheat and products,Food supply quantity (kg/capita/yr),94.87,104.69,98.63,90.14,99.63,106.44
 Uruguay,Wheat and products,Protein supply quantity (g/capita/day),18.15,20.03,18.87,17.25,18.98,20.22
 Uruguay,Wheat and products,Fat supply quantity (g/capita/day),1.87,2.07,1.97,1.78,3.38,3.71
@@ -39948,6 +40090,7 @@ Uruguay,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Uruguay,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.02,0.08,0.05,0.28
 Uruguay,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.0,0.01,0.03,0.26,0.14
 Uruguay,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.01,0.1,0.03
+Vanuatu,Population,Total Population - Both sexes,66.0,88.0,119.0,151.0,189.0,242.0
 Vanuatu,Wheat and products,Food supply quantity (kg/capita/yr),19.93,31.27,22.03,22.8,27.02,46.18
 Vanuatu,Wheat and products,Protein supply quantity (g/capita/day),3.99,6.16,4.42,4.66,5.48,8.82
 Vanuatu,Wheat and products,Fat supply quantity (g/capita/day),1.12,2.99,0.99,0.85,1.23,5.13
@@ -40170,6 +40313,7 @@ Vanuatu,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0
 Vanuatu,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.0,0.07,0.2,0.11,0.07
 Vanuatu,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.09,0.09,0.16,0.1,0.17
 Vanuatu,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.03,0.02,0.05,0.04,0.07
+Venezuela (Bolivarian Republic of),Population,Total Population - Both sexes,7873.0,11093.0,15550.0,20219.0,24870.0,29501.0
 Venezuela (Bolivarian Republic of),Wheat and products,Food supply quantity (kg/capita/yr),35.13,46.8,56.76,54.64,52.94,54.61
 Venezuela (Bolivarian Republic of),Wheat and products,Protein supply quantity (g/capita/day),9.18,11.98,13.83,13.3,12.94,13.3
 Venezuela (Bolivarian Republic of),Wheat and products,Fat supply quantity (g/capita/day),0.99,1.3,1.5,1.44,1.42,1.47
@@ -40478,6 +40622,7 @@ Venezuela (Bolivarian Republic of),"Aquatic Products, Other",Fat supply quantity
 Venezuela (Bolivarian Republic of),Miscellaneous,Food supply quantity (kg/capita/yr),0.19,0.01,0.01,0.0,0.22,0.74
 Venezuela (Bolivarian Republic of),Miscellaneous,Protein supply quantity (g/capita/day),0.09,0.01,0.04,0.0,0.14,0.35
 Venezuela (Bolivarian Republic of),Miscellaneous,Fat supply quantity (g/capita/day),0.02,0.0,0.01,0.0,0.04,0.07
+Viet Nam,Population,Total Population - Both sexes,33921.0,44875.0,56169.0,70403.0,81729.0,89914.0
 Viet Nam,Wheat and products,Food supply quantity (kg/capita/yr),3.37,14.27,19.13,4.44,6.35,10.96
 Viet Nam,Wheat and products,Protein supply quantity (g/capita/day),0.7,3.08,4.12,0.97,1.39,2.39
 Viet Nam,Wheat and products,Fat supply quantity (g/capita/day),0.07,0.29,0.39,0.09,0.14,0.24
@@ -40739,6 +40884,7 @@ Viet Nam,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.
 Viet Nam,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.02,0.0,0.0,0.04,0.12
 Viet Nam,Miscellaneous,Protein supply quantity (g/capita/day),0.0,0.01,0.0,0.0,0.02,0.05
 Viet Nam,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.0,0.0,0.0,0.0,0.01
+Yemen,Population,Total Population - Both sexes,5184.0,6194.0,8221.0,12385.0,18030.0,23304.0
 Yemen,Wheat and products,Food supply quantity (kg/capita/yr),13.0,33.55,83.41,120.27,118.16,118.26
 Yemen,Wheat and products,Protein supply quantity (g/capita/day),3.15,8.13,20.21,29.15,28.54,28.5
 Yemen,Wheat and products,Fat supply quantity (g/capita/day),0.58,1.48,3.61,5.26,5.45,5.95
@@ -41033,6 +41179,7 @@ Yemen,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,0
 Yemen,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.04,0.24,0.08,0.11,0.1
 Yemen,Miscellaneous,Protein supply quantity (g/capita/day),0.03,0.03,0.1,0.04,0.06,0.11
 Yemen,Miscellaneous,Fat supply quantity (g/capita/day),0.0,0.01,0.02,0.01,0.01,0.03
+Zambia,Population,Total Population - Both sexes,3174.0,4333.0,6039.0,8038.0,10362.0,13634.0
 Zambia,Wheat and products,Food supply quantity (kg/capita/yr),7.43,21.2,21.08,10.42,14.43,11.0
 Zambia,Wheat and products,Protein supply quantity (g/capita/day),1.77,5.09,5.08,2.51,3.47,2.65
 Zambia,Wheat and products,Fat supply quantity (g/capita/day),0.31,0.7,0.6,0.31,0.46,0.32
@@ -41322,6 +41469,7 @@ Zambia,"Aquatic Products, Other",Fat supply quantity (g/capita/day),0.0,0.0,0.0,
 Zambia,Miscellaneous,Food supply quantity (kg/capita/yr),0.0,0.08,0.0,0.0,0.02,0.03
 Zambia,Miscellaneous,Protein supply quantity (g/capita/day),0.02,0.05,0.0,0.0,0.02,0.04
 Zambia,Miscellaneous,Fat supply quantity (g/capita/day),0.01,0.01,0.0,0.0,0.01,0.01
+Zimbabwe,Population,Total Population - Both sexes,3877.0,5385.0,7572.0,10733.0,12587.0,13359.0
 Zimbabwe,Wheat and products,Food supply quantity (kg/capita/yr),20.97,22.8,22.92,26.16,17.89,29.54
 Zimbabwe,Wheat and products,Protein supply quantity (g/capita/day),4.78,5.19,5.21,5.96,4.05,6.23
 Zimbabwe,Wheat and products,Fat supply quantity (g/capita/day),0.56,0.6,0.6,0.7,0.61,1.27

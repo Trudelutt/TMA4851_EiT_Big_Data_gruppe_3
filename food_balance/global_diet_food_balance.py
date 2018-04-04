@@ -84,7 +84,7 @@ def get_max_diff_global_development( global_diet, countires_diet):
             if(item in max_diff):
                 for j in range(0,n_years):
                     diff = abs(global_diet[item][j] - country_diet[item][j])
-                    if( diff > max_diff[item][j]):
+                    if( diff > max_diff[item][j] ):
                         max_diff[item][j] = diff
             else:
                 max_diff[item] = [0 for column in range(0, n_years)];
