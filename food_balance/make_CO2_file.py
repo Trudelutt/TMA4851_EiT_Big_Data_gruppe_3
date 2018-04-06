@@ -1,8 +1,10 @@
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import pyplot
 from sklearn import datasets, linear_model
 from sklearn.cluster import KMeans
+
 
 country_col = 0
 food_t_col = 1
@@ -78,6 +80,26 @@ def development_trend_plot(data):
     plt.title("Total CO2")
     plt.show()
 
+def histogram_spread_in_y(data, year_array):
+    fig, ax = plt.subplots()
+
+    y_data = []
+    label_data = []
+    for year in year_array:
+        y_country = []
+        for country in data:
+            y = data[country][year]
+            y_country.append(y)
+        y_data.append(y_country)
+        label_data.append(year)
+    plt.hist(y_data, label = label_data)
+    plt.legend(loc='upper right')
+    ax.set_xlabel('year')
+    ax.set_ylabel('total CO2 per capita per day')
+    ax.grid(True)
+    plt.title("Total CO2")
+    plt.show()
+
 def linear_regression(x, y):
     regr = linear_model.LinearRegression()
     coef_dic = {};
@@ -122,17 +144,19 @@ CO2_food_type =  get_CO2_foodtypes_from_file(file_name)
 test_country_array = ["Chad","Norway","Sweden","Afghanistan","Senegal","Zimbabwe"]
 data_dic = {}
 coef_dic = {}
-years_array = []
+'''years_array = []
 for i in range(0,n_years):
     years_array.append([i])
-years = np.array(years_array)
+years = np.array(years_array)'''
 
-for country in food_quantity_countries :
+for country in food_quantity_countries:
     food_quantity = food_quantity_countries[country]
     data = get_total_CO2_country(CO2_food_type, food_quantity)
     data_dic[country] = data
-    coef = linear_regression(years, data)
-    coef_dic[country] = coef
+    #coef = linear_regression(years, data)
+    #coef_dic[country] = coef
 
-#development_trend_plot(data_array,coef_dic["Norway"])
-kmeans(coef_dic)
+development_trend_plot(data_dic)
+#kmeans(coef_dic)
+year = list(range(40))
+histogram_spread_in_y(data_dic,year)
