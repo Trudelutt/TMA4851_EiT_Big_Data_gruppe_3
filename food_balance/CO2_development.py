@@ -5,66 +5,7 @@ from matplotlib import pyplot
 from sklearn import datasets, linear_model
 from sklearn.cluster import KMeans
 
-
-country_col = 0
-year_0_col = 1
 n_years = 50
-
-
-# get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
-def get_CO2_from_file(file_name):
-    try:
-        f = open(file_name,'r')
-    except IOError:
-        print("could not open file")
-    reader = csv.reader(f, delimiter=",")
-    data = {}
-    last_country = " "
-    for row in reader:
-        quantity = [float(row[column]) for column in range(year_0_col,len(row) - year_0_col)]
-        country = row[country_col]
-        data[country] = quantity
-    f.close()
-    return data
-
-def development_trend_plot(data):
-    fig, ax = plt.subplots()
-    for country in data:
-        x = []
-        y = []
-        #y_coef = []
-        for i in range(0,len(data[country])):
-            y.append(data[country][i])
-            x.append( 1961 +i)
-            #y_coef.append(coef[0] + coef[1]*i)
-        ax.plot(x, y,label = country)
-    #ax.plot(x, y_coef,label = country)
-    ax.set_xlabel('year')
-    ax.set_ylabel('total CO2 per capita per day')
-    ax.grid(True)
-    ax.legend()
-    plt.title("Total CO2")
-    plt.show()
-
-def histogram_spread_in_y(data, year_array):
-    fig, ax = plt.subplots()
-    y_data = []
-    label_data = []
-    for year in year_array:
-        y_year = []
-        for country in data:
-            y = data[country][year]
-            y_year.append(y)
-        y_data.append(y_year)
-        label_data.append(year)
-    bins = [0,1000,2000,3000,4000,5000,6000,7000]
-    plt.hist(y_data,bins = bins, label = label_data)
-    plt.legend(loc='upper right')
-    ax.set_xlabel('year')
-    ax.set_ylabel('total CO2 per capita per day')
-    ax.grid(True)
-    plt.title("Total CO2")
-    plt.show()
 
 def linear_regression(x, y):
     regr = linear_model.LinearRegression()
@@ -102,19 +43,188 @@ def kmeans(coef_dic):
 
 
 
+def histogram_spread_in_y(data_dic, year_array,file_name,label):
+    fig, ax = plt.subplots()
+    y_data = []
+    label_data = []
+    for year in year_array:
+        y_year = []
+        for country in data_dic:
+            if(data_dic[country][year] is not None):
+                y = data_dic[country][year]
+                y_year.append(y)
+        y_data.append(y_year)
+        label_data.append(year+1961)
+    plt.hist(y_data, label = label_data,density = True)
+    plt.legend(loc='upper right')
+    ax.set_ylabel('andel land i verden')
+    ax.grid(True)
+    plt.title(label)
+    if(file_name):
+        plt.savefig(file_name)
+
+
+def plot_global_development(data_dic,file_name,label):
+    data = get_mean_data_per_year(data_dic)
+    x = []
+    y = []
+    fig, ax = plt.subplots()
+    for i in range(len(data)):
+        y.append(data[i])
+        x.append(i + 1961)
+    plt.plot(x, y)
+    plt.title(label)
+    ax.set_xlabel('År')
+    if(file_name):
+        plt.savefig(file_name)
+
+
+def plot_varity_country(data_dic, label,all_countries, file_name,years):
+    plt.figure(figsize=(15, 10), dpi=100)
+    plt.grid()
+    y = np.zeros(len(all_countries))
+    for year in years:
+        x = []
+        y  = []
+        for i in range(len(all_countries)):
+            country = all_countries[i]
+            x.append(i)
+            y.append(data_dic[country][year])
+        plt.scatter(x,y)
+    x =[i for i in range(len(all_countries))]
+    plt.xticks(x, all_countries,rotation='vertical')
+    plt.title(label)
+    if(file_name):
+        plt.savefig(file_name,dpi = 100)
+
+
+
+def plot_country_development(data_dic,country_array,file_name,label):
+
+    fig, ax = plt.subplots()
+    for country in country_array:
+        x = []
+        y = []
+        data = data_dic[country]
+        for i in range(len(data)):
+            if( data[i] == None):
+                continue
+            y.append(data[i])
+            x.append(i + 1961)
+        plt.plot(x, y,label = country)
+    plt.legend(loc='best', shadow=False, scatterpoints=1)
+    plt.title(label)
+    ax.set_xlabel("År")
+    if(file_name):
+        plt.savefig(file_name)
+
+
+def get_mean_data_per_year(data_dic):
+    n_country_per_year = np.zeros(n_years)
+    avg = np.zeros(n_years)
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+
+            if(data_dic[country][i] is  None ):
+                continue
+            else:
+                avg[i] += data_dic[country][i]
+                n_country_per_year[i] += 1
+
+    for i in range(avg.shape[0]):
+        avg[i] = avg[i]/ n_country_per_year[i]
+
+    return avg
+
+def get_max_min_per_year(data_dic):
+    ma = np.ones(n_years)*(-10000000000000000000000)
+    mi = np.ones(n_years)*1000000000000000000000000
+    for country in data_dic :
+        for i in range(len(data_dic[country])):
+            if(data_dic[country][i] is  None ):
+                continue
+            else:
+                if( ma[i] < data_dic[country][i]):
+                     ma[i] = data_dic[country][i]
+                if( mi[i] > data_dic[country][i]):
+                     mi[i] = data_dic[country][i]
+    return ma, mi
+
+
+# get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
+def get_data_from_file(file_name, country_col, year_0_col):
+    try:
+        f = open(file_name,'r')
+    except IOError:
+        print("could not open file")
+    reader = csv.reader(f, delimiter=",")
+    data = {}
+    last_country = " "
+    for row in reader:
+        quantity = [float(row[column]) for column in range(year_0_col,len(row))]
+        country = row[country_col]
+        data[country] = quantity
+    f.close()
+    return data
+
+
+
+def plot_global_error_bar(data_dic,file_name,label,locality_index):
+    fig, ax = plt.subplots()
+    all_points_x = []
+    all_points_y = []
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+            if(data_dic[country][i] is  None ):
+                continue
+            all_points_x.append(i+1961)
+            all_points_y.append(data_dic[country][i])
+
+    data = get_mean_data_per_year(data_dic)
+    ma, mi = get_max_min_per_year(data_dic)
+    y_err = np.zeros((2,len(ma)))
+    for i in range(len(ma)):
+        y_err[0,i] = data[i] - mi[i]
+        y_err[1,i] = ma[i] - data[i]
+    x = []
+    y = []
+    for i in range(len(data)):
+        y.append(data[i])
+        x.append(i + 1961)
+    plt.scatter(all_points_x, all_points_y, s = 5)
+    ax.errorbar(x, y, yerr=y_err, fmt='o',c = "red")
+    #ax.errorbar(x, y,yerr = y_err)
+    plt.title(label)
+    ax.set_xlabel('År')
+    if(file_name):
+        plt.savefig(file_name)
+
+
+# get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
+
+
 file_name = "data/total_CO2.csv"
-CO2_countries = get_CO2_from_file(file_name)
+data_dic = get_data_from_file(file_name, 0, 1)
 
-#test_country_array = ["Norway"]
-test_country_array = ["Chad","Norway","Sweden","Afghanistan","Senegal","Zimbabwe"]
+target_names  =[]
+last_country  = ""
+for country in data_dic:
+    if(last_country!= country):
+        target_names.append(country)
+        last_country = country
 
-data_dic = {}
-for country in CO2_countries:
-    data_dic[country] = CO2_countries[country]
+country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 
+file_name = "image/selected_CO2_plot.png"
+plot_country_development(data_dic,country_array,file_name,"Utvikling av CO2 for utvalgte land")
 
-development_trend_plot(data_dic)
+plot_global_error_bar(data_dic,None,"Global utvikling av CO2",0)
+years = list(range(25))
+plot_varity_country(data_dic, "Variasjon i CO2 for hvert land",target_names, None,years)
+year = [0,5,10,15,14,24]
 
-year = list(range(40))
-year = [0,10,20,30,40]
-histogram_spread_in_y(data_dic,year)
+histogram_spread_in_y(data_dic, year,None,"Histogram av CO2")
+
+plot_global_development(data_dic,None,"Global utvikling av CO2")
+
+plt.show()

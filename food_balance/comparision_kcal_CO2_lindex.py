@@ -9,19 +9,49 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.cm as cm
 
-import pylab
-
+import plotly.plotly as py
 n_years = 25 # 1986 - 2013
 
-def histogram_spread_in_y(data, year_array,file_name,label):
+def sankey_diagram(data_dic):
+    data = dict(
+        type='sankey',
+        node = dict(
+          pad = 15,
+          thickness = 20,
+          line = dict(
+            color = "black",
+            width = 0.5
+          ),
+          label = ["A1", "A2", "B1", "B2", "C1", "C2"],
+          color = ["blue", "blue", "blue", "blue", "blue", "blue"]
+        ),
+        link = dict(
+          source = [0,1,0,2,3,3],
+          target = [2,3,3,4,4,5],
+          value = [8,4,2,8,4,2]
+      )
+    )
+
+    layout =  dict(
+        title = "Basic Sankey Diagram",
+        font = dict(
+          size = 10
+        )
+    )
+
+    fig = dict(data=[data], layout=layout)
+    py.image.save_as(fig, filename='a-simple-plot.png')
+
+
+def histogram_spread_in_y(data_dic, year_array,file_name,label):
     fig, ax = plt.subplots()
     y_data = []
     label_data = []
     for year in year_array:
         y_year = []
-        for country in data:
-            if(data[country][year] is not None):
-                y = data[country][year]
+        for country in data_dic:
+            if(data_dic[country][year] is not None):
+                y = data_dic[country][year]
                 y_year.append(y)
         y_data.append(y_year)
         label_data.append(year+1986)
@@ -44,8 +74,8 @@ def plot_PCA(target_names,X_label,X):
         y = []
         for i in range(len(X_label)):
             if(X_label[i] == name):
-                x.append(Y_sklearn[i,0])
-                y.append(Y_sklearn[i,0])
+                x.append(X[i,0])
+                y.append(X[i,0])
 
         plt.plot(x, y, 'o', label=name)
         n+=1
@@ -54,8 +84,8 @@ def plot_PCA(target_names,X_label,X):
     plt.title('PCA of IRIS dataset')
     plt.show()
 
-def plot_global_development(pca_dic,file_name,label):
-    data = get_global_PCA(pca_dic)
+def plot_global_development(data_dic,file_name,label):
+    data = get_mean_data_per_year(data_dic)
     x = []
     y = []
     fig, ax = plt.subplots()
@@ -71,40 +101,42 @@ def plot_global_development(pca_dic,file_name,label):
     else:
         plt.show()
 
-def plot_varity_country(pca_dic, label,X_label, file_name,years):
-    fig, ax = plt.subplots()
+def plot_varity_country(data_dic, label,all_countries, file_name,years):
     plt.figure(figsize=(15, 10), dpi=100)
     plt.grid()
+    y = np.zeros(len(all_countries))
     for year in years:
-        for i in range(len(X_label)):
-            country = X_label[i]
-            x = i
-            y = pca_dic[country][year]
-            plt.scatter(x,y)
-    x =[i for i in range(len(X_label))]
-    plt.xticks(x, X_label,rotation='vertical')
+        x = []
+        y  = []
+        for i in range(len(all_countries)):
+            country = all_countries[i]
+            x.append(i)
+            y.append(data_dic[country][year])
+        plt.scatter(x,y)
+    x =[i for i in range(len(all_countries))]
+    plt.xticks(x, all_countries,rotation='vertical')
     plt.title(label)
     if(file_name):
-
         plt.savefig(file_name,dpi = 100)
     else:
         plt.show()
 
 
-def plot_country_development(pca_dic,country_array,file_name,label):
+def plot_country_development(data_dic,country_array,file_name,label,label_on):
 
     fig, ax = plt.subplots()
     for country in country_array:
         x = []
         y = []
-        data = pca_dic[country]
+        data = data_dic[country]
         for i in range(len(data)):
             if( data[i] == None):
                 continue
             y.append(data[i])
             x.append(i + 1986)
         plt.plot(x, y,label = country)
-    #plt.legend(loc='best', shadow=False, scatterpoints=1)
+    if(label_on):
+        plt.legend(loc='best', shadow=False, scatterpoints=1)
     plt.title(label)
     ax.set_xlabel("År")
     if(file_name):
@@ -112,15 +144,15 @@ def plot_country_development(pca_dic,country_array,file_name,label):
     else:
         plt.show()
 
-def get_global_PCA(pca_dic):
+def get_mean_data_per_year(data_dic):
     n_country_per_year = np.zeros(25)
     avg = np.zeros(25)
     for country in pca_dic :
-        for i in range(len(pca_dic[country])):
-            if(pca_dic[country][i] is  None ):
+        for i in range(len(data_dic[country])):
+            if(data_dic[country][i] is  None ):
                 continue
             else:
-                avg[i] += pca_dic[country][i]
+                avg[i] += data_dic[country][i]
                 n_country_per_year[i] += 1
 
     for i in range(avg.shape[0]):
@@ -128,18 +160,18 @@ def get_global_PCA(pca_dic):
 
     return avg
 
-def get_max_min_per_year(pca_dic):
+def get_max_min_per_year(data_dic):
     ma = np.ones(25)*(-10000000000)
     mi = np.ones(25)*100000000000
-    for country in pca_dic :
-        for i in range(len(pca_dic[country])):
-            if(pca_dic[country][i] is  None ):
+    for country in data_dic :
+        for i in range(len(data_dic[country])):
+            if(data_dic[country][i] is  None ):
                 continue
             else:
-                if( ma[i] < pca_dic[country][i]):
-                     ma[i] = pca_dic[country][i]
-                if( mi[i] > pca_dic[country][i]):
-                     mi[i] = pca_dic[country][i]
+                if( ma[i] < data_dic[country][i]):
+                     ma[i] = data_dic[country][i]
+                if( mi[i] > data_dic[country][i]):
+                     mi[i] = data_dic[country][i]
     return ma, mi
 
 
@@ -216,28 +248,35 @@ def make_X_file():
         country_row[country] = num
         num += 1
 
-def plot_global_error_bar(pca_dic,file_name,label):
-    data = get_global_PCA(pca_dic)
-    ma, mi = get_max_min_per_year(pca_dic)
+def plot_global_error_bar(data_dic,file_name,label,locality_index):
+    fig, ax = plt.subplots()
+    all_points_x = []
+    all_points_y = []
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+            if(data_dic[country][i] is  None ):
+                continue
+            all_points_x.append(i+1961)
+            all_points_y.append(data_dic[country][i])
+
+    data = get_mean_data_per_year(data_dic)
+    ma, mi = get_max_min_per_year(data_dic)
     y_err = np.zeros((2,len(ma)))
     for i in range(len(ma)):
-        y_err[0,i] = -mi[i]
-        y_err[1,i] = ma[i]
+        y_err[0,i] = data[i] - mi[i]
+        y_err[1,i] = ma[i] - data[i]
     x = []
     y = []
     for i in range(len(data)):
         y.append(data[i])
-        x.append(i + 1986)
-    fig, ax = plt.subplots()
-    ax.errorbar(x, y, yerr=y_err, fmt='o')
+        x.append(i + 1961)
+    plt.scatter(all_points_x, all_points_y, s = 5)
+    ax.errorbar(x, y, yerr=y_err, fmt='o',c = "red")
+    #ax.errorbar(x, y,yerr = y_err)
     plt.title(label)
     ax.set_xlabel('År')
-    ax.set_ylabel('Standardisert data')
     if(file_name):
         plt.savefig(file_name)
-    else:
-        plt.show()
-
 
 
 file_name = "data/environment_factor_cleaned.csv"
@@ -250,6 +289,7 @@ for country in X_label:
         target_names.append(country)
         last_country = country
 #standarize data#X = StandardScaler().fit_transform(X)
+
 
 # PCA
 pca = PCA(n_components=1)
@@ -284,38 +324,42 @@ for i in range(len(X_label)):
     z2_dic[country][year - 1986] = X[i][1]
     z3_dic[country][year - 1986] = X[i][2]
 
-
-
-'''file_name = "image/global_trend_env_fac_error_bar.png"
-plot_global_error_bar(pca_dic,file_name,"Global utvikling av miljøindeks")
+'''
+file_name = "image/global_trend_env_fac_error_bar.png"
+plot_global_error_bar(pca_dic,file_name,"Global utvikling av miljøindeks",0)
 file_name = "image/global_trend_CO2_error_bar.png"
-plot_global_error_bar(z1_dic,file_name,"Global utvikling av 'total CO2'")
+plot_global_error_bar(z1_dic,file_name,"Global utvikling av 'total CO2'",0)
 file_name = "image/global_trend_KCAL_error_bar.png"
-plot_global_error_bar(z2_dic,file_name,"Global utvikling av KCAL per capita per dag")
+plot_global_error_bar(z2_dic,file_name,"Global utvikling av KCAL per capita per dag",0)
 file_name = "image/global_trend_lindex_error_bar.png"
-plot_global_error_bar(z3_dic,file_name,"Global utvikling av lokalitetsindeks")'''
+plot_global_error_bar(z3_dic,file_name,"Global utvikling av lokalitetsindeks",1)
 
-'''file_name = "image/all_env_fac.png"
-plot_country_development(pca_dic,target_names,file_name,"Utvikling av miljøfaktoren for alle land")
+'''
+file_name = "image/selected_env_fac.png"
+country_array = ["Norway","Sweden","Chile","Zimbabwe"]
+plot_country_development(pca_dic,country_array,file_name,"Utvikling av miljøfaktoren for utvalgte land",1)
+'''
+file_name = "image/all_env_fac.png"
+plot_country_development(pca_dic,target_names,file_name,"Utvikling av miljøfaktoren for alle land",0)
 file_name = "image/all_CO2.png"
-plot_country_development(z1_dic,target_names,file_name,"Utvikling av 'total CO2' for alle land")
+plot_country_development(z1_dic,target_names,file_name,"Utvikling av 'total CO2' for alle land",0)
 file_name = "image/all_kcal.png"
-plot_country_development(z2_dic,target_names,file_name,"Utvikling av total KCAL per inbygger per dag for alle land")
+plot_country_development(z2_dic,target_names,file_name,"Utvikling av total KCAL per inbygger per dag for alle land",0)
 file_name = "image/all_lindex.png"
-plot_country_development(z3_dic,target_names,file_name,"Utvikling av lokalitetsindeks for alle land")
+plot_country_development(z3_dic,target_names,file_name,"Utvikling av lokalitetsindeks for alle land",0)
 '''
 '''
 years = list(range(25))
 file_name = "image/variation_env_fac_country.png"
-plot_varity_country(pca_dic, "Variation i miljøfaktor for hvert land",target_names, file_name,years)
+plot_varity_country(pca_dic, "Variasjon i miljøfaktor for hvert land",target_names, file_name,years)
 file_name = "image/variation_CO2_country.png"
-plot_varity_country(z1_dic, "Variation in 'total CO2' for each country",target_names, file_name,years)
+plot_varity_country(z1_dic, "Variasjon i 'total CO2' for hvert land ",target_names, file_name,years)
 file_name = "image/variation_KCAL_country.png"
-plot_varity_country(z2_dic, "Variation in 'KCAL per capita per day' for each country",target_names, file_name,years)
+plot_varity_country(z2_dic, "Variasjon i 'KCAL ' for hvert land ",target_names, file_name,years)
 file_name = "image/variation_lindex_country.png"
-plot_varity_country(z3_dic, "Variation in 'KCAL per capita per day' for each country",target_names, file_name,years)
+plot_varity_country(z3_dic, "Variasjon i lokalitetsindeks for hvert land ",target_names, file_name,years)
 '''
-
+'''
 year = [0,5,10,15,14,24]
 file_name = "image/histogram_env_fac.png"
 histogram_spread_in_y(pca_dic, year,file_name,"Histogram av miljøfaktor")
@@ -325,7 +369,7 @@ file_name = "image/histogram_KCAL.png"
 histogram_spread_in_y(z2_dic, year,file_name,"Histogram av KCAL")
 file_name = "image/histogram_lindex.png"
 histogram_spread_in_y(z3_dic, year,file_name,"Histogram av lokalitetsindeks")
-
+'''
 '''
 file_name = "image/global_trend_env_fac.png"
 plot_global_development(pca_dic,file_name,"Global utvikling av miljøindeks")
@@ -335,4 +379,6 @@ file_name = "image/global_trend_KCAL.png"
 plot_global_development(z2_dic,file_name,"Global utvikling av KCAL per capita per day")
 file_name = "image/global_trend_lindex.png"
 plot_global_development(z3_dic,file_name,"Global utvikling av lokalitetsindeks")
-plt.show()'''
+
+'''
+plt.show()

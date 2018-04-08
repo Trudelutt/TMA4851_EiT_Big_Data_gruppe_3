@@ -1,11 +1,11 @@
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors as colors
+import numpy as np
+import matplotlib.cm as cm
 
-n_years = 53
-# years: 1961-1971-1981-1991- 2001- 2011
-
-
+n_years = 25 # 1986 - 2013
 
 def histogram_spread_in_y(data_dic, year_array,file_name,label):
     fig, ax = plt.subplots()
@@ -18,7 +18,7 @@ def histogram_spread_in_y(data_dic, year_array,file_name,label):
                 y = data_dic[country][year]
                 y_year.append(y)
         y_data.append(y_year)
-        label_data.append(year+1961)
+        label_data.append(year+1986)
     plt.hist(y_data, label = label_data,density = True)
     plt.legend(loc='upper right')
     ax.set_ylabel('andel land i verden')
@@ -35,7 +35,7 @@ def plot_global_development(data_dic,file_name,label):
     fig, ax = plt.subplots()
     for i in range(len(data)):
         y.append(data[i])
-        x.append(i + 1961)
+        x.append(i + 1986)
     plt.plot(x, y)
     plt.title(label)
     ax.set_xlabel('År')
@@ -74,7 +74,7 @@ def plot_country_development(data_dic,country_array,file_name,label):
             if( data[i] == None):
                 continue
             y.append(data[i])
-            x.append(i + 1961)
+            x.append(i + 1986)
         plt.plot(x, y,label = country)
     plt.legend(loc='best', shadow=False, scatterpoints=1)
     plt.title(label)
@@ -84,11 +84,10 @@ def plot_country_development(data_dic,country_array,file_name,label):
 
 
 def get_mean_data_per_year(data_dic):
-    n_country_per_year = np.zeros(n_years)
-    avg = np.zeros(n_years)
-    for country in data_dic:
+    n_country_per_year = np.zeros(25)
+    avg = np.zeros(25)
+    for country in data_dic :
         for i in range(len(data_dic[country])):
-
             if(data_dic[country][i] is  None ):
                 continue
             else:
@@ -101,8 +100,8 @@ def get_mean_data_per_year(data_dic):
     return avg
 
 def get_max_min_per_year(data_dic):
-    ma = np.ones(n_years)*(-10000000000000000000000)
-    mi = np.ones(n_years)*1000000000000000000000000
+    ma = np.ones(25)*(-10000000000)
+    mi = np.ones(25)*100000000000
     for country in data_dic :
         for i in range(len(data_dic[country])):
             if(data_dic[country][i] is  None ):
@@ -125,7 +124,7 @@ def get_data_from_file(file_name, country_col, year_0_col):
     data = {}
     last_country = " "
     for row in reader:
-        quantity = [float(row[column]) for column in range(year_0_col,len(row))]
+        quantity = [float(row[column]) for column in range(year_0_col,year_0_col + n_years)]
         country = row[country_col]
         data[country] = quantity
     f.close()
@@ -164,11 +163,9 @@ def plot_global_error_bar(data_dic,file_name,label,locality_index):
         plt.savefig(file_name)
 
 
-# get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
 
-
-file_name = "data/kcal_food_data_2.csv"
-data_dic = get_data_from_file(file_name, 0, 3)
+file_name = "data/locality_index.csv"
+data_dic = get_data_from_file(file_name, 0, 1)
 
 target_names  =[]
 last_country  = ""
@@ -179,16 +176,17 @@ for country in data_dic:
 
 country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 
-file_name = "image/selected_kcal_plot.png"
-plot_country_development(data_dic,country_array,file_name,"Utvikling av kcal for utvalgte land")
+file_name = "image/selected_lindex_plot.png"
+plot_country_development(data_dic,country_array,file_name,"Utvikling av lokalitetsindeksen for utvalgte land")
 
-plot_global_error_bar(data_dic,None,"Global utvikling av kcal",0)
+plot_global_error_bar(data_dic,None,"Global utvikling av lokalitetsindeks",0)
 years = list(range(25))
-plot_varity_country(data_dic, "Variasjon i kcal for hvert land",target_names, None,years)
+plot_varity_country(data_dic, "Variasjon i lokalitetsindeks for hvert land",target_names, None,years)
 year = [0,5,10,15,14,24]
 
-histogram_spread_in_y(data_dic, year,None,"Histogram av kcal")
+histogram_spread_in_y(data_dic, year,None,"Histogram av lokalitetsindeks")
 
-plot_global_development(data_dic,None,"Global utvikling av kcal")
+file_name = "image/global_trend_env_fac.png"
+plot_global_development(data_dic,None,"Global utvikling av lokalitetsindeks")
 
 plt.show()
