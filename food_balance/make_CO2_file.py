@@ -60,79 +60,20 @@ def get_total_CO2_country( CO2_food_type, food_quantity):
                 total[j] += food_quantity[item][j]*CO2_food_type[item]
     return total
 
-
-def development_trend_plot(data):
-    fig, ax = plt.subplots()
+def write_CO2_to_file(data, file_name):
+    f = open(file_name, 'w')
+    output = []
     for country in data:
-        x = []
-        y = []
-        #y_coef = []
-        for i in range(0,len(data[country])):
-            y.append(data[country][i])
-            x.append( 1961 +i)
-            #y_coef.append(coef[0] + coef[1]*i)
-        ax.plot(x, y,label = country)
-    #ax.plot(x, y_coef,label = country)
-    ax.set_xlabel('year')
-    ax.set_ylabel('total CO2 per capita per day')
-    ax.grid(True)
-    ax.legend()
-    plt.title("Total CO2")
-    plt.show()
+        temp = []
 
-def histogram_spread_in_y(data, year_array):
-    fig, ax = plt.subplots()
-
-    y_data = []
-    label_data = []
-    for year in year_array:
-        y_country = []
-        for country in data:
-            y = data[country][year]
-            y_country.append(y)
-        y_data.append(y_country)
-        label_data.append(year)
-    plt.hist(y_data, label = label_data)
-    plt.legend(loc='upper right')
-    ax.set_xlabel('year')
-    ax.set_ylabel('total CO2 per capita per day')
-    ax.grid(True)
-    plt.title("Total CO2")
-    plt.show()
-
-def linear_regression(x, y):
-    regr = linear_model.LinearRegression()
-    coef_dic = {};
-    regr.fit(x, y)
-    intercept = regr.intercept_
-    coef = regr.coef_[0]
-    return [intercept, coef]
-
-def kmeans(coef_dic):
-    X = []
-    country_label = []
-
-    for country in coef_dic:
-        X.append(coef_dic[country])
-        country_label.append(country)
-    X = np.array(X)
-    kmeans = KMeans(n_clusters=5)
-    kmeans.fit(X)
-    y_kmeans = kmeans.predict(X)
-
-    fig, ax = plt.subplots()
-    colour_array = ['red', 'green', 'blue','yellow','pink','purple']
-    for i in range(len(country_label)):
-        x = X[i,0]
-        y = X[i,1]
-        ax.scatter(x, y,label = country_label[i],color=colour_array[y_kmeans[i]] , s = 40)
-    #ax.plot(x, y_coef,label = country)
-    ax.set_xlabel('intercept')
-    ax.set_ylabel('coef')
-    ax.grid(True)
-    ax.legend()
-    plt.title("Clustering based on linear regression")
-    plt.show()
+        temp.append(country)
+        for element in data[country]:
+            temp.append(element)
+        output.append(temp)
+    with f:
+        writer = csv.writer(f)
+        writer.writerows(output)
+    print("Writing complete")
 
 
 
@@ -142,21 +83,12 @@ file_name = "data/CO2_per_food_type.csv"
 CO2_food_type =  get_CO2_foodtypes_from_file(file_name)
 #test_country_array = ["Norway"]
 test_country_array = ["Chad","Norway","Sweden","Afghanistan","Senegal","Zimbabwe"]
-data_dic = {}
-coef_dic = {}
-'''years_array = []
-for i in range(0,n_years):
-    years_array.append([i])
-years = np.array(years_array)'''
 
+data_dic ={}
 for country in food_quantity_countries:
     food_quantity = food_quantity_countries[country]
     data = get_total_CO2_country(CO2_food_type, food_quantity)
     data_dic[country] = data
-    #coef = linear_regression(years, data)
-    #coef_dic[country] = coef
 
-development_trend_plot(data_dic)
-#kmeans(coef_dic)
-year = list(range(40))
-histogram_spread_in_y(data_dic,year)
+file_name ="data/total_CO2.csv"
+write_CO2_to_file(data_dic, file_name)
