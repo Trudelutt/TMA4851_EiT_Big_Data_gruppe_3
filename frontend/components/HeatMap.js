@@ -13,8 +13,7 @@ import IndexChartDialog from './IndexChartDialog';
 import minmax from '../static/min_max_locality.json';
 
 const wrapperStyles = {
-  width: '100%',
-  maxWidth: 1200,
+  width: '80%',
   margin: '0 auto'
 };
 
@@ -65,12 +64,19 @@ const popScale = scaleLinear()
     '#1483B6'
   ]);
 
+const MIN_YEAR = 1986;
+const MAX_YEAR = 2013;
+
+const WhiteTextParagraph = ({ children }) => (
+    <p style={{ color: 'white' }}>{children}</p>
+);
+
 class HeatMap extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      slider: 1986,
+      slider: MIN_YEAR,
       currentCountry: undefined,
       open: false
     };
@@ -80,9 +86,19 @@ class HeatMap extends Component {
     this.handleClose = this.handleClose.bind(this);
   }
 
+  componentDidMount() {
+      const range = [...Array(MAX_YEAR - MIN_YEAR).keys()];
+      range.forEach((item, index) => {
+         setTimeout(() => {
+             this.setState(state => ({
+                 slider: state.slider + 1
+             }));
+         }, 1500 * (index + 1));
+      });
+  }
+
+
   handleSlider(e, value) {
-    console.log('year_' + 1995);
-    console.log('year_' + this.state.slider);
     this.setState({ slider: parseInt(value) });
   }
 
@@ -114,6 +130,9 @@ class HeatMap extends Component {
     const { slider, currentCountry, open } = this.state;
     return (
       <div style={wrapperStyles}>
+        <WhiteTextParagraph>
+            <span style={{ fontSize: '50px' }}>{slider}</span>
+        </WhiteTextParagraph>
         <ComposableMap
           projectionConfig={{
             scale: 120,
@@ -149,39 +168,18 @@ class HeatMap extends Component {
           </ZoomableGroup>
         </ComposableMap>
         <Slider
-          min={1986}
-          max={2013}
+          min={MIN_YEAR}
+          max={MAX_YEAR}
           step={1}
           value={slider}
           onChange={this.handleSlider}
         />
-        <p
-          style={{
-            color: 'white'
-          }}
-        >
-          <span>{'Year: '}</span>
-          <span>{slider}</span>
-        </p>
-        <p
-          style={{
-            color: 'white'
-          }}
-        >
-          <span>{'min: '}</span>
-          <span>
-            {minmax['year_' + slider]['min_name'] +
-              ' ' +
-              minmax['year_' + slider]['min_value'] +
-              '     '}
-          </span>
-          <span>{'max: '}</span>
-          <span>
-            {minmax['year_' + slider]['max_name'] +
-              ' ' +
-              minmax['year_' + slider]['max_value']}
-          </span>
-        </p>
+        <WhiteTextParagraph>
+          <br />
+          <span>Min:&nbsp;{`${minmax[`year_${slider}`]['min_name']} ${minmax[`year_${slider}`]['min_value']}`}</span>
+          <br />
+          <span>Max:&nbsp;{`${minmax[`year_${slider}`]['max_name']} ${minmax[`year_${slider}`]['max_value']}`}</span>
+        </WhiteTextParagraph>
 
         {currentCountry && (
           <IndexChartDialog
