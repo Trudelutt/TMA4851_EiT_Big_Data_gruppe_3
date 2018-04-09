@@ -1,0 +1,3414 @@
+
+{
+    "1986": [{
+      "foodItem": "Crude materials",
+      "tonnes": 122607157
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 63598525
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 51063774
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 23046629
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 15747504
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 15477412
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 15220092
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 13453389
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 8758991
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 8264637
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 7132932
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6647260
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 6230854
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 6095228
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 5249071
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 4646455
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4042912
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 3913074
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 3671670
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3580406
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 3374632
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 3344665
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3203518
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 2796095
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 2774998
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 2774389
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 2553979
+    },
+    {
+      "foodItem": "Cake, sunflower",
+      "tonnes": 2418342
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 2392739
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 2166285
+    }
+   ],
+   "1987":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 85917833
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 73791019
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 58618877
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 25422776
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 17249394
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 16597154
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 16068006
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 12482437
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 8538130
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7574092
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 7102558
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 6432270
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6394062
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 6030086
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 5189073
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4742383
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 4549584
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 4527603
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 4428556
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 4363228
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 4296929
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 3958643
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3772902
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 3608718
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 3319329
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3127180
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 2853900
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 2683393
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 2637828
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 2602647
+    }
+   ],
+   "1988":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 81779342
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 56411146
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 22276166
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 18267661
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 17210065
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 17152897
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 13568601
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 11582289
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 9135709
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8137778
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 6645882
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 6614960
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6247855
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 6136446
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 5317547
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 4899599
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 4406656
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 4136480
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4091052
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 4054935
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4027924
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3616441
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 3426087
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3267569
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 3200164
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 2783044
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 2653091
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 2586511
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 2429404
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 2342566
+    }
+   ],
+   "1989":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 73592637
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 67107539
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 21000597
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 16611922
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 14995028
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 13691668
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 11197111
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 10273822
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 9878851
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 8169530
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 7079835
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 6516582
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 6468078
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 5800908
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 5430602
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 5330176
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 5189509
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 4986707
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4352801
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 4029186
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 4014476
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3967387
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 3923318
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 3518402
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3055516
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 2966122
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 2937113
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 2586624
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 2573653
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 2314171
+    }
+   ],
+   "1990":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 59335247
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 51530925
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 22526888
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 16593766
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 11628347
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 9381342
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 9359212
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 9014130
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7568572
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 7165008
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 6598290
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 6521665
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 6235307
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6129023
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 6093872
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 5973309
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 5847789
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 4311407
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4136458
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 3937328
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 3581798
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3457267
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3393250
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 3269588
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 3048194
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 2928894
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 2891592
+    },
+    {
+      "foodItem": "Peas, dry",
+      "tonnes": 2573115
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 2499235
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 2491817
+    }
+   ],
+   "1991":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 68771037
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 47618282
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 24926504
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 20540516
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 13421573
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 11987177
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 11761334
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 10857916
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 10607958
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 9299015
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8130205
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7484020
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 7194336
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7042381
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6723308
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 6658123
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 6543765
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6110109
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 5273648
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 4379048
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4352525
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4339438
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 3982623
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3903726
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 3837714
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3751811
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 3555742
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 3397649
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3341267
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 3245769
+    }
+   ],
+   "1992":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 73090700
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 56601663
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 28754562
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 23013945
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 15333445
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 13817059
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 12950646
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 12879662
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 11395879
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 10555749
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 9946065
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 8588995
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8503357
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 7777055
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 7674342
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7575078
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 6292880
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6040412
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 4812633
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4670370
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4512279
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 4405092
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3990903
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 3934828
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 3872081
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3813925
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3689218
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 3647621
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 3589415
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 3508442
+    }
+   ],
+   "1993":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 70504303
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 52351845
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 27148933
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 23556916
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 13324747
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 11907324
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 11749130
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 11516176
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 10664384
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 9524967
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 8651560
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8419510
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 8126708
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7899615
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 7300309
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7221777
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6705768
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 6556985
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 5785960
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 4731212
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4509287
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4477312
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 3930953
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 3888419
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 3718329
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3708479
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 3594071
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 3531032
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3496075
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 3391677
+    }
+   ],
+   "1994":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 79172405
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 56146437
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 28600945
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 26842331
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 15552528
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 13878592
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 12969418
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 12474560
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 11418453
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 11257586
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 9875848
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7851804
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 7834534
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 7821994
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7662103
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7158829
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6691300
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 6617963
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 6074741
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 5989333
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5264372
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 4528590
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 4526417
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4358844
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4153554
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 4039954
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 3852460
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 3800972
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 3784699
+    },
+    {
+      "foodItem": "Oranges",
+      "tonnes": 3704820
+    }
+   ],
+   "1995":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 81626437
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 69983997
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 32159099
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 26746865
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 14994543
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 14633969
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 14090088
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 13162358
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 11576374
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 11571249
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 8624551
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 8187811
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8139635
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7911916
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 7792177
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6531746
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 5914932
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 5601839
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 5585239
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5185729
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 4746600
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4241828
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 4237933
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 4176255
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 4056258
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4022799
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 3950743
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 3739841
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 3727786
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 3648519
+    }
+   ],
+   "1996":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 79414714
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 58807391
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 28687957
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 27448289
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 16224040
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 15636413
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 13468531
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 13193029
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 12530234
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 12477040
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 8230441
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 7930898
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 7822108
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 6757389
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 6716496
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6631952
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 6340062
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 5800086
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5291956
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 5282313
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 5166021
+    },
+    {
+      "foodItem": "Feed and meal, gluten",
+      "tonnes": 5010288
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4563107
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 4498246
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4359777
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 4309416
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 4272809
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 4169393
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 3943002
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 3910953
+    }
+   ],
+   "1997":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 75699895
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 51645883
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 34756485
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 26755553
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 25730109
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 17721751
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 13142214
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 12709747
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 11719732
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 11340680
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 10766270
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 7835100
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 7651496
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 7638367
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 7560634
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7257076
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 6164738
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 6027078
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 5714793
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 5590603
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 5182167
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5025917
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 4932687
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 4801483
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4488817
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 4085976
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 4046883
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4030156
+    },
+    {
+      "foodItem": "Sunflower seed",
+      "tonnes": 4006932
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 3941529
+    }
+   ],
+   "1998":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 91250964
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 68133006
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 36457511
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 34690404
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 18658633
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 18505433
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 16420089
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 15886743
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 14374728
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 12346016
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 10896703
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 9962758
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 9786461
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 9666589
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 9169115
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8722170
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7904185
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 7743169
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 7489710
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 6695383
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 6220226
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 5616993
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 5587804
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5244140
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 4966690
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4815933
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 4563266
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4529401
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 4524346
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 4276692
+    }
+   ],
+   "1999":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 95418741
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 71338468
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 41363997
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 34301652
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 23780355
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 18856987
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 18235466
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 15426753
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 14736225
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 13025915
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 10911959
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 10156207
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 9089911
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8732352
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 8534537
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7797556
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 7744908
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7539383
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 7152295
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 6337779
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 5851680
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 5783399
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 5574450
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 5144095
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 5019020
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 4870995
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 4870522
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 4775146
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 4697929
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 4566416
+    }
+   ],
+   "2000":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 159004298
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 99418912
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 77432681
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 48147747
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 35672297
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 21589738
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 20924020
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 18925512
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 16103647
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 15424310
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 13881542
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 12704088
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 11873238
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 10204526
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 9637802
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 9577126
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 8586239
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7647261
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7617735
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 7586307
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 6178168
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 6074812
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 5642491
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5593787
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 5469005
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 5394536
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 5351739
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 5151780
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 4976890
+    },
+    {
+      "foodItem": "Malt",
+      "tonnes": 4867764
+    }
+   ],
+   "2001":[
+    {
+      "foodItem": "Wheat",
+      "tonnes": 95482528
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 78388686
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 57012787
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 41175661
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 22285491
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 22080885
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 19650098
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 16667441
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 15786835
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 13528984
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 13406214
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 10935224
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 10625120
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 9057597
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8881681
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 8174218
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 8021385
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7546595
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 6860342
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 6858601
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 6741093
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 6601473
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 5976085
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 5920858
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 5862184
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 5654275
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5624234
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 5090973
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 5063540
+    }
+   ],
+   "2002":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 159714384
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 108442771
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 83823631
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 56399982
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 44576677
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 21666592
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 21042410
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 20043724
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 19429228
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 17706372
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 15476313
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 13864519
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 13279447
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 11615253
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8950930
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 8345382
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 8003192
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 7718876
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 7332084
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 7319106
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 7298011
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7277658
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7127100
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 6724918
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 6190787
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 6040376
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5411717
+    },
+    {
+      "foodItem": "Coffee, green",
+      "tonnes": 5226478
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 5209427
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 5133043
+    }
+   ],
+   "2003":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 166332071
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 95104031
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 85291276
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 64805433
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 44499009
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 21766326
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 19717410
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 19679762
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 18366963
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 18224211
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 17692766
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 14591919
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 12125771
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 11675534
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 9029852
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8979666
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 8296147
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 7983860
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 7863554
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 7526454
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 7497655
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 6695008
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 6493924
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 6479949
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 6439673
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 6434886
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 5896347
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 5663543
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 5639485
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 5358391
+    }
+   ],
+   "2004":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 281321417
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 100932045
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 79916751
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 57852323
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 48398515
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 21525870
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 20484322
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 20125031
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 20012186
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 19159815
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 19118352
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 14868583
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 11677284
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 11067060
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8674554
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 8625554
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 8598627
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 8460822
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 8438540
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 8368779
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 8172055
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 8033613
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 7202862
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 6771005
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 6737012
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 6670585
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 5984292
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 5792061
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 5790787
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 5692464
+    }
+   ],
+   "2005":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 328878122
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 104700464
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 82989687
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 66385394
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 62373411
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 50552697
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 24137468
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 23717196
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 22495397
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 22124877
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 20815238
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 18259771
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 15032431
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 13633381
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 12637369
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 9868861
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 9601042
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 9401605
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 8672175
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 8642822
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8506714
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 8219627
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 8119757
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 7572234
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7300724
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 6772100
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6243656
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 6199158
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 6051888
+    },
+    {
+      "foodItem": "Fruit, prepared nes",
+      "tonnes": 5716043
+    }
+   ],
+   "2006":[
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 364398969
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 329958832
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 104794049
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 90295867
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 65608100
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 53746648
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 26755729
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 25778432
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 22970114
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 22563002
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 20058074
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 17892457
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 16117454
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15019330
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 12062710
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 11135367
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 10376097
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 9883643
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 9820753
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 9549866
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 9040141
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 8904963
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 8809231
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8645495
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 7603028
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 6622938
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 6404807
+    },
+    {
+      "foodItem": "Fruit, prepared nes",
+      "tonnes": 6230730
+    },
+    {
+      "foodItem": "Rubber natural dry",
+      "tonnes": 6043051
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 5925900
+    }
+   ],
+   "2007":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 401570160
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 386354365
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 113641368
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 98405919
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 71912540
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 57834615
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 30511108
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 26807109
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 26099943
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 25015566
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 21772801
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 18866228
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 17148042
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15575373
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 13553270
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 11673408
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 11428763
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 11342908
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 10640550
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 10580440
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 9869199
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8170762
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 8050904
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 7972332
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 7944224
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 7704463
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 7050390
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 6991641
+    },
+    {
+      "foodItem": "Fruit, prepared nes",
+      "tonnes": 6970641
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 6718176
+    }
+   ],
+   "2008":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 418857991
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 332363501
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 105204377
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 88516399
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 75318010
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 55048967
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 31565001
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 28025237
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 22970954
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 21832566
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 18966765
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 17442552
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 17356570
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 15834727
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 14713585
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 13269773
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 11241515
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 10511246
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 9890505
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 9513744
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 8066464
+    },
+    {
+      "foodItem": "Sorghum",
+      "tonnes": 7937521
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 7860326
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 7594690
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 7527727
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 7508737
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 6890022
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 6836234
+    },
+    {
+      "foodItem": "Molasses",
+      "tonnes": 6601333
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 6600620
+    }
+   ],
+   "2009":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 420748650
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 306749693
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 114029115
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 87000915
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 78151039
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 51028622
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 32105896
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 30238279
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 23018514
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 21690182
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 20752651
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 17661301
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 16391721
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 14578783
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 14535260
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 12134915
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 10786666
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 10325824
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 9838129
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 9046941
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8384344
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 8312072
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 8122184
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 7882635
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 7723124
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 7203269
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 7185770
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 7069292
+    },
+    {
+      "foodItem": "Dregs from brewing, distillation",
+      "tonnes": 6782323
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 6740533
+    }
+   ],
+   "2010":[
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 1275849094
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 437199672
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 106478687
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 93778686
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 89543844
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 55881830
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 33203532
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 28636155
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 25072669
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 24035414
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 22397612
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 19814020
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 17574362
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 16705793
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15800874
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 13097335
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 11479328
+    },
+    {
+      "foodItem": "Dregs from brewing, distillation",
+      "tonnes": 10678994
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 10491573
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 10246837
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 9846428
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 9269092
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 8874522
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 8861350
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 8111684
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 7978694
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 7553745
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 7396704
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 6931132
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 6872766
+    }
+   ],
+   "2011":[
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 1613568883
+    },
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 472200467
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 119426322
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 99093506
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 89134543
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 57763218
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 34010047
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 31593388
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 28672595
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 23215534
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 22901290
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 18392211
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 17532564
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 17032551
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15125329
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 13645651
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 12350575
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 11942577
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 11534394
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 10975741
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 9986753
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 9740702
+    },
+    {
+      "foodItem": "Dregs from brewing, distillation",
+      "tonnes": 9011436
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 8879219
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8762989
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 8519904
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 8485453
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 7961130
+    },
+    {
+      "foodItem": "Apples",
+      "tonnes": 7348190
+    },
+    {
+      "foodItem": "Flour, wheat",
+      "tonnes": 7128818
+    }
+   ],
+   "2012":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 513144423
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 306876581
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 122834500
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 100193169
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 92899421
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 55135922
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 36438154
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 34047070
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 25983672
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 25662975
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 24725274
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 19951843
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 19174571
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 17059200
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15122240
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 14534315
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 12974437
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 11871207
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 11268119
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 11136958
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 9888490
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 9216395
+    },
+    {
+      "foodItem": "Dregs from brewing, distillation",
+      "tonnes": 9055683
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 8817689
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 8780347
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8744338
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 8697961
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 8476095
+    },
+    {
+      "foodItem": "Cake, sunflower",
+      "tonnes": 8241408
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 8015167
+    }
+   ],
+   "2013":[
+    {
+      "foodItem": "Crude materials",
+      "tonnes": 505068041
+    },
+    {
+      "foodItem": "Animals live nes",
+      "tonnes": 177663616
+    },
+    {
+      "foodItem": "Wheat",
+      "tonnes": 129737691
+    },
+    {
+      "foodItem": "Maize",
+      "tonnes": 108316963
+    },
+    {
+      "foodItem": "Soybeans",
+      "tonnes": 100615926
+    },
+    {
+      "foodItem": "Cake, soybeans",
+      "tonnes": 54682786
+    },
+    {
+      "foodItem": "Oil, palm",
+      "tonnes": 37484808
+    },
+    {
+      "foodItem": "Pigs",
+      "tonnes": 36058229
+    },
+    {
+      "foodItem": "Sugar Raw Centrifugal",
+      "tonnes": 29688161
+    },
+    {
+      "foodItem": "Barley",
+      "tonnes": 27656737
+    },
+    {
+      "foodItem": "Rice � total  (Rice milled equivalent)",
+      "tonnes": 25675938
+    },
+    {
+      "foodItem": "Waters,ice etc",
+      "tonnes": 21547422
+    },
+    {
+      "foodItem": "Rapeseed",
+      "tonnes": 19897063
+    },
+    {
+      "foodItem": "Bananas",
+      "tonnes": 18261191
+    },
+    {
+      "foodItem": "Sugar refined",
+      "tonnes": 15611430
+    },
+    {
+      "foodItem": "Beverages, non alcoholic",
+      "tonnes": 15404009
+    },
+    {
+      "foodItem": "Food prep nes",
+      "tonnes": 13729152
+    },
+    {
+      "foodItem": "Beer of barley",
+      "tonnes": 11956726
+    },
+    {
+      "foodItem": "Potatoes",
+      "tonnes": 11869841
+    },
+    {
+      "foodItem": "Food wastes",
+      "tonnes": 10937077
+    },
+    {
+      "foodItem": "Dregs from brewing, distillation",
+      "tonnes": 10604812
+    },
+    {
+      "foodItem": "Cake, rapeseed",
+      "tonnes": 9862223
+    },
+    {
+      "foodItem": "Wine",
+      "tonnes": 9760362
+    },
+    {
+      "foodItem": "Cattle",
+      "tonnes": 9354743
+    },
+    {
+      "foodItem": "Sheep",
+      "tonnes": 9163531
+    },
+    {
+      "foodItem": "Meat, chicken",
+      "tonnes": 9156391
+    },
+    {
+      "foodItem": "Cassava dried",
+      "tonnes": 8682091
+    },
+    {
+      "foodItem": "Milk, whole fresh cow",
+      "tonnes": 8430642
+    },
+    {
+      "foodItem": "Cotton lint",
+      "tonnes": 8264137
+    },
+    {
+      "foodItem": "Oil, soybean",
+      "tonnes": 7962398
+    }
+   ]
+}
