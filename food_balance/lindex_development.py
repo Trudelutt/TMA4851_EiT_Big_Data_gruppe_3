@@ -7,10 +7,17 @@ import matplotlib.cm as cm
 
 n_years = 25 # 1986 - 2013
 
+
 def histogram_spread_in_y(data_dic, year_array,file_name,label):
+    bins = get_bins(data_dic,10)
+    print(bins)
     fig, ax = plt.subplots()
     y_data = []
     label_data = []
+    edge_array =[]
+    resul_array = []
+    color = ["purple","red","blue", "darkorange", "green", "magenta", "maroon", "brown"]
+    i = 0
     for year in year_array:
         y_year = []
         for country in data_dic:
@@ -19,7 +26,12 @@ def histogram_spread_in_y(data_dic, year_array,file_name,label):
                 y_year.append(y)
         y_data.append(y_year)
         label_data.append(year+1986)
-    plt.hist(y_data, label = label_data,density = True)
+
+        results, edges = np.histogram(y_year,bins = bins, normed=True)
+        binWidth = edges[1] - edges[0]
+        plt.bar(edges[:-1], results*binWidth, binWidth,label=year+19861,edgecolor=color[i],color='None')
+        i = i+1
+    #plt.hist(y_data, label = label_data,density = True)
     plt.legend(loc='upper right')
     ax.set_ylabel('andel land i verden')
     ax.grid(True)
@@ -27,6 +39,21 @@ def histogram_spread_in_y(data_dic, year_array,file_name,label):
     if(file_name):
         plt.savefig(file_name)
 
+def get_bins(data_dic,n_bins):
+    data = get_mean_data_per_year(data_dic)
+    y_min  = 1000000000000000000000000000000
+    y_max = -1*y_min
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+            y = data_dic[country][i]
+            if(y_min > y):
+                y_min  =y
+            if(y_max < y):
+                y_max = y
+    width = (y_max-y_min)/(n_bins)
+    bins = np.arange(y_min, y_max + width*2,width)
+
+    return bins
 
 def plot_global_development(data_dic,file_name,label):
     data = get_mean_data_per_year(data_dic)

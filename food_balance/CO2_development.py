@@ -5,7 +5,7 @@ from matplotlib import pyplot
 from sklearn import datasets, linear_model
 from sklearn.cluster import KMeans
 
-n_years = 50
+n_years = 47
 
 def linear_regression(x, y):
     regr = linear_model.LinearRegression()
@@ -44,9 +44,15 @@ def kmeans(coef_dic):
 
 
 def histogram_spread_in_y(data_dic, year_array,file_name,label):
+    bins = get_bins(data_dic,10)
+    print(bins)
     fig, ax = plt.subplots()
     y_data = []
     label_data = []
+    edge_array =[]
+    resul_array = []
+    color = ["purple","red","blue", "darkorange", "green", "magenta", "maroon", "brown"]
+    i = 0
     for year in year_array:
         y_year = []
         for country in data_dic:
@@ -55,13 +61,34 @@ def histogram_spread_in_y(data_dic, year_array,file_name,label):
                 y_year.append(y)
         y_data.append(y_year)
         label_data.append(year+1961)
-    plt.hist(y_data, label = label_data,density = True)
+
+        results, edges = np.histogram(y_year,bins = bins, normed=True)
+        binWidth = edges[1] - edges[0]
+        plt.bar(edges[:-1], results*binWidth, binWidth,label=year+1961,edgecolor=color[i],color='None')
+        i = i+1
+    #plt.hist(y_data, label = label_data,density = True)
     plt.legend(loc='upper right')
     ax.set_ylabel('andel land i verden')
     ax.grid(True)
     plt.title(label)
     if(file_name):
         plt.savefig(file_name)
+
+def get_bins(data_dic,n_bins):
+    data = get_mean_data_per_year(data_dic)
+    y_min  = 1000000000000000000000000000000
+    y_max = -1*y_min
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+            y = data_dic[country][i]
+            if(y_min > y):
+                y_min  =y
+            if(y_max < y):
+                y_max = y
+    width = (y_max-y_min)/(n_bins)
+    bins = np.arange(y_min, y_max + width*2,width)
+
+    return bins
 
 
 def plot_global_development(data_dic,file_name,label):
@@ -77,6 +104,8 @@ def plot_global_development(data_dic,file_name,label):
     ax.set_xlabel('År')
     if(file_name):
         plt.savefig(file_name)
+
+
 
 
 def plot_varity_country(data_dic, label,all_countries, file_name,years):
@@ -203,8 +232,10 @@ def plot_global_error_bar(data_dic,file_name,label,locality_index):
 # get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
 
 
-file_name = "data/total_CO2.csv"
+file_name = "data/total_CO2_v2.csv"
 data_dic = get_data_from_file(file_name, 0, 1)
+
+
 
 target_names  =[]
 last_country  = ""
@@ -215,7 +246,7 @@ for country in data_dic:
 
 country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 
-file_name = "image/selected_CO2_plot.png"
+file_name = "image/selected_CO2_plot_v2.png"
 plot_country_development(data_dic,country_array,file_name,"Utvikling av CO2 for utvalgte land")
 
 plot_global_error_bar(data_dic,None,"Global utvikling av CO2",0)

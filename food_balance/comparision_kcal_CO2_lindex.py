@@ -44,9 +44,14 @@ def sankey_diagram(data_dic):
 
 
 def histogram_spread_in_y(data_dic, year_array,file_name,label):
+    bins = get_bins(data_dic,10)
     fig, ax = plt.subplots()
     y_data = []
     label_data = []
+    edge_array =[]
+    resul_array = []
+    color = ["blue","red","purple", "darkorange", "green", "brown"]
+    i = 0
     for year in year_array:
         y_year = []
         for country in data_dic:
@@ -55,16 +60,34 @@ def histogram_spread_in_y(data_dic, year_array,file_name,label):
                 y_year.append(y)
         y_data.append(y_year)
         label_data.append(year+1986)
-    plt.hist(y_data, label = label_data,density = True)
+
+        results, edges = np.histogram(y_year,bins = bins, normed=True)
+        binWidth = edges[1] - edges[0]
+        plt.bar(edges[:-1], results*binWidth, binWidth,label=year+1986,edgecolor=color[i],color='None')
+        i = i+1
+    #plt.hist(y_data, label = label_data,density = True)
     plt.legend(loc='upper right')
     ax.set_ylabel('andel land i verden')
-    ax.grid(True)
     plt.title(label)
     if(file_name):
         plt.savefig(file_name)
-    else:
-        plt.show()
 
+def get_bins(data_dic,n_bins):
+    data = get_mean_data_per_year(data_dic)
+    y_min  = 1000000000000000000000000000000
+    y_max = -1*y_min
+    for country in data_dic:
+        for i in range(len(data_dic[country])):
+            y = data_dic[country][i]
+            if y is not None:
+                if(y_min > y):
+                    y_min  =y
+                if(y_max < y):
+                    y_max = y
+    width = (y_max-y_min)/(n_bins)
+    bins = np.arange(y_min, y_max + width*2,width)
+
+    return bins
 def plot_PCA(target_names,X_label,X):
     plt.figure()
 
@@ -359,8 +382,8 @@ plot_varity_country(z2_dic, "Variasjon i 'KCAL ' for hvert land ",target_names, 
 file_name = "image/variation_lindex_country.png"
 plot_varity_country(z3_dic, "Variasjon i lokalitetsindeks for hvert land ",target_names, file_name,years)
 '''
-'''
-year = [0,5,10,15,14,24]
+
+year = [0,24]
 file_name = "image/histogram_env_fac.png"
 histogram_spread_in_y(pca_dic, year,file_name,"Histogram av miljøfaktor")
 file_name = "image/histogram_CO2.png"
@@ -369,7 +392,6 @@ file_name = "image/histogram_KCAL.png"
 histogram_spread_in_y(z2_dic, year,file_name,"Histogram av KCAL")
 file_name = "image/histogram_lindex.png"
 histogram_spread_in_y(z3_dic, year,file_name,"Histogram av lokalitetsindeks")
-'''
 '''
 file_name = "image/global_trend_env_fac.png"
 plot_global_development(pca_dic,file_name,"Global utvikling av miljøindeks")

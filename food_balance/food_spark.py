@@ -22,7 +22,7 @@ def get_context(conf):
 
 
 spark = SparkSession.builder.appName('Hello').getOrCreate()
-df = spark.read.csv('data/FoodBalanceSheets_E_All_Data.csv', mode="DROPMALFORMED",inferSchema=True, header = True)
+df = spark.read.csv('data/Environment_Emissions_intensities_E_All_Data.csv', mode="DROPMALFORMED",inferSchema=True, header = True)
 
 matrix = df.drop('Area Code', 'Item Code', 'Element Code','Unit',\
  'Y1961F','Y1962F','Y1963F','Y1964F','Y1965F','Y1966F', 'Y1967F','Y1968F','Y1969F','Y1970F','Y1971F','Y1972F',\
@@ -99,7 +99,7 @@ matrix.select(matrix['Area'], matrix['Item'],matrix['Element'],\
 
 
 #CO2
-matrix.filter( (matrix['Element']=='Food supply quantity (kg/capita/yr)'))\
+matrix.filter( (matrix['Element']=='Emissions (CO2eq)'))\
     .filter((matrix['Area']!='World')).filter((matrix['Area']!='Southern Africa'))\
     .filter((matrix['Area']!='Africa')).filter((matrix['Area']!='Western Africa'))\
     .filter((matrix['Area']!='Middle Africa')).filter((matrix['Area']!='Northern Africa'))\
@@ -116,7 +116,8 @@ matrix.filter( (matrix['Element']=='Food supply quantity (kg/capita/yr)'))\
     .filter((matrix['Area']!='European Union')).filter((matrix['Area']!='Least Developed Countries'))\
     .filter((matrix['Area']!='Eastern Africa')).filter((matrix['Area']!='Polynesia'))\
     .filter((matrix['Area']!='Land Locked Developing Countries')).filter((matrix['Area']!='Low Income Food Deficit Countries'))\
-    .filter((matrix['Area']!='Small Island Developing States')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
+    .filter((matrix['Area']!='Annex I countries')).filter((matrix['Area']!='Net Food Importing Developing Countries'))\
+    .filter((matrix['Area']!='Non-Annex I countries')).filter((matrix['Area']!='OECD'))\
     .filter(matrix['Y1961'].isNotNull())\
     .filter(matrix['Y1971'].isNotNull())\
     .filter(matrix['Y1981'].isNotNull())\
