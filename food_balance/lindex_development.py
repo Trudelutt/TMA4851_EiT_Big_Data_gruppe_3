@@ -204,7 +204,7 @@ for country in data_dic:
 country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 
 file_name = "image/selected_lindex_plot.png"
-plot_country_development(data_dic,country_array,file_name,"Utvikling av lokalitetsindeksen for utvalgte land")
+plot_country_development(data_dic,country_array,None,"Utvikling av lokalitetsindeksen for utvalgte land")
 
 plot_global_error_bar(data_dic,None,"Global utvikling av lokalitetsindeks",0)
 years = list(range(25))
