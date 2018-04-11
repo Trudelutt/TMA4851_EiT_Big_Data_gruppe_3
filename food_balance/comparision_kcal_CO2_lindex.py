@@ -242,8 +242,8 @@ def write_CO2_to_file(data, file_name):
         writer.writerows(output)
     print("Writing complete")
 
-def make_X_file():
-    file_name = "data/total_CO2.csv"
+def make_X_file(new_file_name):
+    file_name = "data/total_CO2_v2.csv"
     CO2 = get_data_from_file(file_name, 0, 26)
 
     file_name = "data/kcal_food_data_2.csv"
@@ -265,11 +265,13 @@ def make_X_file():
         if country == "Bahamas":
             continue
         for i in range(n_years):
-            X.append([CO2[country][i],kcal[country][i],lindex[country][i]])
+            X.append([country,i+1986,CO2[country][i],kcal[country][i],lindex[country][i]])
             X_label.append(country)
         target_names.append(country)
         country_row[country] = num
         num += 1
+
+    write_CO2_to_file(X, new_file_name)
 
 def plot_global_error_bar(data_dic,file_name,label,locality_index):
     fig, ax = plt.subplots()
@@ -300,6 +302,7 @@ def plot_global_error_bar(data_dic,file_name,label,locality_index):
     ax.set_xlabel('År')
     if(file_name):
         plt.savefig(file_name)
+
 
 
 file_name = "data/environment_factor_cleaned.csv"
@@ -342,6 +345,7 @@ for i in range(len(X_label)):
         z2_dic[country] = [None] * n_years
         z3_dic[country] = [None] * n_years
     year = year_array[i]
+    print(year)
     pca_dic[country][year - 1986] = components[i][0]
     z1_dic[country][year - 1986] = X[i][0]
     z2_dic[country][year - 1986] = X[i][1]
@@ -357,11 +361,11 @@ plot_global_error_bar(z2_dic,file_name,"Global utvikling av KCAL per capita per 
 file_name = "image/global_trend_lindex_error_bar.png"
 plot_global_error_bar(z3_dic,file_name,"Global utvikling av lokalitetsindeks",1)
 
-'''
+
 file_name = "image/selected_env_fac.png"
 country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 plot_country_development(pca_dic,country_array,file_name,"Utvikling av miljøfaktoren for utvalgte land",1)
-'''
+
 file_name = "image/all_env_fac.png"
 plot_country_development(pca_dic,target_names,file_name,"Utvikling av miljøfaktoren for alle land",0)
 file_name = "image/all_CO2.png"
@@ -382,7 +386,7 @@ plot_varity_country(z2_dic, "Variasjon i 'KCAL ' for hvert land ",target_names, 
 file_name = "image/variation_lindex_country.png"
 plot_varity_country(z3_dic, "Variasjon i lokalitetsindeks for hvert land ",target_names, file_name,years)
 '''
-
+'''
 year = [0,24]
 file_name = "image/histogram_env_fac.png"
 histogram_spread_in_y(pca_dic, year,file_name,"Histogram av miljøfaktor")
@@ -402,5 +406,5 @@ plot_global_development(z2_dic,file_name,"Global utvikling av KCAL per capita pe
 file_name = "image/global_trend_lindex.png"
 plot_global_development(z3_dic,file_name,"Global utvikling av lokalitetsindeks")
 
-'''
+
 plt.show()

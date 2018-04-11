@@ -201,7 +201,7 @@ for country in data_dic:
         target_names.append(country)
         last_country = country
 
-country_array = ["Norway","Sweden","Chile","Zimbabwe"]
+country_array = ["Norway","Sweden","Argentina","Zimbabwe"]
 
 file_name = "image/selected_lindex_plot.png"
 plot_country_development(data_dic,country_array,file_name,"Utvikling av lokalitetsindeksen for utvalgte land")

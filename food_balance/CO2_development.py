@@ -190,7 +190,7 @@ def get_data_from_file(file_name, country_col, year_0_col):
     data = {}
     last_country = " "
     for row in reader:
-        quantity = [float(row[column]) for column in range(year_0_col,len(row))]
+        quantity = [float(row[column]) for column in range(year_0_col,n_years)]
         country = row[country_col]
         data[country] = quantity
     f.close()
@@ -232,7 +232,7 @@ def plot_global_error_bar(data_dic,file_name,label,locality_index):
 # get data from file, and devide into 3 arrays. One with name, one with type of food and one with each column being a countries spesific food types protein quantity per captia per year
 
 
-file_name = "data/total_CO2_v2.csv"
+file_name = "data/total_CO2.csv"
 data_dic = get_data_from_file(file_name, 0, 1)
 
 
@@ -246,15 +246,19 @@ for country in data_dic:
 
 country_array = ["Norway","Sweden","Chile","Zimbabwe"]
 
-file_name = "image/selected_CO2_plot_v2.png"
+file_name = "image/selected_CO2_plot.png"
 plot_country_development(data_dic,country_array,file_name,"Utvikling av CO2 for utvalgte land")
 
-plot_global_error_bar(data_dic,None,"Global utvikling av CO2",0)
+file_name = "image/global_error_bar CO2_not_standard_v2.png"
+plot_global_error_bar(data_dic,file_name,"Global utvikling av CO2",0)
+
+file_name = "image/varity CO2_not_standard_v2.png"
 years = list(range(25))
-plot_varity_country(data_dic, "Variasjon i CO2 for hvert land",target_names, None,years)
+plot_varity_country(data_dic, "Variasjon i CO2 for hvert land",target_names,file_name,years)
 year = [0,5,10,15,14,24]
 
 histogram_spread_in_y(data_dic, year,None,"Histogram av CO2")
+
 
 plot_global_development(data_dic,None,"Global utvikling av CO2")
 

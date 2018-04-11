@@ -79,7 +79,7 @@ def write_CO2_to_file(data, file_name):
 
 file_name = "data/food_supply_quantity.csv"
 food_quantity_countries = get_food_supply_quantity_from_file(file_name)
-file_name = "data/CO2_per_food_type.csv"
+file_name = "data/CO2_per_food_type_v3.csv"
 CO2_food_type =  get_CO2_foodtypes_from_file(file_name)
 #test_country_array = ["Norway"]
 test_country_array = ["Chad","Norway","Sweden","Afghanistan","Senegal","Zimbabwe"]
@@ -90,5 +90,5 @@ for country in food_quantity_countries:
     data = get_total_CO2_country(CO2_food_type, food_quantity)
     data_dic[country] = data
 
-file_name ="data/total_CO2.csv"
+file_name ="data/total_CO2_v3.csv"
 write_CO2_to_file(data_dic, file_name)

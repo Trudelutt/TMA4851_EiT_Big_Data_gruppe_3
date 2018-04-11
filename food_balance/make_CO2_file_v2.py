@@ -35,6 +35,7 @@ def get_data_from_file(file_name, country_col, year_0_col):
             else:
                 temp.append(float(row[column]))
         if( len(temp) == 0):
+
             continue
         quantity = np.array([temp])
 
@@ -55,12 +56,12 @@ def get_CO2_data_from_file(file_name, country_col, year_0_col,food_approved):
     reader = csv.reader(f, delimiter=",")
     data = {}
     country_not_allowed = {}
+    last_country = " "
     for row in reader:
         temp = []
         country = row[country_col]
         item = row[1]
         if(item not in food_approved):
-            print(item)
             continue
         if(country in country_not_allowed):
             continue
@@ -73,13 +74,20 @@ def get_CO2_data_from_file(file_name, country_col, year_0_col,food_approved):
                 temp.append(float(row[column]))
         if( len(temp) == 0):
             continue
+        if(len(data) == 0):
+            last_country = country
+        #if(last_country != country):
+        #    exit()
+
         quantity = np.array([temp])
+        #print(country)
 
 
         if country in data:
             data[country] += quantity
         else:
             data[country] = quantity
+        #print(data[country])
 
     f.close()
     return data
@@ -107,12 +115,12 @@ def calculate_CO2_per_capita(CO2_dic, pop_dic):
     temp_dic = {}
     for country in CO2_dic:
         if(country not in pop_dic):
-            print("country not in dic", country)
             continue
         else:
-            temp_dic[country] = CO2_dic[country]
+            temp = []
             for i in range(len(CO2_dic[country][0])):
-                temp_dic[country][0][i] = CO2_dic[country][0][i]*1000000 / (pop_dic[country][0][i]*1000.0)
+                temp.append((CO2_dic[country][0][i]*1000000) / (pop_dic[country][0][i]*1000.0))
+            temp_dic[country] = [temp]
     return temp_dic
 
 Food_approved = {}
@@ -126,11 +134,14 @@ file_name = "data/CO2_per_food_type_v2.csv"
 CO2_dic = get_CO2_data_from_file(file_name, country_col, year_0_col,Food_approved)
 
 file_name = "data/population.csv"
-pop_dic = get_data_from_file(file_name, country_col, year_0_col)
 
+pop_dic = get_data_from_file(file_name, country_col, year_0_col)
 data_dic = calculate_CO2_per_capita(CO2_dic, pop_dic)
-print(pop_dic["United States of America"][0]*1000.0)
-print(CO2_dic["United States of America"][0]*1000000)
-print(data_dic["United States of America"][0])
+
+print(pop_dic["Afghanistan"][0][0]*1000.0)
+print(CO2_dic["Afghanistan"][0])
+country = "Afghanistan"
+print( CO2_dic[country][0][0]*1000000 / (pop_dic[country][0][0]*1000.0) )
+print(data_dic["Afghanistan"][0])
 file_name ="data/total_CO2_v2.csv"
 write_CO2_to_file(data_dic, file_name)
