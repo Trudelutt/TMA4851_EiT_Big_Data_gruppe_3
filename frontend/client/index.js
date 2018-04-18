@@ -86,15 +86,6 @@ export default class Hello extends Component {
                   {...{ show, value, label }}
                 />
               ))}
-              <IconMenu
-                iconButtonElement={
-                  <IconButton touch>
-                    <NavigationExpandMoreIcon />
-                  </IconButton>
-                }
-              >
-                <MenuItem primaryText="More Info" />
-              </IconMenu>
             </ToolbarGroup>
           </Toolbar>
         </MuiThemeProvider>
