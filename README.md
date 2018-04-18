@@ -1,7 +1,7 @@
 # EiT – Big Data
 
 ## Getting Started
-* Install npm for your computer.
+* Install npm on your computer.
 * Clone this repo.
 * Run the command npm install in the terminal.
 
