@@ -12,35 +12,6 @@ import matplotlib.cm as cm
 import plotly.plotly as py
 n_years = 25 # 1986 - 2013
 
-def sankey_diagram(data_dic):
-    data = dict(
-        type='sankey',
-        node = dict(
-          pad = 15,
-          thickness = 20,
-          line = dict(
-            color = "black",
-            width = 0.5
-          ),
-          label = ["A1", "A2", "B1", "B2", "C1", "C2"],
-          color = ["blue", "blue", "blue", "blue", "blue", "blue"]
-        ),
-        link = dict(
-          source = [0,1,0,2,3,3],
-          target = [2,3,3,4,4,5],
-          value = [8,4,2,8,4,2]
-      )
-    )
-
-    layout =  dict(
-        title = "Basic Sankey Diagram",
-        font = dict(
-          size = 10
-        )
-    )
-
-    fig = dict(data=[data], layout=layout)
-    py.image.save_as(fig, filename='a-simple-plot.png')
 
 
 def histogram_spread_in_y(data_dic, year_array,file_name,label):
@@ -124,25 +95,38 @@ def plot_global_development(data_dic,file_name,label):
     else:
         plt.show()
 
-def plot_varity_country(data_dic, label,all_countries, file_name,years):
+def plot_varity_country(data_dic, label,all_countries, file_name,years, country_region, region_list,country_plot_order):
+    country_plot_order =  remove_invalid_countries_from_list(data_dic, country_plot_order)
     plt.figure(figsize=(15, 10), dpi=100)
+    cmap = plt.get_cmap('viridis')
+    colors = cmap(np.linspace(0, 1, len(region_list)))
+    region_color = {"Europe":0, "Oceania":1, "Africa":2, "Asia":3, "Americas":4}
     plt.grid()
-    y = np.zeros(len(all_countries))
     for year in years:
         x = []
         y  = []
-        for i in range(len(all_countries)):
-            country = all_countries[i]
+        color = []
+        for i in range(len(country_plot_order)):
+            country = country_plot_order[i]
+            region = country_region[country]
             x.append(i)
             y.append(data_dic[country][year])
-        plt.scatter(x,y)
-    x =[i for i in range(len(all_countries))]
-    plt.xticks(x, all_countries,rotation='vertical')
+            color.append(colors[region_color[region]])
+        plt.scatter(x,y,c = color)
+    x =[i for i in range(len(country_plot_order))]
+    plt.xticks(x, country_plot_order,rotation='vertical')
     plt.title(label)
     if(file_name):
-        plt.savefig(file_name,dpi = 100)
+        plt.savefig(file_name, dpi=None, facecolor='w', edgecolor='w', orientation='portrait', papertype=None, format=None,transparent=False, bbox_inches='tight', pad_inches=0.1, frameon=None)
     else:
         plt.show()
+
+def remove_invalid_countries_from_list(data_dic, country_plot_order):
+    country_plot_order_2 = []
+    for country in country_plot_order:
+        if country in data_dic:
+            country_plot_order_2.append(country)
+    return country_plot_order_2
 
 
 def plot_country_development(data_dic,country_array,file_name,label,label_on):
@@ -213,6 +197,25 @@ def get_data_from_file(file_name, country_col, year_0_col):
         data[country] = quantity
     f.close()
     return data
+
+def get_country_region_from_file(file_name, country_col, region_col):
+    try:
+        f = open(file_name,'r')
+    except IOError:
+        print("could not open file")
+    reader = csv.reader(f, delimiter=",")
+    data = {}
+    region_list  ={}
+    for row in reader:
+        country = row[country_col]
+        region = row[region_col]
+        data[country] = region
+        if region not in region_list:
+            region_list[region] = [country]
+        else:
+            region_list[region].append(country)
+    f.close()
+    return data, region_list
 
 def get_X_y_from_file(file_name, x1_col, x2_col, x3_col, country_col,year_col):
     try:
@@ -304,6 +307,8 @@ def plot_global_error_bar(data_dic,file_name,label,locality_index):
         plt.savefig(file_name)
 
 
+file_name = "data/country_region.csv"
+country_region, region_list = get_country_region_from_file(file_name, 0, 1)
 
 file_name = "data/environment_factor_cleaned.csv"
 X,X_label,year_array = get_X_y_from_file(file_name,7,8,9,0,1 )
@@ -314,6 +319,12 @@ for country in X_label:
     if country != last_country:
         target_names.append(country)
         last_country = country
+
+country_plot_order = []
+for region in region_list:
+    for country in region_list[region]:
+        country_plot_order.append(country)
+
 #standarize data#X = StandardScaler().fit_transform(X)
 
 
@@ -345,11 +356,12 @@ for i in range(len(X_label)):
         z2_dic[country] = [None] * n_years
         z3_dic[country] = [None] * n_years
     year = year_array[i]
-    print(year)
     pca_dic[country][year - 1986] = components[i][0]
     z1_dic[country][year - 1986] = X[i][0]
     z2_dic[country][year - 1986] = X[i][1]
     z3_dic[country][year - 1986] = X[i][2]
+
+
 
 '''
 file_name = "image/global_trend_env_fac_error_bar.png"
@@ -375,17 +387,17 @@ plot_country_development(z2_dic,target_names,file_name,"Utvikling av total KCAL 
 file_name = "image/all_lindex.png"
 plot_country_development(z3_dic,target_names,file_name,"Utvikling av lokalitetsindeks for alle land",0)
 '''
-'''
+
 years = list(range(25))
 file_name = "image/variation_env_fac_country.png"
-plot_varity_country(pca_dic, "Variasjon i miljøfaktor for hvert land",target_names, file_name,years)
+plot_varity_country(pca_dic, "Variasjon i miljøfaktor for hvert land",target_names, file_name,years,country_region, region_list,country_plot_order)
 file_name = "image/variation_CO2_country.png"
-plot_varity_country(z1_dic, "Variasjon i 'total CO2' for hvert land ",target_names, file_name,years)
+plot_varity_country(z1_dic, "Variasjon i 'total CO2' for hvert land ",target_names, file_name,years,country_region, region_list,country_plot_order)
 file_name = "image/variation_KCAL_country.png"
-plot_varity_country(z2_dic, "Variasjon i 'KCAL ' for hvert land ",target_names, file_name,years)
+plot_varity_country(z2_dic, "Variasjon i 'KCAL ' for hvert land ",target_names, file_name,years,country_region, region_list,country_plot_order)
 file_name = "image/variation_lindex_country.png"
-plot_varity_country(z3_dic, "Variasjon i lokalitetsindeks for hvert land ",target_names, file_name,years)
-'''
+plot_varity_country(z3_dic, "Variasjon i lokalitetsindeks for hvert land ",target_names, file_name,years,country_region, region_list,country_plot_order)
+
 '''
 year = [0,24]
 file_name = "image/histogram_env_fac.png"
@@ -397,6 +409,7 @@ histogram_spread_in_y(z2_dic, year,file_name,"Histogram av KCAL")
 file_name = "image/histogram_lindex.png"
 histogram_spread_in_y(z3_dic, year,file_name,"Histogram av lokalitetsindeks")
 '''
+'''
 file_name = "image/global_trend_env_fac.png"
 plot_global_development(pca_dic,file_name,"Global utvikling av miljøindeks")
 file_name = "image/global_trend_CO2.png"
@@ -405,6 +418,6 @@ file_name = "image/global_trend_KCAL.png"
 plot_global_development(z2_dic,file_name,"Global utvikling av KCAL per capita per day")
 file_name = "image/global_trend_lindex.png"
 plot_global_development(z3_dic,file_name,"Global utvikling av lokalitetsindeks")
-
+'''
 
 plt.show()
