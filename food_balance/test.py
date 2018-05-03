@@ -1,31 +1,19 @@
+
 import numpy as np
-import matplotlib as mpl
+import matplotlib.pylab as pl
 import matplotlib.pyplot as plt
 
-N = 23 # Number of labels
+x = np.linspace(0, 2*np.pi, 64)
+y = np.cos(x)
 
-# setup the plot
-fig, ax = plt.subplots(1,1, figsize=(6,6))
-# define the data
-x = np.random.rand(1000)
-y = np.random.rand(1000)
-tag = np.random.randint(0,N,1000) # Tag each point with a corresponding label
+pl.figure()
+pl.plot(x,y)
 
-# define the colormap
-cmap = plt.cm.jet
-# extract all colors from the .jet map
-cmaplist = [cmap(i) for i in range(cmap.N)]
-# create the new map
-cmap = cmap.from_list('Custom cmap', cmaplist, cmap.N)
+n = 20
+colors = pl.cm.Blues(np.linspace(0,1,n))
 
-# define the bins and normalize
-bounds = np.linspace(0,N,N+1)
-norm = mpl.colors.BoundaryNorm(bounds, cmap.N)
+for i in range(n):
+    pl.plot(x, i*y, color=colors[i],label = colors[i])
 
-# make the scatter
-scat = ax.scatter(x,y,c=tag,s=np.random.randint(100,500,N),cmap=cmap,     norm=norm)
-# create the colorbar
-cb = plt.colorbar(scat, spacing='proportional',ticks=bounds)
-cb.set_label('Custom cbar')
-ax.set_title('Discrete color mappings')
+plt.legend()
 plt.show()
