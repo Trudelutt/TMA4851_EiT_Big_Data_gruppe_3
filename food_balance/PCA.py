@@ -15,7 +15,7 @@ from sklearn import preprocessing
 
 n_years = 25 # 1986 - 2013
 
-def global_PCA():
+def global_PCA(X):
     # Global PCA
     std_scale = preprocessing.StandardScaler().fit(X)
     X_std = std_scale.transform(X)
@@ -32,6 +32,7 @@ def global_PCA():
     print(" PCA eigen vector " , V)
     print(" PCA covariance \n ", covariance)
     print(" PCA", components)
+    return components
 
 def local_PCA():
 
@@ -187,7 +188,7 @@ country_region, region_list = get_country_region_from_file(file_name, 0, 1)
 file_name = "data/FINAL_DATA.csv"
 #X,X_label,year_array = get_X_y_from_file(file_name,2,8,9,0,1 )
 #X,X_label,year_array = get_X_y_from_file(file_name,2,3,5,0,1 )
-X,X_label,year_array = get_X_y_from_file_2(file_name, 2, 3, 5,11, 0,1)
+X,X_label,year_array = get_X_y_from_file_2(file_name, 2, 3, 5,6, 0,1)
 
 target_names = []
 last_country = ""
@@ -217,15 +218,26 @@ for i in range(len(X_label)):
     year = year_array[i]
     z1_dic[country][year - 1986] = X[i][0]
     z2_dic[country][year - 1986] = X[i][1]
-    z3_dic[country][year - 1986] = X[i][2]
+    z3_dic[country][year - 1986] = X[i][2]/1000.0
     pca_dic[country][year - 1986] = X[i][3]
 
 
 year_0 = 1986
-fis_label = "FIS-indeks"
-CO2_label = "total CO2-ekvivalent fra 66 matvarer per innbygger"
-kcal_label = "total KCAL per innbygger"
-env_label = "Miljø-indeks"
+fis_label = "FIS"
+CO2_label = "utslippsindeks"
+kcal_label = "energiindeks"
+env_label = "klimaindeks"
+
+years = list(range(25))
+file_name = "image/variation_env_fac_country.png"
+plot_varity_country(pca_dic, env_label,target_names, file_name,years)
+file_name = "image/variation_CO2_country.png"
+plot_varity_country(z1_dic,CO2_label,target_names, file_name,years)
+file_name = "image/variation_KCAL_country.png"
+plot_varity_country(z2_dic, kcal_label,target_names, file_name,years)
+file_name = "image/variation_lindex_country.png"
+plot_varity_country(z3_dic, fis_label,target_names, file_name,years)
+
 
 file_name = "image/global_trend_env_fac_error_bar.eps"
 plot_global_error_bar(pca_dic,file_name,env_label,0,year_0)
@@ -241,16 +253,10 @@ plot_global_error_bar(z3_dic,file_name,fis_label,1,year_0)
 country_array = ["Norway","Sweden","Argentina","Zimbabwe"]
 file_name = "image/selected_env_fac.png"
 plot_country_development(pca_dic,country_array,file_name,env_label,1,year_0)
+file_name = "image/selected_lindex_fac.png"
+plot_country_development(z3_dic,country_array,file_name,fis_label,1,year_0)
 
-years = list(range(25))
-file_name = "image/variation_env_fac_country.png"
-plot_varity_country(pca_dic, env_label,target_names, file_name,years)
-file_name = "image/variation_CO2_country.png"
-plot_varity_country(z1_dic,CO2_label,target_names, file_name,years)
-file_name = "image/variation_KCAL_country.png"
-plot_varity_country(z2_dic, kcal_label,target_names, file_name,years)
-file_name = "image/variation_lindex_country.png"
-plot_varity_country(z3_dic, fis_label,target_names, file_name,years)
+
 
 
 file_name = "image/global_trend_env_fac.png"

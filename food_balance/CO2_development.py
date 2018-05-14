@@ -64,7 +64,7 @@ def get_data_from_file(file_name, country_col, year_0_col):
 
 file_name = "data/total_CO2.csv"
 data_dic = get_data_from_file(file_name, 0, 1)
-
+lable_name ="Utslippsindeks"
 
 
 target_names  =[]
@@ -77,17 +77,17 @@ for country in data_dic:
 country_array = ["Norway","Sweden","Argentina","Zimbabwe"]
 year_0  = 1960
 file_name = "image/CO_selected_countries.eps"
-plot_country_development(data_dic,country_array,file_name,"total CO2-ekvivalent fra 66 matvarer per innbygger",1,year_0)
+plot_country_development(data_dic,country_array,file_name,lable_name,1,year_0)
 
 file_name = "image/CO2_error_bars.eps"
-plot_global_error_bar(data_dic,file_name,"total CO2-ekvivalent fra 66 matvarer per innbygger",0,year_0)
+plot_global_error_bar(data_dic,file_name,lable_name,0,year_0)
 
 file_name = "image/CO2_varr.png"
 years = list(range(25))
-plot_varity_country(data_dic, "total CO2-ekvivalent fra 66 matvarer per innbygger per år",target_names,file_name,years)
+plot_varity_country(data_dic, lable_name,target_names,file_name,years)
 year = [0,5,10,15,14,24]
 
 file_name = "image/CO2_global.eps"
-plot_global_development(data_dic,file_name,"total CO2-ekvivalent fra 66 matvarer per innbygger",year_0)
+plot_global_development(data_dic,file_name,lable_name,year_0)
 
 #plt.show()
